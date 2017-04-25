@@ -1,0 +1,26 @@
+<html>
+<meta charset="UTF-8">
+<body>
+<style>
+	#myDiv{
+		width:100%;
+		height:100px;
+		background: yellow;
+	}
+</style>
+<div id="myDiv"></div>
+<button id="myBtn">加载更多</button>
+<script>
+	document.getElementById("myBtn").addEventListener("click",function(){
+		var xmlhttp=new XMLHttpRequest();
+		xmlhttp.onreadystatechange=function(){
+			if(xmlhttp.readyState==4 && xmlhttp.status==200){
+				document.getElementById("myDiv").innerHTML+=xmlhttp.responseText
+			}
+		}
+		xmlhttp.open("GET","http://localhost/test.php",true);
+		xmlhttp.send();
+	})
+</script>
+</body>
+</html>

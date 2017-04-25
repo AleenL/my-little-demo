@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		ul,li{
+			margin: 0;
+			padding: 0;
+		}
+		.style{
+			width: 200px;
+			height: 300px;
+			overflow-y: scroll;
+
+		}
+		.style ul li{
+			list-style: none;
+			background-color:rgb(34,51,68);
+			height: 30px;
+			line-height: 30px;
+			text-align: center;
+			border-bottom: 1px solid #fff;
+			cursor:pointer;
+			color: #fff;
+		}
+		.style ul li:hover{
+			background-color:rgba(34,51,68,0.6);
+			transition: 0.5s all;
+		}
+	</style>
+</head>
+<body>
+	<div class="style">
+		<ul class="style-items">
+		</ul>
+	</div>
+</body>
+<script src='http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js'></script>
+<script>
+
+    get('http://api.jirengu.com/fm/getChannels.php', {}, function(ret){
+      renderSet(ret.channels)
+    })
+
+    
+
+    function renderSet(channels){
+        var style = $('.style-items');
+        var html = channels.map(function(channel){
+           return '<li data-channel-id="' + channel.channel_id + '">' + channel.name + '</li>'
+        })
+        style.append(html)
+    }
+
+
+
+
+
+
+    function get(url,data,callback,dataType){
+        url += "?" +Object.keys(data).map(function(key){
+            return key + '=' + daya[key]
+        }).join('&')
+
+        var xhr = new XMLHttpRequest()
+        xhr.responseType = dataType || "json"
+        xhr.onload = function(){
+            callback(xhr.response)
+        }
+        xhr.open('GET',url,true)
+        xhr.send()
+    }
+</script>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>	</title>
+</head>
+<body>
+	<div>
+	<input id="username" type="text">
+	<input id="password" type="text">
+	<button id="btn" >输入</button>
+	</div>
+	<dl id="ct">
+		
+	</dl>
+	<script>
+		function ajax(opts){
+			var xmlhttp=new XMLHttpRequest();
+			xmlhttp.onreadystatechange=function(){
+				if(xmlhttp.readyState==4&&xmlhttp.status==200){
+					var json=JSON.parse(xmlhttp.responseText);
+					opts.success(json);
+				}
+				if(xmlhttp==404){
+					opts.error();
+				}
+			}
+
+			var dataStr="";
+			for(var key in opts.data){
+				dataStr+=key+"="+opts.data[key]+"&";
+			}
+			dataStr=dataStr.substr(0,dataStr.length-1);
+			if(opts.type.toLowerCase()==="post"){
+				xmlhttp.open(opts.type,opts.url,true);
+				xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+				xmlhttp.send(dataStr);
+			}
+			if(opts.type.toLowerCase()==="get"){
+				xmlhttp.open(opts.type,opts.url+"?"+dataStr,true);		
+				xmlhttp.send()
+			}
+		}
+		var btn=document.getElementById("btn");
+		setTimeout(btn.addEventListener("click",function(){
+			var flag=true;
+			this.disable=flag;		
+			ajax({
+				url:"use_ajax.php",
+				type:"get",
+				dataType:"json",
+				data:{
+					username:document.getElementById("username").value,
+					password:document.getElementById("password").value
+				},
+				success:function(data){
+					dealWith(data);
+					onload=false;
+
+				},
+				error: function(){
+					console.log("error");
+					onload=false;
+				}
+			});
+			console.log(flag)
+		}),5000);
+
+		function dealWith(userInfo){
+			var str="<dt>性别</dt>";
+		str+=	"<dd>"+userInfo.age+"</dd>";
+		str+=	"<dt>年龄</dt>";
+		str+=	"<dd>"+userInfo.sex+"</dd>";
+		document.getElementById("ct").innerHTML=str;
+	}
+	</script>
+</body>
+</html>

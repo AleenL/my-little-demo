@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<div id="father">
+	<p id="son">
+		你好
+	</p>
+</div>
+<script>
+	var father=document.getElementById("father"),
+		son=document.getElementById("son");
+	father.addEventListener("click",function(){alert("父元素")});
+	son.addEventListener("click",function(){window.event.cancelBubble = true;alert("子元素")})
+</script>
+</body>
+</html>

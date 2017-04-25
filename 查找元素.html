@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="heander">
+		<ul class="content">
+			<li id="list"></li>
+			<li></li>
+		</ul>
+	</div>
+	<script>
+		//通过标签名查询
+		var a=document.body;//返回body里的所有元素
+		//通过id名查找
+		var b=document.getElementById("heander");//返回一项
+		//通过class名查找
+		var c=document.getElementsByClassName("content");//返回一个数组
+		//通过标签名称查找
+		var d=document.getElementsByTagName("div")//返回数组
+		//获取特定的元素，id前面要加#，class前面要加.
+		var e=document.querySelector(".content")//返回一项
+		var f=document.querySelectorAll(".content")//返回相同的多项
+		//通过纵横坐标查询
+		var g=document.elementFromPoint(x,y);
+		/*x代表横坐标，y代表纵坐标，单位为像素，如果坐标无意义，则会返回Null*/
+	</script>
+</body>
+</html>

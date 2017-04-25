@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p id="target">这里是数据</p>
+	<button class="load-more">click me</button>
+<script scr="htto://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+	var btn =document.querySelector(".load-more");
+	btn.addEventListener("click",function(){
+		var xhr=new XMLHttpRequest();
+		xhr.open("get","/hello",true);
+		xhr.send();
+		xhr.onreadystatechange = function(){
+		if (xhr.status===200&&xhr.readyState===4){
+		document.querySelector("#target").inner;
+		console.log(xhr.responseText)
+		}
+		}
+
+	})
+	
+</script>
+</body>
+</html>

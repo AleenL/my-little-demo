@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<style>
+		div p{
+			display: inline-block;
+		}
+		div p:nth-child(3){
+			display: block;
+			font-size: 12px;
+			color:#ccc;
+			line-height:0px;
+			margin-left: 105px;
+		}
+		div p:first-child{
+			width:100px;
+		}
+		input{
+			border-radius: 3px;
+			border:1px solid #ccc;
+		}
+		.error{
+			border:1px solid red;
+		}
+	</style>
+</head>
+<body>
+<h3>注册</h3>
+<div>
+	<p>用户名:</p>
+	<input type="text" id="username" placeholder="用户名(hunger被注册过)">
+	<p id="MSG-user">只能是字母、数字、下划线，3-10个字符</p>
+</div>
+<div>
+	<p>密码：</p>
+	<input type="password" id="pwd">
+	<p id="MSG-pwd">大写字母、小写、数字、下划线最少两种，6-15个字符</p>
+</div>
+<div>
+	<p>再输一次：</p>
+	<input type="password" id="pwd-logn">
+	<p id="MSG-pwd-logn"></p>
+</div>
+	<button id="btn">注册</button>
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="util-ajax.js"></script>
+	<script src="util-validate.js"></script>
+	<script src="util-class.js"></script>
+	<script>
+		var usernameIpt=$id("username"),//
+			password1Ipt=$id("pwd"),
+			password2Ipt=$id("pwd-logn"),
+			registerBtn=$id("btn");
+
+			unMsg=$id("MSG-user"),
+			pwd1Msg=$id("MSG-pwd"),
+			pwd2Msg=$id("MSG-pwd-logn");
+
+		var MSG={//设定数组，确定错误信息
+			"USERNAME_EXIST":"用户名已存在",
+			"USERNAME_TYPE_ERROR":"用户名格式不正确",
+			"USERNAME_USEABLE":"用户名可用",
+			"PASSWORD_TYPE_ERROR":"密码格式不正确",
+			"PASSWORD_NOT_MATCH":"两次密码输入不一致"
+		};
+
+		usernameIpt.addEventListener("change",function(){
+			testUn() && testUnUseage()//当进行输入的时候，执行testUn和testUnUseage函数
+		});
+
+		password1Ipt.addEventListener("change",function(){
+			testPwd1();//当进行输入密码时，执行testPwd1函数
+		});
+
+		password2Ipt.addEventListener("change",function(){
+			testPwd2();//当执行输入密码是，执行testPwd2函数
+		})
+
+		registerBtn.addEventListener("click",function(e){
+			if(testUn()&&testPwd1()&&testPwd2()){//当点击注册按钮的时候，确定三个函数是否为true，如果为真执行testUnUseage函数
+				testUnUseage(function(canUse){
+					if(canUse){//判断canUse是否为真，为真执行下列函数
+						alert("正在注册……");
+						console.log("正在注册...")
+					}
+				})
+			}
+		});
+		/*检查客户端是否可用*/
+		function testUnUseage(handle){
+			ajax({url:'username.php',//定义url地址
+				type:"get",//定义接口类型为POST类型
+				data:{
+					username:usernameIpt.value//给后端发送的是用户名的值
+					},
+				success:function(ret){//成功执行success函数
+					if(ret.status===1&&ret.msg_type==="USERNAME_EXIST"){//判断接口如果为1，并且参数为USERNAME_EXIST的话，执行下列函数
+						unMsg.innerText=MSG.USERNAME_EXIST;
+						addClass(usernameIpt,"error");//添加样式框
+						handle&&handle(false);//这个不明白
+					}else if(ret.status===0){
+						//判断接口如果为0的话，证明用户名可用，执行下列函数
+						unMsg.innerText=MSG.USERNAME_USEABLE;
+						removeClass(usernameIpt,"error");
+						handle&&handle(true);//这个不明白
+					}
+				}
+			})
+		}
+		/*检查用户格式是否正确*/
+		function testUn(){//定义testUn函数
+			var username=usernameIpt.value;//获取用户输入框中的值
+			if(!isLegalUsername(username)){//如果这个值不为true的话，执行下列函数
+				unMsg.innerText=MSG.USERNAME_TYPE_ERROR;
+				addClass(usernameIpt,"error");
+				return false;//返回false
+			}else{
+				unMsg.innerText="";//如果为true的话，执行下列函数
+				removeClass(usernameIpt,'error');
+				return true;//返回true
+			}
+		}
+
+		/*检查密码格式*/
+		 function testPwd1(){//定义testPwd1函数
+    	var pwd1 = password1Ipt.value;//获取密码框中的值
+ 		if(!isLegalPassword(pwd1)){//如果这个值在isLegaaPassword函数中为false的话，执行下列函数
+ 			pwd1Msg.innerText = MSG.PASSWORD_TYPE_ERROR;
+ 			addClass(password1Ipt, 'error');
+ 			return false;//返回false
+ 		}else{
+ 			pwd1Msg.innerText = '';//如果为true
+ 			removeClass(password1Ipt, 'error');
+ 			return true;//返回true
+ 		}
+    }
+
+		/*检查第二个密码格式*/
+		 function testPwd2(){
+    	var pwd2 = password2Ipt.value;
+ 		if(!isLegalPassword(pwd2)){
+ 			pwd2Msg.innerText = MSG.PASSWORD_TYPE_ERROR;
+ 			addClass(password2Ipt, 'error');
+ 			return false;
+ 		}else if(pwd2 !== password1Ipt.value){//获取密码2的值如果不等于密码1的值，执行下列函数
+ 		 	pwd2Msg.innerText = MSG.PASSWORD_NOT_MATCH;
+ 			addClass(password2Ipt, 'error');
+ 			return false;//返回false	
+ 		}
+ 		else{
+ 			pwd2Msg.innerText = '';
+ 			removeClass(password2Ipt, 'error');
+ 			return true;
+ 		}
+    }
+	function $id(value){
+			return document.getElementById(value);
+		}
+	</script>
+</body>
+</html>

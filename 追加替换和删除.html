@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="header">
+		<ul id="list-item">
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+		</ul>
+	</div>
+	<script>
+		//获取元素
+		function $(){return document.createElement("li");};
+		var newli=$(),newli1=$(),newli2=$();
+		newli.innerText="追加元素";
+		newli1.innerText="首部添加";
+		newli2.innerText="替换元素";
+		var ul=document.getElementById("list-item");
+		//操作元素
+		ul.appendChild(newli);//追加元素
+		ul.insertBefore(newli1,ul.firstChild);//首部添加
+		ul.replaceChild(newli2,ul.childNodes[2])//替换元素
+	</script>
+</body>
+</html>

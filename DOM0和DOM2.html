@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<input type="button" onclick='alert("helo")' value="helo">
+<button id="btn-clickone">你好</button>
+<button id="btn-clicktwo">再见</button>
+<script>
+	var hibtn=document.getElementById("btn-clickone");
+	var byebtn=document.getElementById("btn-clicktwo");
+	hibtn.onclick=function(){
+		alert("第一次你好")
+	};
+	hibtn.onclick=function(){
+		alert("第二次你好")
+	};
+	/*像这种将元素绑定在onclick，就是dom0级事件，第二个会覆盖第一个onclick，只会弹出“第二次你好”，还有将onclick添加在html中也属于dom0事件，DOM0默认在冒泡阶段被处理，相当于元素调用自己的属性*/
+	byebtn.addEventListener('click',function(){alert("第一次再见")},false);
+	byebtn.addEventListener('click',function(){alert("第二次再见")},false);
+	/*像上面的代码就是DOM2事件，一般有三个参数，分别是，要处理的事件名称，处理的函数，布尔值(为true的时候表示在捕获阶段调用处理函数，false在冒泡阶段调用，一般都为false)
+</script>	
+</body>
+</html>

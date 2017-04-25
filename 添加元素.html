@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#item1{
+			background:black;
+			width:400px;
+			height:400px;
+		}
+	</style>
+</head>
+<body>
+	<div id="item1">
+		
+	</div>
+	<script>
+		//使用createElement用来创造html标签名
+		var body=document.body;
+		var newDiv=document.createElement("div");//创造的元素会储存到内存中
+		newDiv.style.width="100px";
+		newDiv.style.height="200px";
+		newDiv.style.background='yellow';//使用.style可以给元素增加样式
+		//使用appendChild将元素追加在某个元素之后
+		body.appendChild(newDiv);
+	</script>
+</body>
+</html>

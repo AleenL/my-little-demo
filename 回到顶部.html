@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	div,body{
+		margin:0px;
+		padding:0px;
+	}
+	.content{
+		width:100%;
+		height:2000px;
+		background: #faa;
+
+		}
+	.btn{
+		position:fixed;
+		top:80%;
+		left:80%;
+		display: none;
+		width:100px;
+		height:40px;
+		line-height: 40px;
+		text-align: center;
+		border:1px solid #ddd;
+	}
+	</style>
+</head>
+<body>
+	<div class="content">
+		我是顶部
+	</div>
+	<button class='active'>回到顶部</button>
+<script src='http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js'></script>
+<script>
+
+ function GoTop($ct){
+ 	this.$ct=$ct;
+ 	this.$target=$('<div class="btn">回到顶部</div>');
+ };
+
+ GoTop.prototype.bindEvent=function(){
+ 	this.$ct.append(this.$target);
+ 	this.$target.hide();
+ }
+
+ GoTop.prototype.createNode=function(){
+ 	var _this=this;
+ 	$(window).on("scroll",function(){
+	if($(window).scrollTop()>=200){
+		_this.$target.show()
+	}else{
+		_this.$target.hide()
+	};
+	});
+	_this.$target.on("click",function(){
+		$(window).scrollTop(0)
+	})
+ }
+
+
+
+var GoTop1=new GoTop($(".content"));
+GoTop1.bindEvent();
+GoTop1.createNode();
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+</script>
+</body>
+</html>

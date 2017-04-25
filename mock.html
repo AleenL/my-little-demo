@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="mydiv">你好啊</div>
+	<button id="btn">改</button>
+	<script src="router.js">
+	</script>
+	<script>
+		var btn=document.getElementById("btn");
+		btn.addEventListener("click",function(){
+			$.get('/hello').done(function(ret){
+  			document.getElementById("mydiv").innerHTML=ret.msg;
+  	});
+		});
+
+	</script>
+</body>
+</html>

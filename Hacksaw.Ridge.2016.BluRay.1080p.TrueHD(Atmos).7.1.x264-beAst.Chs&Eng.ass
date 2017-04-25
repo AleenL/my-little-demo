@@ -1,0 +1,1608 @@
+﻿[Script Info]
+;本字幕文件用 SrtEdit MPC播放版 Version 5.2 编辑制作
+;Unicode SrtEdit Copyright(C) 2005-2009 袁卫国
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1920
+PlayResY: 802
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CHS,Microsoft YaHei,58,&H00FFFFFF,&HFFFFFFFF,&H96000000,&H66000000,0,0,0,0,100,100,2,0,1,1,2,2,0,0,36,134
+Style: ENG,Microsoft YaHei,36,&H00079FFF,&H000000FF,&H96000000,&H66000000,-1,0,0,0,100,100,0,0,1,1,2,2,0,0,36,134
+Style: ZHU,Microsoft YaHei,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,0,0,0,2,0,0,36,134
+Style: zhu,Microsoft YaHei,40,&H009AD1DD,&HFFFFFFFF,&H96000000,&H66000000,0,0,0,0,100,100,2,0,1,1,2,2,0,0,36,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.00,0:00:10.00,ZHU,,0,0,0,,{\fad(300,300)\shad2\c&H00FFFF&}中文字幕｜{\b1\c&HFFFFFF&}dottob\N{\rENG}- Subtitled by {\c&H00ffff&}CrazyIvan -
+Dialogue: 0,0:00:12.20,0:00:17.30,ZHU,,0,0,0,,{\fad(300,300)\fs70\fsp30\fscx80\pos(970,400)}顶峰娱乐
+Dialogue: 0,0:00:12.80,0:00:17.68,ZHU,,0,0,0,,{\fad(500,300)\b1\fs50\fsp50\pos(990,700)\c&H9E562B&}狮门公司
+Dialogue: 0,0:00:20.00,0:00:25.00,ZHU,,0,0,0,,{\fad(300,300)\c&H00FFFF&}字幕转制｜{\b1\c&HFFFFFF&}天外生物\N{\b0\c&H079FFF&}感谢原字幕制作者
+Dialogue: 0,0:00:32.43,0:00:36.50,ZHU,,0,0,0,,{\fad(300,300)\b1\fsp20}跨河图像
+Dialogue: 0,0:00:37.90,0:00:42.38,ZHU,,0,0,0,,{\fad(300,300)\fs80\fsp20}德马雷斯特电影
+Dialogue: 0,0:00:46.43,0:00:48.90,ZHU,,0,0,0,,{\fad(300,300)\fs80\fsp20}银色图像
+Dialogue: 0,0:00:51.20,0:00:57.10,ZHU,,0,0,0,,{\fad(500,500)\b1\fs100\fsp50\fscx80\pos(960,580)}钢锯{\c&H0000FF&}+{\c&HFFFFFF&}岭
+Dialogue: 0,0:00:57.70,0:01:01.80,ZHU,,0,0,0,,{\fad(300,500)\b1\fs55\fsp30\fscx80\pos(970,500)}一个真实的故事
+Dialogue: 0,0:02:00.56,0:02:02.70,zhu,,0,0,0,,《以赛亚书》40章28节\N{\rCHS}你可曾听过\N{\rENG}Have you not heard?
+Dialogue: 0,0:02:02.70,0:02:05.27,zhu,,0,0,0,,《以赛亚书》40章28节\N{\rCHS}耶和华是永恒之神\N{\rENG}The Lord is the everlasting God.
+Dialogue: 0,0:02:05.63,0:02:07.67,CHS,,0,0,0,,创造地极之主\N{\rENG}the Creator of the ends of the earth.
+Dialogue: 0,0:02:09.20,0:02:11.63,CHS,,0,0,0,,他既不疲乏，也不困倦\N{\rENG}He will not grow tired or weary.
+Dialogue: 0,0:02:12.95,0:02:15.28,CHS,,0,0,0,,他的智慧无人可揣度\N{\rENG}And his understanding no one can fathom.
+Dialogue: 0,0:02:20.17,0:02:22.13,zhu,,0,0,0,,《以赛亚书》40章29节\N{\rCHS}他赐力量予疲乏者\N{\rENG}He gives strength to the weary
+Dialogue: 0,0:02:22.13,0:02:23.94,zhu,,0,0,0,,《以赛亚书》40章29节\N{\rCHS}增能力予软弱者\N{\rENG}And increases the power of the weak.
+Dialogue: 0,0:02:26.15,0:02:28.00,zhu,,0,0,0,,《以赛亚书》40章30节\N{\rCHS}正值青春亦会疲惫困倦\N{\rENG}Even youths grow tired and weary,
+Dialogue: 0,0:02:28.00,0:02:30.10,zhu,,0,0,0,,《以赛亚书》40章30节\N{\rCHS}青年亦会绊倒跌跤\N{\rENG}And young man stumble and fall
+Dialogue: 0,0:02:30.45,0:02:32.90,zhu,,0,0,0,,《以赛亚书》40章31节\N{\rCHS}但那些仰望上帝者\N{\rENG}But those who hope in the Lord.
+Dialogue: 0,0:02:32.90,0:02:34.83,zhu,,0,0,0,,《以赛亚书》40章31节\N{\rCHS}必重新得力\N{\rENG}Will renew their strength.
+Dialogue: 0,0:02:36.95,0:02:39.45,CHS,,0,0,0,,他们必展翅翱翔如鹰\N{\rENG}They will soar on wings like eagles.
+Dialogue: 0,0:02:39.83,0:02:40.83,CHS,,0,0,0,,他们必奔跑\N{\rENG}They will run
+Dialogue: 0,0:02:41.08,0:02:42.21,CHS,,0,0,0,,而不疲倦\N{\rENG}And not grow weary.
+Dialogue: 0,0:02:42.46,0:02:43.46,CHS,,0,0,0,,他们必行走\N{\rENG}They will walk
+Dialogue: 0,0:02:44.03,0:02:45.49,CHS,,0,0,0,,而不跌倒\N{\rENG}And not be faint.
+Dialogue: 0,0:02:47.28,0:02:49.01,CHS,,0,0,0,,德斯蒙德\N{\rENG}Desmond.
+Dialogue: 0,0:02:49.03,0:02:50.47,CHS,,0,0,0,,坚持住\N{\rENG}Hang on.
+Dialogue: 0,0:02:51.34,0:02:53.54,CHS,,0,0,0,,坚持住，德斯蒙德\N{\rENG}Hang on, Desmond.
+Dialogue: 0,0:02:53.85,0:02:55.92,CHS,,0,0,0,,我们会带你离开这儿\N{\rENG}We're gonna get you outta here.
+Dialogue: 0,0:03:04.00,0:03:06.56,ZHU,,0,0,0,,{\a1\fad(300,500)\fs40\fsp5\pos(220,690)}蓝脊山脉，弗吉尼亚州
+Dialogue: 0,0:03:07.26,0:03:10.08,ZHU,,0,0,0,,{\a1\fad(350,500)\fs40\fsp5\pos(220,690)}十六年前
+Dialogue: 0,0:03:11.19,0:03:12.19,CHS,,0,0,0,,德斯蒙德\N{\rENG}Desmond.
+Dialogue: 0,0:03:13.90,0:03:14.90,CHS,,0,0,0,,德斯蒙德\N{\rENG}Desmond.
+Dialogue: 0,0:03:15.39,0:03:15.94,CHS,,0,0,0,,干嘛\N{\rENG}What.
+Dialogue: 0,0:03:16.44,0:03:17.44,CHS,,0,0,0,,等等嘛\N{\rENG}Wait up.
+Dialogue: 0,0:03:17.51,0:03:18.51,CHS,,0,0,0,,跟上嘛\N{\rENG}Catch up.
+Dialogue: 0,0:03:19.77,0:03:22.23,CHS,,0,0,0,,等等嘛，我有事要告诉你\N{\rENG}Wait up. I got something to tell you.
+Dialogue: 0,0:03:25.45,0:03:26.45,CHS,,0,0,0,,什么？哈尔\N{\rENG}What Hal?
+Dialogue: 0,0:03:28.02,0:03:29.06,CHS,,0,0,0,,到顶者赢\N{\rENG}Race you to the top.
+Dialogue: 0,0:03:29.15,0:03:30.41,CHS,,0,0,0,,嘿，骗子\N{\rENG}Hey cheater.
+Dialogue: 0,0:03:40.28,0:03:42.02,CHS,,0,0,0,,回头见，迟钝\N{\rENG}See you later slowpoke.
+Dialogue: 0,0:03:42.28,0:03:43.28,CHS,,0,0,0,,嘿\N{\rENG}Hey.
+Dialogue: 0,0:03:49.67,0:03:50.67,CHS,,0,0,0,,搭把手\N{\rENG}Wanna hand?
+Dialogue: 0,0:03:51.06,0:03:52.07,CHS,,0,0,0,,我能行\N{\rENG}I got it.
+Dialogue: 0,0:03:58.54,0:03:59.37,CHS,,0,0,0,,救了你\N{\rENG}Saved you ah.
+Dialogue: 0,0:03:59.46,0:04:00.60,CHS,,0,0,0,,啊，你别，死吧\N{\rENG}Ah, you don't. Quit it.
+Dialogue: 0,0:04:00.90,0:04:01.99,CHS,,0,0,0,,你死吧\N{\rENG}You quit it.
+Dialogue: 0,0:04:06.70,0:04:07.70,CHS,,0,0,0,,上帝保佑\N{\rENG}God sake.
+Dialogue: 0,0:04:07.92,0:04:09.92,CHS,,0,0,0,,嘿，离悬崖远点\N{\rENG}Hey, get away from that ledge.
+Dialogue: 0,0:04:10.11,0:04:11.37,CHS,,0,0,0,,该死的傻仔\N{\rENG}You damn fool kids.
+Dialogue: 0,0:04:11.55,0:04:13.28,CHS,,0,0,0,,想摔断脖子吗\N{\rENG}You gonna break your neck.
+Dialogue: 0,0:04:14.98,0:04:16.31,CHS,,0,0,0,,他们是多斯的儿子\N{\rENG}It's them Doss's kids.
+Dialogue: 0,0:04:16.74,0:04:18.27,CHS,,0,0,0,,跟老爹一样疯狂\N{\rENG}Crazy as their old man.
+Dialogue: 0,0:04:27.17,0:04:30.21,CHS,,0,0,0,,他们挖掘了杰克埋骨之地\N{\rENG}They dug up the corner of Jack's remain.
+Dialogue: 0,0:04:32.55,0:04:34.15,CHS,,0,0,0,,把他放在人行道上\N{\rENG}Put him in the sidewalk.
+Dialogue: 0,0:04:37.40,0:04:39.53,CHS,,0,0,0,,你们现已认不出来啦\N{\rENG}You boys won't recognize it now.
+Dialogue: 0,0:04:46.71,0:04:49.31,CHS,,0,0,0,,告诉你，我怀疑他们会认出你\N{\rENG}Mind you I doubt they'll recognize you.
+Dialogue: 0,0:04:51.62,0:04:54.11,CHS,,0,0,0,,他们几乎认不出我，当我路过\N{\rENG}They hardly know me when I walked by.
+Dialogue: 0,0:04:57.19,0:04:58.92,CHS,,0,0,0,,好象我跟你一起死了\N{\rENG}It's like I died with you.
+Dialogue: 0,0:05:04.95,0:05:06.95,CHS,,0,0,0,,好象我们从未存在过\N{\rENG}It's like we boys never existed.
+Dialogue: 0,0:05:16.20,0:05:18.60,CHS,,0,0,0,,好了，今天就说这些\N{\rENG}Well that's all I got for you today.
+Dialogue: 0,0:05:39.32,0:05:41.29,CHS,,0,0,0,,用右手挡住他，德斯蒙德\N{\rENG}Block him with your right Desmond.
+Dialogue: 0,0:05:42.50,0:05:43.13,CHS,,0,0,0,,别打了\N{\rENG}Stop it.
+Dialogue: 0,0:05:43.31,0:05:44.31,CHS,,0,0,0,,听到了吗\N{\rENG}Do you hear me.
+Dialogue: 0,0:05:45.84,0:05:47.00,CHS,,0,0,0,,他们干嘛打架\N{\rENG}What are they fighting about?
+Dialogue: 0,0:05:47.13,0:05:48.38,CHS,,0,0,0,,他们何需有理\N{\rENG}When did they ever needed a reason.
+Dialogue: 0,0:05:48.54,0:05:49.54,CHS,,0,0,0,,嘿汤姆，你能…\N{\rENG}Hey Tom do you
+Dialogue: 0,0:05:50.52,0:05:52.70,CHS,,0,0,0,,何必阻止而让我两个都打\N{\rENG}Why stop and save me whipping them both.
+Dialogue: 0,0:05:52.76,0:05:54.30,CHS,,0,0,0,,这样我只需打那个赢的\N{\rENG}This way I'd whip the one that wins.
+Dialogue: 0,0:05:57.73,0:05:58.73,CHS,,0,0,0,,汤姆\N{\rENG}Tom.
+Dialogue: 0,0:05:59.37,0:06:00.37,CHS,,0,0,0,,不\N{\rENG}No.
+Dialogue: 0,0:06:00.88,0:06:01.88,CHS,,0,0,0,,噢天啦\N{\rENG}Oh God.
+Dialogue: 0,0:06:03.27,0:06:04.03,CHS,,0,0,0,,汤姆\N{\rENG}Tom.
+Dialogue: 0,0:06:04.13,0:06:05.21,CHS,,0,0,0,,醒醒，你能听到吗\N{\rENG}Wake up. Can you hear me?
+Dialogue: 0,0:06:05.65,0:06:06.78,CHS,,0,0,0,,你怎么能这样\N{\rENG}What the hell did you done?
+Dialogue: 0,0:06:06.82,0:06:08.39,CHS,,0,0,0,,他听不到了\N{\rENG}He can't hear me.
+Dialogue: 0,0:06:10.66,0:06:11.92,CHS,,0,0,0,,我们得拿些冰块\N{\rENG}We'll get some ice.
+Dialogue: 0,0:06:15.40,0:06:16.87,CHS,,0,0,0,,把那个篮子拿开\N{\rENG}You shift that basket.
+Dialogue: 0,0:06:17.01,0:06:18.01,CHS,,0,0,0,,好的\N{\rENG}I got it.
+Dialogue: 0,0:06:19.19,0:06:20.25,CHS,,0,0,0,,他在呼吸吗\N{\rENG}Is he breathing?
+Dialogue: 0,0:06:21.59,0:06:22.59,CHS,,0,0,0,,哈尔\N{\rENG}Hal?
+Dialogue: 0,0:06:23.15,0:06:24.48,CHS,,0,0,0,,哈尔你能听到吗\N{\rENG}Hal can you hear me?
+Dialogue: 0,0:06:29.74,0:06:31.08,CHS,,0,0,0,,哈尔你能听到吗\N{\rENG}Hal can you hear me?
+Dialogue: 0,0:06:37.36,0:06:38.36,CHS,,0,0,0,,哈尔\N{\rENG}Hal?
+Dialogue: 0,0:06:39.39,0:06:40.15,CHS,,0,0,0,,拜托\N{\rENG}Come on.
+Dialogue: 0,0:06:40.19,0:06:41.77,CHS,,0,0,0,,上帝救救他\N{\rENG}God help him.
+Dialogue: 0,0:06:42.28,0:06:43.28,CHS,,0,0,0,,哈尔\N{\rENG}Hal?
+Dialogue: 0,0:06:59.20,0:07:01.60,ZHU,,0,0,0,,《主祷文 十诫》\N{\rzhu}Lord's Prayer Ten Commandments Vintage
+Dialogue: 0,0:07:05.26,0:07:07.56,CHS,,0,0,0,,你做事不经大脑吗\N{\rENG}What do you think you doing?
+Dialogue: 0,0:07:08.82,0:07:14.70,CHS,,0,0,0,,我现在必须打你，你知道规则\N{\rENG}I'm going to have to beat you now. You know the rules.
+Dialogue: 0,0:07:16.12,0:07:17.84,CHS,,0,0,0,,听到没，德斯蒙德\N{\rENG}You hear me Desmond?
+Dialogue: 0,0:07:17.85,0:07:19.74,ZHU,,0,0,0,,第六诫 你不能杀人\N{\rzhu}SIXTH COMMANDMENT Thou shalt not kill
+Dialogue: 0,0:07:19.75,0:07:20.75,CHS,,0,0,0,,德斯蒙德\N{\rENG}Desmond !
+Dialogue: 0,0:07:20.79,0:07:22.36,CHS,,0,0,0,,汤姆，住手\N{\rENG}Tom. Stop.
+Dialogue: 0,0:07:22.40,0:07:26.60,CHS,,0,0,0,,这样教育不了他，他的暴行已经够多了\N{\rENG}It's not going to teach the boy. His violence enough already.
+Dialogue: 0,0:07:26.97,0:07:29.18,CHS,,0,0,0,,好极了，赏他一个令人窒息的吻\N{\rENG}Ok fine, you go smothering and kiss him.
+Dialogue: 0,0:07:29.27,0:07:32.69,CHS,,0,0,0,,告诉他这世界是个既柔软又温暖之处\N{\rENG}You tell him the world is soft and gentle place.
+Dialogue: 0,0:07:36.92,0:07:38.26,CHS,,0,0,0,,哈尔会好的\N{\rENG}Hal's gonna be okay.
+Dialogue: 0,0:07:50.20,0:07:51.20,CHS,,0,0,0,,嘿\N{\rENG}Hey.
+Dialogue: 0,0:07:55.27,0:07:56.74,CHS,,0,0,0,,我差点杀了他\N{\rENG}I could've killed him.
+Dialogue: 0,0:07:57.30,0:07:58.63,CHS,,0,0,0,,是的，你差点\N{\rENG}Yes, you could have.
+Dialogue: 0,0:07:59.83,0:08:01.89,CHS,,0,0,0,,谋杀是众恶之首\N{\rENG}Murder is the worst sin of all.
+Dialogue: 0,0:08:02.79,0:08:04.26,CHS,,0,0,0,,取人性命\N{\rENG}And to take another man's life.
+Dialogue: 0,0:08:04.26,0:08:07.08,CHS,,0,0,0,,则是最严重之罪在主眼里\N{\rENG}That is the most egregious sin in Lord's eye.
+Dialogue: 0,0:08:08.06,0:08:09.66,CHS,,0,0,0,,再没别的能令他更伤心\N{\rENG}Nothing hurts His heart the most.
+Dialogue: 0,0:08:25.37,0:08:26.37,CHS,,0,0,0,,我恨他\N{\rENG}I hate him.
+Dialogue: 0,0:08:42.24,0:08:43.24,CHS,,0,0,0,,妈妈\N{\rENG}Mama.
+Dialogue: 0,0:08:56.08,0:08:58.35,CHS,,0,0,0,,他为什么如此恨我们\N{\rENG}Why does he hate us so much?
+Dialogue: 0,0:08:59.72,0:09:02.01,CHS,,0,0,0,,哦，他不恨我们\N{\rENG}Oh he don't hate us.
+Dialogue: 0,0:09:04.38,0:09:05.71,CHS,,0,0,0,,他恨自己\N{\rENG}He hates himself
+Dialogue: 0,0:09:06.56,0:09:07.56,CHS,,0,0,0,,有时\N{\rENG}Sometimes
+Dialogue: 0,0:09:09.38,0:09:11.65,CHS,,0,0,0,,你爸爸，我见过真实的他\N{\rENG}Your daddy and I met the real him.
+Dialogue: 0,0:09:13.15,0:09:16.25,CHS,,0,0,0,,我希望你了解他，就像战前我那样\N{\rENG}I wish you knew him like I did before the war.
+Dialogue: 0,0:09:23.80,0:09:26.68,zhu,,0,0,0,,{\rZHU}{\a1\fad(100,100)\fs40\fsp5\pos(210,690)}十五年后
+Dialogue: 0,0:09:39.87,0:09:41.41,CHS,,0,0,0,,我们唱得如何？德斯蒙德\N{\rENG}How do we sound Desmond?
+Dialogue: 0,0:09:41.71,0:09:43.68,CHS,,0,0,0,,就像天使，妈\N{\rENG}Like a heavenly host angels, Mom.
+Dialogue: 0,0:09:44.14,0:09:46.17,CHS,,0,0,0,,你知，撒谎可是罪喔\N{\rENG}Now you know it's a sin to tell a lie.
+Dialogue: 0,0:09:46.25,0:09:47.83,CHS,,0,0,0,,尤其在此地\N{\rENG}Especially in this place.
+Dialogue: 0,0:09:47.88,0:09:49.62,CHS,,0,0,0,,我可从未说过她们是唱歌的天使\N{\rENG}Well I never said they were singing angels.
+Dialogue: 0,0:09:55.76,0:09:57.71,CHS,,0,0,0,,外面怎么了？德斯蒙德\N{\rENG}What's going on out there, Desmond?
+Dialogue: 0,0:09:57.88,0:10:00.30,CHS,,0,0,0,,继续，拉出来，拉出来\N{\rENG}Go on. Get him out. Get him out.
+Dialogue: 0,0:10:02.36,0:10:03.19,CHS,,0,0,0,,拖出来\N{\rENG}Drag him out.
+Dialogue: 0,0:10:03.21,0:10:04.10,CHS,,0,0,0,,拖吧\N{\rENG}Just tug.
+Dialogue: 0,0:10:09.63,0:10:10.97,CHS,,0,0,0,,我打电话叫救护车\N{\rENG}I'll phone an ambulance.
+Dialogue: 0,0:10:11.00,0:10:12.13,CHS,,0,0,0,,不！没时间了\N{\rENG}No. No time.
+Dialogue: 0,0:10:12.15,0:10:13.45,CHS,,0,0,0,,找辆皮卡\N{\rENG}Just a pickup
+Dialogue: 0,0:10:13.48,0:10:14.08,CHS,,0,0,0,,要快\N{\rENG}Quick.
+Dialogue: 0,0:10:14.10,0:10:15.00,CHS,,0,0,0,,好的\N{\rENG}Okay.
+Dialogue: 0,0:10:29.20,0:10:31.00,ZHU,,0,0,0,,林奇伯格医院\N{\rzhu}LYNCHBURG HOSPITAL
+Dialogue: 0,0:10:32.27,0:10:33.96,CHS,,0,0,0,,你会好的，伙计，你会好的\N{\rENG}You gonna be fine, man. You gonna be fine.
+Dialogue: 0,0:10:34.37,0:10:35.75,CHS,,0,0,0,,你有专家罩\N{\rENG}You in good hand.
+Dialogue: 0,0:10:38.16,0:10:39.49,CHS,,0,0,0,,何处受伤\N{\rENG}What do we got here?
+Dialogue: 0,0:10:39.57,0:10:40.47,CHS,,0,0,0,,动脉切断\N{\rENG}That's a severed artery.
+Dialogue: 0,0:10:40.50,0:10:41.70,CHS,,0,0,0,,- 拿些缝线来  - 好的，医生\N{\rENG}- Get some sutures.  - Yes, doctor.
+Dialogue: 0,0:10:41.72,0:10:42.89,CHS,,0,0,0,,稍稍用力按住它\N{\rENG}Put some pressure on it.
+Dialogue: 0,0:10:42.97,0:10:44.16,CHS,,0,0,0,,是你用此止血的\N{\rENG}Did you apply this tourniquet?
+Dialogue: 0,0:10:44.19,0:10:45.00,CHS,,0,0,0,,是的，先生\N{\rENG}Yes, sir.
+Dialogue: 0,0:10:45.06,0:10:48.24,CHS,,0,0,0,,干得不错，你可救了这娃一命\N{\rENG}Nice work. You might've save this boy's life.
+Dialogue: 0,0:10:48.31,0:10:50.08,CHS,,0,0,0,,你住我们这儿，你会好的\N{\rENG}You staying with us. You'll be okay.
+Dialogue: 0,0:10:50.47,0:10:51.67,CHS,,0,0,0,,我们来吧\N{\rENG}We can get that.
+Dialogue: 0,0:10:56.94,0:10:58.94,CHS,,0,0,0,,住我们这儿，你会好的\N{\rENG}Stay with us. You should be okay.
+Dialogue: 0,0:10:59.00,0:11:00.00,CHS,,0,0,0,,你感觉好吗\N{\rENG}You feel okay?
+Dialogue: 0,0:11:00.04,0:11:01.04,CHS,,0,0,0,,当然，医生\N{\rENG}Certainly doc.
+Dialogue: 0,0:12:05.10,0:12:07.77,CHS,,0,0,0,,部队体检在那边，这里是献血\N{\rENG}Army physical is that way. This is for giving blood.
+Dialogue: 0,0:12:13.99,0:12:15.06,CHS,,0,0,0,,你没事吧\N{\rENG}Are you all right?
+Dialogue: 0,0:12:16.98,0:12:18.52,CHS,,0,0,0,,哦不，那不是我的\N{\rENG}Oh no. That's not mine.
+Dialogue: 0,0:12:19.48,0:12:20.48,CHS,,0,0,0,,我很好\N{\rENG}I'm fine.
+Dialogue: 0,0:12:21.05,0:12:22.33,CHS,,0,0,0,,谢谢你的问询，女士\N{\rENG}Thank you for asking though maam.
+Dialogue: 0,0:12:27.41,0:12:28.54,CHS,,0,0,0,,你要什么\N{\rENG}What do you need?
+Dialogue: 0,0:12:31.26,0:12:32.26,CHS,,0,0,0,,我的皮带\N{\rENG}My belt.
+Dialogue: 0,0:12:35.73,0:12:38.53,CHS,,0,0,0,,我把它借给出车祸的男生\N{\rENG}I lend it to the boy who had the accident.
+Dialogue: 0,0:12:38.57,0:12:41.50,CHS,,0,0,0,,没它我的裤子系不好\N{\rENG}My pants don't hold up so good without it.
+Dialogue: 0,0:12:42.20,0:12:44.71,CHS,,0,0,0,,呃，我可没有你的皮带\N{\rENG}Well I dont' have your belt.
+Dialogue: 0,0:12:45.07,0:12:48.21,CHS,,0,0,0,,不，我知女士，它仍在男生那儿\N{\rENG}No. I know that maam. It's out there with the boys still.
+Dialogue: 0,0:12:48.37,0:12:49.37,CHS,,0,0,0,,好吧\N{\rENG}Okay.
+Dialogue: 0,0:12:50.49,0:12:52.58,CHS,,0,0,0,,我在此采血\N{\rENG}I'm just here to take blood.
+Dialogue: 0,0:12:52.81,0:12:54.13,CHS,,0,0,0,,我给你我的\N{\rENG}I'll give you mine.
+Dialogue: 0,0:12:55.72,0:12:56.72,CHS,,0,0,0,,好吧\N{\rENG}Okay.
+Dialogue: 0,0:12:56.85,0:12:58.65,CHS,,0,0,0,,去那个房间，跟别人一起等\N{\rENG}Go to that room over there. Wait with the others.
+Dialogue: 0,0:12:58.76,0:13:00.03,CHS,,0,0,0,,我会叫你\N{\rENG}I'll call you.
+Dialogue: 0,0:13:05.15,0:13:06.21,CHS,,0,0,0,,那个，那个房间\N{\rENG}That. That room.
+Dialogue: 0,0:13:14.78,0:13:16.91,CHS,,0,0,0,,你以前献过血吗，先生…\N{\rENG}You ever given blood before, Mr.
+Dialogue: 0,0:13:19.01,0:13:20.01,CHS,,0,0,0,,多斯\N{\rENG}Doss.
+Dialogue: 0,0:13:21.45,0:13:24.09,CHS,,0,0,0,,但朋友们都叫我德斯蒙德，不，女士这是我第一次\N{\rENG}But my friends call me Desmond. No, maam this is my first time.
+Dialogue: 0,0:13:25.89,0:13:28.13,ZHU,,0,0,0,,{\rzhu}封面是红胁蓝尾鸲(qú)\N{\rZHU}多萝西·舒特《北美珍禽》\N{\rzhu}Dorothy Schutte《RARE BIRDS of North America》
+Dialogue: 0,0:13:32.95,0:13:35.68,CHS,,0,0,0,,我总梦想成为医生，只是呢\N{\rENG}I always dream about being a doctor but ahhh
+Dialogue: 0,0:13:36.92,0:13:38.32,CHS,,0,0,0,,没念多少书\N{\rENG}Didn't get much school.
+Dialogue: 0,0:13:40.55,0:13:43.08,CHS,,0,0,0,,可能有点头晕，采完后\N{\rENG}Might be a little dizzy when we're done.
+Dialogue: 0,0:13:43.45,0:13:45.05,CHS,,0,0,0,,有人接你吗\N{\rENG}Somebody picking you up?
+Dialogue: 0,0:13:45.97,0:13:47.77,CHS,,0,0,0,,没，女士，我走回去\N{\rENG}No, maam. I'm walking back.
+Dialogue: 0,0:13:48.31,0:13:49.51,CHS,,0,0,0,,你住哪儿\N{\rENG}Where do you live?
+Dialogue: 0,0:13:50.17,0:13:51.17,CHS,,0,0,0,,福特哈姆，女士\N{\rENG}Fort Ham, Maam.
+Dialogue: 0,0:13:52.02,0:13:53.02,CHS,,0,0,0,,那挺远的\N{\rENG}That's away.
+Dialogue: 0,0:13:53.61,0:13:54.81,CHS,,0,0,0,,五或六英里\N{\rENG}Five or six miles.
+Dialogue: 0,0:13:55.82,0:13:57.42,CHS,,0,0,0,,我穿过树林\N{\rENG}I cut through the woods.
+Dialogue: 0,0:13:57.98,0:13:58.98,CHS,,0,0,0,,那就七英里\N{\rENG}Seven that way.
+Dialogue: 0,0:14:00.25,0:14:02.05,CHS,,0,0,0,,必是因喜欢树林\N{\rENG}Must really like the woods.
+Dialogue: 0,0:14:02.06,0:14:03.26,CHS,,0,0,0,,是的女士，确实是\N{\rENG}Yes maam. Sure do.
+Dialogue: 0,0:14:04.34,0:14:04.92,CHS,,0,0,0,,好吧\N{\rENG}Okay.
+Dialogue: 0,0:14:04.95,0:14:06.19,CHS,,0,0,0,,轻压此处\N{\rENG}Put some pressure here.
+Dialogue: 0,0:14:07.97,0:14:08.97,CHS,,0,0,0,,你没事吧\N{\rENG}You okay?
+Dialogue: 0,0:14:14.52,0:14:17.51,CHS,,0,0,0,,这是要去哪儿？看起来整洁帅气\N{\rENG}Where are you going looking all spruce and nice?
+Dialogue: 0,0:14:17.91,0:14:19.44,CHS,,0,0,0,,去见昨天的某人\N{\rENG}Met someone yesterday.
+Dialogue: 0,0:14:19.84,0:14:22.60,CHS,,0,0,0,,医院护士，名叫多萝西舒特，我要娶她\N{\rENG}Nurse over at the hospital name Dorothy Schutte and I'm gonna marry her.
+Dialogue: 0,0:14:22.68,0:14:24.38,CHS,,0,0,0,,天啦，她知道吗\N{\rENG}Goodness, does she know that?
+Dialogue: 0,0:14:24.47,0:14:26.32,CHS,,0,0,0,,尚未知但将知\N{\rENG}Well not yet but about to.
+Dialogue: 0,0:14:26.59,0:14:28.36,CHS,,0,0,0,,你有说过话吗？跟女人\N{\rENG}Do you have even spoken to a woman?
+Dialogue: 0,0:14:28.39,0:14:30.72,CHS,,0,0,0,,除了这个尚未成家者\N{\rENG}Other than the one that's not family.
+Dialogue: 0,0:14:30.86,0:14:31.86,CHS,,0,0,0,,跟她说过\N{\rENG}Spoke to her.
+Dialogue: 0,0:14:33.14,0:14:36.27,CHS,,0,0,0,,既如此，给你兄弟来个大大的拥抱\N{\rENG}In that case, come give your brother a big hug.
+Dialogue: 0,0:14:36.32,0:14:38.72,CHS,,0,0,0,,呕哈尔！让你的油爪离我远点儿\N{\rENG}Oh Hal. Get your greasy paws off of me.
+Dialogue: 0,0:14:40.11,0:14:41.31,CHS,,0,0,0,,祝我好运，妈妈\N{\rENG}Wish me luck mama.
+Dialogue: 0,0:14:41.91,0:14:43.13,CHS,,0,0,0,,祝你好运\N{\rENG}Good luck.
+Dialogue: 0,0:15:20.34,0:15:21.34,CHS,,0,0,0,,下一个\N{\rENG}Next.
+Dialogue: 0,0:15:21.68,0:15:22.68,CHS,,0,0,0,,随便坐\N{\rENG}Grab a seat.
+Dialogue: 0,0:15:23.19,0:15:24.99,CHS,,0,0,0,,你以前献过血吗\N{\rENG}You ever been given blood before?
+Dialogue: 0,0:15:25.06,0:15:26.13,CHS,,0,0,0,,是的女士我有\N{\rENG}Yes maam I have.
+Dialogue: 0,0:15:29.31,0:15:30.51,CHS,,0,0,0,,你，皮带男\N{\rENG}You the belt man.
+Dialogue: 0,0:15:30.93,0:15:32.20,CHS,,0,0,0,,德斯蒙德，就是我\N{\rENG}Desmond that's me.
+Dialogue: 0,0:15:32.55,0:15:35.35,CHS,,0,0,0,,好吧，德斯蒙德，我们不能连续两天采你的血\N{\rENG}Well Desmond we can't take your blood two days in a row.
+Dialogue: 0,0:15:35.46,0:15:37.28,CHS,,0,0,0,,那就好，可否拿回我的\N{\rENG}That's good. Can we get mine back?
+Dialogue: 0,0:15:37.87,0:15:38.51,CHS,,0,0,0,,你的啥\N{\rENG}You what?
+Dialogue: 0,0:15:38.70,0:15:40.30,CHS,,0,0,0,,我的血，我想要回它\N{\rENG}My blood I need it back.
+Dialogue: 0,0:15:41.53,0:15:44.11,CHS,,0,0,0,,那不行，不能把它还你\N{\rENG}It dont work like that. We can't just give it back to you.
+Dialogue: 0,0:15:44.26,0:15:45.77,CHS,,0,0,0,,好吧，你必需还\N{\rENG}Well you got to.
+Dialogue: 0,0:15:46.27,0:15:49.72,CHS,,0,0,0,,自从你用针扎了我，我就心跳加速\N{\rENG}Ever since you stuck me with that needle my heart is beating up fast.
+Dialogue: 0,0:15:50.01,0:15:51.88,CHS,,0,0,0,,每次想到你则会跳得更快\N{\rENG}Everytime I think about you beat faster still.
+Dialogue: 0,0:15:53.47,0:15:56.09,CHS,,0,0,0,,我以前从未听过这话\N{\rENG}I never heard that one before.
+Dialogue: 0,0:15:56.40,0:15:57.64,CHS,,0,0,0,,好老土\N{\rENG}It's pretty corny.
+Dialogue: 0,0:15:57.86,0:15:58.86,CHS,,0,0,0,,是土\N{\rENG}It is.
+Dialogue: 0,0:15:59.19,0:15:59.69,CHS,,0,0,0,,对啊\N{\rENG}Yeah.
+Dialogue: 0,0:15:59.72,0:16:03.19,CHS,,0,0,0,,这是个耻辱，我练了一整夜\N{\rENG}That's a shame. I've been practicing that all night.
+Dialogue: 0,0:16:03.32,0:16:04.32,CHS,,0,0,0,,不好吗\N{\rENG}No good?
+Dialogue: 0,0:16:06.46,0:16:07.66,CHS,,0,0,0,,我没那样说\N{\rENG}I didn't say that.
+Dialogue: 0,0:16:28.22,0:16:30.90,CHS,,0,0,0,,有何差异？动脉跟静脉\N{\rENG}What's the difference between an artery and a vein?
+Dialogue: 0,0:16:33.28,0:16:34.76,CHS,,0,0,0,,你说啥\N{\rENG}What are you talking about?
+Dialogue: 0,0:16:34.81,0:16:36.07,CHS,,0,0,0,,男孩的车祸\N{\rENG}The boy's accident.
+Dialogue: 0,0:16:38.77,0:16:40.10,CHS,,0,0,0,,动脉喷血\N{\rENG}Arteries spurt blood.
+Dialogue: 0,0:16:42.23,0:16:43.23,CHS,,0,0,0,,静脉呢\N{\rENG}And veins?
+Dialogue: 0,0:16:45.08,0:16:46.08,CHS,,0,0,0,,流血\N{\rENG}Bleed.
+Dialogue: 0,0:16:49.22,0:16:51.08,CHS,,0,0,0,,我觉得你得多练习男生跟\N{\rENG}I think you need to practice your boys and
+Dialogue: 0,0:16:51.10,0:16:53.13,CHS,,0,0,0,,女生的约会对白，在你出门前\N{\rENG}girls dating talk at home before you come out.
+Dialogue: 0,0:16:53.64,0:16:54.71,CHS,,0,0,0,,我可能练过\N{\rENG}I probably do.
+Dialogue: 0,0:16:56.84,0:16:59.58,CHS,,0,0,0,,我给你本书，若你那样有兴趣\N{\rENG}I give you a book if you that interested.
+Dialogue: 0,0:17:01.13,0:17:02.13,CHS,,0,0,0,,约会时\N{\rENG}On dating?
+Dialogue: 0,0:17:03.99,0:17:04.99,CHS,,0,0,0,,喷血时\N{\rENG}On blood.
+Dialogue: 0,0:17:05.12,0:17:06.88,ZHU,,0,0,0,,{\rzhu\fad(200,200)}二战供应兵招募海报\N{\rENG}We Soldiers of Supply pledge that  our fighting men shall not want
+Dialogue: 0,0:17:08.83,0:17:11.23,ZHU,,0,0,0,,{\rzhu\fad(200,200)}美国政府 奉献 大战序幕\N{\rENG}the UNITED STATES GOVERNMENT presents PRELUDE TO WAR
+Dialogue: 0,0:17:13.58,0:17:15.78,CHS,,0,0,0,,还有个医学问题？可能\N{\rENG}Another medical question perhaps?
+Dialogue: 0,0:17:16.36,0:17:20.10,CHS,,0,0,0,,没，我只觉得你是我见过的最漂亮的\N{\rENG}No, I just think you're the prettiest thing I ever seen.
+Dialogue: 0,0:17:21.13,0:17:23.46,CHS,,0,0,0,,那是因为我四周黑麻麻地\N{\rENG}That's cause I'm sitting in the dark.
+Dialogue: 0,0:17:26.33,0:17:26.91,CHS,,0,0,0,,不\N{\rENG}No.
+Dialogue: 0,0:17:28.91,0:17:30.31,CHS,,0,0,0,,你确实美丽\N{\rENG}And you're beautiful.
+Dialogue: 0,0:17:55.25,0:17:57.11,CHS,,0,0,0,,让路\N{\rENG}Out of the way!
+Dialogue: 0,0:17:58.60,0:18:00.87,CHS,,0,0,0,,你得看好路再走\N{\rENG}You need to watch where you going.
+Dialogue: 0,0:18:12.82,0:18:15.09,CHS,,0,0,0,,对不起，我没想到你会介意\N{\rENG}I'm sorry I didn't think you mind.
+Dialogue: 0,0:18:15.55,0:18:16.55,CHS,,0,0,0,,你没问过\N{\rENG}You didn't ask.
+Dialogue: 0,0:18:18.10,0:18:19.56,CHS,,0,0,0,,我想你可能会喜欢\N{\rENG}I thought you might've like it.
+Dialogue: 0,0:18:19.59,0:18:21.32,CHS,,0,0,0,,我可能会，如果你问了\N{\rENG}Well I might've if you asked.
+Dialogue: 0,0:18:32.38,0:18:33.38,CHS,,0,0,0,,你来吗\N{\rENG}You coming?
+Dialogue: 0,0:18:37.18,0:18:38.18,CHS,,0,0,0,,死开\N{\rENG}Shit!
+Dialogue: 0,0:18:59.49,0:19:01.10,CHS,,0,0,0,,你为何对我们只字不提\N{\rENG}Why didn't you say anything to us?
+Dialogue: 0,0:19:01.43,0:19:04.20,CHS,,0,0,0,,因为你会试着让我说出来，亦知我做得对\N{\rENG}Cause you would've try and talk me out of it and know what I'm doing is right.
+Dialogue: 0,0:19:04.45,0:19:06.52,CHS,,0,0,0,,那主的诫命呢\N{\rENG}And what about His commandment?
+Dialogue: 0,0:19:06.58,0:19:08.18,CHS,,0,0,0,,在战争中那不是杀戮\N{\rENG}It's not killing in a war.
+Dialogue: 0,0:19:08.69,0:19:11.27,CHS,,0,0,0,,我是保护许多从我们教会入伍的男孩\N{\rENG}I woud protected lots of boys from our church going.
+Dialogue: 0,0:19:11.80,0:19:13.92,CHS,,0,0,0,,战事已起，他们要人\N{\rENG}There's a war and they need men.
+Dialogue: 0,0:19:14.46,0:19:16.86,CHS,,0,0,0,,在造纸厂上班救不了国\N{\rENG}Working in a paper mill aren't going to save this country.
+Dialogue: 0,0:19:25.51,0:19:27.29,CHS,,0,0,0,,看起来就像影星\N{\rENG}Looks like a movie star.
+Dialogue: 0,0:19:28.77,0:19:29.77,CHS,,0,0,0,,哈啊孩子\N{\rENG}Huh boy?
+Dialogue: 0,0:19:32.52,0:19:33.79,CHS,,0,0,0,,制服好看\N{\rENG}Nice uniform.
+Dialogue: 0,0:19:35.28,0:19:36.28,CHS,,0,0,0,,帽子不错\N{\rENG}Good hat.
+Dialogue: 0,0:19:39.12,0:19:42.97,CHS,,0,0,0,,提醒了我，哈代穿这身制服是啥样，当我们奔赴法国\N{\rENG}Reminds me how Hardy get in his look in this uniform when we went to France.
+Dialogue: 0,0:19:45.35,0:19:46.25,CHS,,0,0,0,,还记得他吗？多萝西\N{\rENG}Remember him Dorothy?
+Dialogue: 0,0:19:46.28,0:19:46.80,CHS,,0,0,0,,不要，汤姆\N{\rENG}Don't Tom.
+Dialogue: 0,0:19:46.86,0:19:47.86,CHS,,0,0,0,,什么\N{\rENG}What?
+Dialogue: 0,0:19:50.19,0:19:53.66,CHS,,0,0,0,,我只是说哈尔穿起制服看着如何时髦\N{\rENG}I'm just saying how snappy Hal looks in his uniform.
+Dialogue: 0,0:19:54.68,0:19:56.81,CHS,,0,0,0,,而所有的女孩似乎都这么认为\N{\rENG}All you girls certainly seems to think so.
+Dialogue: 0,0:19:57.06,0:20:00.33,CHS,,0,0,0,,他使她们涌向他，他得意之极\N{\rENG}He had them flocking to him. He was most proud.
+Dialogue: 0,0:20:06.13,0:20:09.12,CHS,,0,0,0,,我只希望哈尔中枪时，是穿过夹克前面\N{\rENG}I just hope that when Hal get shot it's through the front of his jacket.
+Dialogue: 0,0:20:10.70,0:20:13.18,CHS,,0,0,0,,像个简单射伤，不足为虑\N{\rENG}Like a simple entry wound not what you miss.
+Dialogue: 0,0:20:14.04,0:20:15.58,CHS,,0,0,0,,若是击中背部\N{\rENG}Or'd got hit in the back.
+Dialogue: 0,0:20:15.58,0:20:19.75,CHS,,0,0,0,,把他的大部分内脏跟肠子从前面炸出落得到处都是\N{\rENG} It blew most of his guts and intestines out his front off for everywhere.
+Dialogue: 0,0:20:22.70,0:20:24.63,CHS,,0,0,0,,彻底毁掉他的制服\N{\rENG}Wrecked his uniform entirely.
+Dialogue: 0,0:20:28.92,0:20:34.03,CHS,,0,0,0,,好彩他死了，所以他从不知他的制服看上去有多糟\N{\rENG}It was lucky he was dead so he never knew how awful his uniform looked.
+Dialogue: 0,0:20:38.33,0:20:39.88,CHS,,0,0,0,,离开我的视线\N{\rENG}Get out of my sight.
+Dialogue: 0,0:21:39.15,0:21:41.35,CHS,,0,0,0,,你藏了啥？高山护卫\N{\rENG}What are you park mountain guard?
+Dialogue: 0,0:21:43.12,0:21:45.45,CHS,,0,0,0,,你不帮我吗？德斯蒙德·多斯\N{\rENG}Are you gonna help me Desmond Doss?
+Dialogue: 0,0:21:45.71,0:21:48.11,CHS,,0,0,0,,或者你只想让我困住\N{\rENG}Or you just gonna leave me stranded?
+Dialogue: 0,0:21:51.94,0:21:52.68,CHS,,0,0,0,,我会帮你的\N{\rENG}I'll help you.
+Dialogue: 0,0:21:52.95,0:21:54.15,CHS,,0,0,0,,但你得付出代价\N{\rENG}But it's gonna cost you.
+Dialogue: 0,0:21:54.88,0:21:55.58,CHS,,0,0,0,,什么\N{\rENG}What?
+Dialogue: 0,0:21:56.43,0:21:57.06,CHS,,0,0,0,,亲一个\N{\rENG}A kiss.
+Dialogue: 0,0:21:59.92,0:22:01.52,CHS,,0,0,0,,这纯粹是敲诈\N{\rENG}That is pure blackmail.
+Dialogue: 0,0:22:01.57,0:22:04.41,CHS,,0,0,0,,是的，女士，但那仍是我的条件\N{\rENG}Well yes maam it is but that is still my condition.
+Dialogue: 0,0:22:07.10,0:22:08.10,CHS,,0,0,0,,事实上\N{\rENG}As indeed,
+Dialogue: 0,0:22:09.74,0:22:11.11,CHS,,0,0,0,,我想抱着你亲\N{\rENG}I gonna hold you to it.
+Dialogue: 0,0:22:24.68,0:22:25.68,CHS,,0,0,0,,等等\N{\rENG}Hold on now.
+Dialogue: 0,0:22:28.63,0:22:30.22,CHS,,0,0,0,,你不会打我？是吗\N{\rENG}You ain't gonna slap me are you?
+Dialogue: 0,0:22:30.52,0:22:32.49,CHS,,0,0,0,,因我可能会带着你跟我掉下去\N{\rENG}Cause I'll fall off I'm gonna take you with me.
+Dialogue: 0,0:22:33.63,0:22:35.15,CHS,,0,0,0,,吻我即知\N{\rENG}Kiss me and find out.
+Dialogue: 0,0:23:07.60,0:23:14.50,ZHU,,0,0,0,,《坎宁安实用解剖学手册》\N{\fad(200,200)\rzhu}CUNNINGHAM'S MANUAL OF PRACTICL ANATOMY
+Dialogue: 0,0:23:24.59,0:23:25.23,CHS,,0,0,0,,什么\N{\rENG}What?
+Dialogue: 0,0:23:26.84,0:23:27.97,CHS,,0,0,0,,我得参军\N{\rENG}I have to enlist.
+Dialogue: 0,0:23:30.05,0:23:32.59,CHS,,0,0,0,,我不能留在这儿而让他们都为我而战\N{\rENG}I can't stay here while all them go fight for me.
+Dialogue: 0,0:23:32.65,0:23:33.48,CHS,,0,0,0,,是的，你能\N{\rENG}Yes, you can.
+Dialogue: 0,0:23:33.52,0:23:34.93,CHS,,0,0,0,,- 你能留在这儿  - 多萝西，我必须\N{\rENG}- You can stay here.  - Dorothy I have to.
+Dialogue: 0,0:23:35.42,0:23:36.33,CHS,,0,0,0,,我要当军医\N{\rENG}I will be a medic.
+Dialogue: 0,0:23:36.85,0:23:38.92,CHS,,0,0,0,,我指我是去救人而非杀人\N{\rENG}I figure I'll be saving people not killing.
+Dialogue: 0,0:23:43.37,0:23:46.51,CHS,,0,0,0,,我得上班了，不想迟到\N{\rENG}I have to go to work and don't want to be late.
+Dialogue: 0,0:23:49.49,0:23:50.49,CHS,,0,0,0,,多萝西，别这样\N{\rENG}Dorothy. Don't.
+Dialogue: 0,0:23:50.86,0:23:51.88,CHS,,0,0,0,,多萝西，多萝西\N{\rENG}Dorothy. Dorothy.
+Dialogue: 0,0:23:55.78,0:23:57.91,CHS,,0,0,0,,那么你想求我嫁给你还是别的\N{\rENG}So are you gonna ask me to marry you or what?
+Dialogue: 0,0:24:00.70,0:24:02.60,CHS,,0,0,0,,我不知你会否还讨厌我\N{\rENG}I don't know you still gonna hate me?
+Dialogue: 0,0:24:03.09,0:24:05.15,CHS,,0,0,0,,我也不知，你可没问\N{\rENG}I wouldn't know you haven't ask.
+Dialogue: 0,0:24:05.53,0:24:06.87,CHS,,0,0,0,,那我来问你\N{\rENG}Well I'm asking you
+Dialogue: 0,0:24:08.90,0:24:10.36,CHS,,0,0,0,,全心全意地，你愿意嫁给我吗\N{\rENG}With all my heart. Will you marry me?
+Dialogue: 0,0:24:11.50,0:24:12.50,CHS,,0,0,0,,那当然\N{\rENG}Then yes.
+Dialogue: 0,0:24:13.07,0:24:14.07,CHS,,0,0,0,,是的，我愿意\N{\rENG}Yes I will.
+Dialogue: 0,0:24:24.05,0:24:24.69,CHS,,0,0,0,,何时\N{\rENG}When?
+Dialogue: 0,0:24:24.93,0:24:26.78,CHS,,0,0,0,,待到你首次出征时\N{\rENG}Soon as you get your first leave.
+Dialogue: 0,0:24:26.90,0:24:28.69,CHS,,0,0,0,,但我此刻仍不喜欢你\N{\rENG}But I still don't like you at this moment.
+Dialogue: 0,0:24:29.31,0:24:30.45,CHS,,0,0,0,,对啊\N{\rENG}Yeah.
+Dialogue: 0,0:24:30.66,0:24:31.66,CHS,,0,0,0,,好吧\N{\rENG}Okay.
+Dialogue: 0,0:24:32.52,0:24:33.81,CHS,,0,0,0,,我爱你\N{\rENG}I love you.
+Dialogue: 0,0:24:33.93,0:24:34.93,CHS,,0,0,0,,嘘…\N{\rENG}Shhhh.
+Dialogue: 0,0:24:47.25,0:24:49.45,CHS,,0,0,0,,妈妈说在这儿能见到你\N{\rENG}Mama say come see you here.
+Dialogue: 0,0:24:54.69,0:24:56.49,CHS,,0,0,0,,这三位是我最好的朋友\N{\rENG}These three were my bestfriends.
+Dialogue: 0,0:24:57.80,0:25:02.85,ZHU,,0,0,0,,{\rzhu}{\pos(400,700)\fs50}爱德华·米勒\N{\fs40}弗吉尼亚州人\N1900年生于林奇伯格\N1918年死于法国贝洛伍德\N为国捐躯
+Dialogue: 0,0:24:58.26,0:24:59.60,CHS,,0,0,0,,我们一起长大\N{\rENG}I grew up with them.
+Dialogue: 0,0:25:00.84,0:25:03.17,CHS,,0,0,0,,一起惹麻烦，一起追女生\N{\rENG}Got into trouble with them. Chase girls with them.
+Dialogue: 0,0:25:04.00,0:25:05.40,CHS,,0,0,0,,我们一起参军\N{\rENG}I enlisted with them.
+Dialogue: 0,0:25:07.80,0:25:09.53,CHS,,0,0,0,,然后吾友们长眠于此\N{\rENG}Then my friends are there.
+Dialogue: 0,0:25:11.31,0:25:14.44,CHS,,0,0,0,,泥草覆身，虫蛆啃噬\N{\rENG}Covered in dirt and grass eaten by worms.
+Dialogue: 0,0:25:17.47,0:25:19.54,CHS,,0,0,0,,我不想探望我崽于此\N{\rENG}I don't want to have to visit my sons here.
+Dialogue: 0,0:25:21.03,0:25:23.09,CHS,,0,0,0,,爸爸我已签约\N{\rENG}Daddy I signed up already.
+Dialogue: 0,0:25:26.20,0:25:28.07,CHS,,0,0,0,,我别无选择除了入伍\N{\rENG}I couldn't do otherwise pop.
+Dialogue: 0,0:25:29.78,0:25:33.65,CHS,,0,0,0,,- 人人都这样  - 你并非人人\N{\rENG}- Everybody else is doing it.  - You ain't everybody else.
+Dialogue: 0,0:25:35.01,0:25:37.30,CHS,,0,0,0,,人人忙做事\N{\rENG}Everybody else jumps in does thing quick
+Dialogue: 0,0:25:37.33,0:25:40.73,CHS,,0,0,0,,不加思索有如我们这种该死的蠢货\N{\rENG}without thinking like damn idiot fools we were.
+Dialogue: 0,0:25:41.91,0:25:46.04,CHS,,0,0,0,,你可知活着的士兵所以活着，只因他们能思考，你不能\N{\rENG}You know that soldiers who live they live cause they can do that. You can't!
+Dialogue: 0,0:25:46.74,0:25:49.10,CHS,,0,0,0,,你得坐下思考，凡事祷告\N{\rENG}You got to sit and think and pray about everything.
+Dialogue: 0,0:25:50.83,0:25:53.23,CHS,,0,0,0,,看看你，你现在就想想\N{\rENG}Look at you. You're doing it right now.
+Dialogue: 0,0:25:53.70,0:25:55.88,CHS,,0,0,0,,你无法靠自己活着，如果你去\N{\rENG}You won't be able to live with yourself if you go.
+Dialogue: 0,0:25:55.91,0:25:57.98,CHS,,0,0,0,,不，我无法靠自己活着，假如我不去\N{\rENG}No, I won't be able to live with myself if I don't.
+Dialogue: 0,0:25:58.10,0:25:59.19,CHS,,0,0,0,,我要当个军医\N{\rENG}I'm going to be a medic.
+Dialogue: 0,0:26:00.42,0:26:01.91,CHS,,0,0,0,,那将是我服役的方式\N{\rENG}That's going to be my way to serve.
+Dialogue: 0,0:26:01.98,0:26:03.99,CHS,,0,0,0,,那你就去把它想清楚\N{\rENG}There you go thinking it all out.
+Dialogue: 0,0:26:05.10,0:26:07.95,CHS,,0,0,0,,你以为这场战争会让你称心如意\N{\rENG}What you figure this war is going to fit in with you?
+Dialogue: 0,0:26:08.07,0:26:09.07,CHS,,0,0,0,,如你所愿\N{\rENG}Your ideas?
+Dialogue: 0,0:26:10.19,0:26:12.80,CHS,,0,0,0,,我只晓得我不怀疑这会很难\N{\rENG}What I know I don't doubt it's going to be hard.
+Dialogue: 0,0:26:14.49,0:26:16.61,CHS,,0,0,0,,不是难，是不可能\N{\rENG}It won't be hard. It will be impossible.
+Dialogue: 0,0:26:17.64,0:26:18.84,CHS,,0,0,0,,无论如何\N{\rENG}You know whatever.
+Dialogue: 0,0:26:18.94,0:26:21.36,CHS,,0,0,0,,如今你那疯狂脑子里的信仰\N{\rENG}beliefs you had in your crazy head now.
+Dialogue: 0,0:26:21.38,0:26:24.20,CHS,,0,0,0,,它们永不发生，不起作用\N{\rENG}They don't ever play out it don't work that way.
+Dialogue: 0,0:26:24.64,0:26:27.07,CHS,,0,0,0,,如有某些我所不知的奇遇\N{\rENG}And if by certain I don't know miracle chance
+Dialogue: 0,0:26:27.16,0:26:27.78,CHS,,0,0,0,,你活下来\N{\rENG}you survive
+Dialogue: 0,0:26:27.88,0:26:30.14,CHS,,0,0,0,,你不会把感谢给上帝\N{\rENG}you won't be giving no thanks to God.
+Dialogue: 0,0:26:35.43,0:26:37.17,CHS,,0,0,0,,休息下，休息下，我们都需要一些空气\N{\rENG}Break. Break. We all need some air.
+Dialogue: 0,0:26:37.21,0:26:41.21,CHS,,0,0,0,,来吧伙计们，迈迈腿，我理解你得跟老妈说再见\N{\rENG}C'mon fellas shake a leg. I'd understand you got to say goodbye to mama.
+Dialogue: 0,0:26:41.81,0:26:42.55,CHS,,0,0,0,,来吧\N{\rENG}C'mon.
+Dialogue: 0,0:26:43.22,0:26:45.42,CHS,,0,0,0,,女士们，拜托！远离公共汽车\N{\rENG}Ladies please! Step away from the bus.
+Dialogue: 0,0:26:45.44,0:26:46.39,CHS,,0,0,0,,我差点忘了\N{\rENG}I almost forgot.
+Dialogue: 0,0:26:46.43,0:26:47.39,CHS,,0,0,0,,我非得找根撬棍吗？\N{\rENG}Do I need a crowbar?
+Dialogue: 0,0:26:47.42,0:26:48.43,CHS,,0,0,0,,拿着\N{\rENG}Here.
+Dialogue: 0,0:26:48.93,0:26:50.53,CHS,,0,0,0,,我要你带上这个\N{\rENG}I want you to have this.
+Dialogue: 0,0:26:50.89,0:26:51.89,CHS,,0,0,0,,它是我的\N{\rENG}It's mine.
+Dialogue: 0,0:26:54.05,0:26:55.43,CHS,,0,0,0,,你把它放在这儿\N{\rENG}You keep it right here.
+Dialogue: 0,0:26:56.38,0:26:57.38,CHS,,0,0,0,,我就在那儿\N{\rENG}Where I'll be.
+Dialogue: 0,0:27:08.04,0:27:09.04,CHS,,0,0,0,,我爱你\N{\rENG}I love you.
+Dialogue: 0,0:27:24.00,0:27:29.59,ZHU,,0,0,0,,{\fad(1500,0)}回到我身边，德斯蒙德·多斯，我爱你\N{\rzhu}Come Back To Me, Desmond Doss I Love You.
+Dialogue: 0,0:27:35.53,0:27:39.46,CHS,,0,0,0,,杰克逊堡\N{\rENG}FORT JACKSON
+Dialogue: 0,0:27:59.81,0:28:03.02,CHS,,0,0,0,,我非得盯着你的畸形吗？每次我走到床上\N{\rENG}Do I have to gaze at your deformity everytime I walk to my bed.
+Dialogue: 0,0:28:03.07,0:28:05.14,CHS,,0,0,0,,眼红吧，我的朋友\N{\rENG}Gaze upon it in envy my friend.
+Dialogue: 0,0:28:06.75,0:28:07.75,CHS,,0,0,0,,你还好吗\N{\rENG}You okay there?
+Dialogue: 0,0:28:08.29,0:28:09.29,CHS,,0,0,0,,你好象迷了路\N{\rENG}You look lost.
+Dialogue: 0,0:28:09.40,0:28:10.93,CHS,,0,0,0,,要不你就坐这儿\N{\rENG}Or you can sit right here.
+Dialogue: 0,0:28:11.56,0:28:12.56,CHS,,0,0,0,,不错的选择\N{\rENG}Nice choice.
+Dialogue: 0,0:28:12.87,0:28:15.27,CHS,,0,0,0,,那儿能从高山看到大湖\N{\rENG}It got views to the mountain down to lake.
+Dialogue: 0,0:28:15.49,0:28:16.49,CHS,,0,0,0,,兰德尔·富勒\N{\rENG}Randall Fuller.
+Dialogue: 0,0:28:18.02,0:28:19.02,CHS,,0,0,0,,德斯蒙德·多斯\N{\rENG}Desmond Doss.
+Dialogue: 0,0:28:19.25,0:28:20.38,CHS,,0,0,0,,叫他“教授”\N{\rENG}Call him 'Teach'.
+Dialogue: 0,0:28:20.73,0:28:22.24,CHS,,0,0,0,,你听不懂他说的每个字\N{\rENG}You won't understand a word he says.
+Dialogue: 0,0:28:22.29,0:28:24.33,CHS,,0,0,0,,因为这儿没人懂\N{\rENG}That because no one else here can read.
+Dialogue: 0,0:28:24.36,0:28:27.63,CHS,,0,0,0,,那对睾丸的主人自称“好莱坞”\N{\rENG}But testicles there belong to a man calling himself 'Hollywood'.
+Dialogue: 0,0:28:27.67,0:28:30.69,CHS,,0,0,0,,它们看起来更像是属于小家伙\N{\rENG}They look like they belong to a smaller guy.
+Dialogue: 0,0:28:30.72,0:28:31.99,CHS,,0,0,0,,你懂睾丸\N{\rENG}You know testicles.
+Dialogue: 0,0:28:33.37,0:28:34.37,CHS,,0,0,0,,哦嘿\N{\rENG}Oh hey.
+Dialogue: 0,0:28:34.44,0:28:35.90,CHS,,0,0,0,,我刚买这双鞋\N{\rENG}I just got this shoes.
+Dialogue: 0,0:28:37.00,0:28:38.26,CHS,,0,0,0,,嘿呀\N{\rENG}Hey ya.
+Dialogue: 0,0:28:38.28,0:28:40.15,CHS,,0,0,0,,格雷斯·诺兰，来自雷德伍德，你呢\N{\rENG}Grease Nolan out of Redwood. Where you from?
+Dialogue: 0,0:28:40.45,0:28:42.07,CHS,,0,0,0,,- 维吉尼亚  - 威尔·比利哈\N{\rENG}- Virginia.  - Will Billy huh?
+Dialogue: 0,0:28:42.11,0:28:43.98,CHS,,0,0,0,,你娶了你第一个表妹\N{\rENG}You marry your first cousin?
+Dialogue: 0,0:28:44.15,0:28:45.35,CHS,,0,0,0,,哈哈开个玩笑\N{\rENG}Haha just joking.
+Dialogue: 0,0:28:46.18,0:28:47.18,CHS,,0,0,0,,哇\N{\rENG}Woah!
+Dialogue: 0,0:28:47.84,0:28:49.96,CHS,,0,0,0,,那边的史密提跟科恩斯基臭味相投\N{\rENG}That Smitty over there with Kirzinski's ass.
+Dialogue: 0,0:28:50.00,0:28:51.58,CHS,,0,0,0,,好象你更牛？杂烩脑\N{\rENG}Like you were doing any better, chowder head.
+Dialogue: 0,0:28:51.64,0:28:53.26,CHS,,0,0,0,,嘿，我可不想使你丢脸\N{\rENG}Hey, I didn't want to embarassed you.
+Dialogue: 0,0:28:53.65,0:28:55.09,CHS,,0,0,0,,沃尔·科恩斯基，很高兴见到你\N{\rENG}Wal Kirzinski. Nice to meet you.
+Dialogue: 0,0:28:55.43,0:28:56.43,CHS,,0,0,0,,嘿！乒乓\N{\rENG}Hey Ping Pong.
+Dialogue: 0,0:28:56.81,0:28:57.74,CHS,,0,0,0,,你说你名字是啥？\N{\rENG}What you say your name was?
+Dialogue: 0,0:28:58.67,0:28:59.67,CHS,,0,0,0,,德斯蒙德·多斯\N{\rENG}Desmond Doss.
+Dialogue: 0,0:29:02.08,0:29:03.81,CHS,,0,0,0,,边上那位是德克萨斯·刘易斯\N{\rENG}That Texas Lewis over there.
+Dialogue: 0,0:29:03.85,0:29:05.18,CHS,,0,0,0,,当他是某类牛仔\N{\rENG}Thinks he some kind of cowboy.
+Dialogue: 0,0:29:05.20,0:29:06.40,CHS,,0,0,0,,还有维托·雷诺利\N{\rENG}And Vito Rinnelli.
+Dialogue: 0,0:29:06.63,0:29:08.67,CHS,,0,0,0,,他也许个小，但他可是斗牛犬\N{\rENG}Now he maybe small but he is a bulldog.
+Dialogue: 0,0:29:08.70,0:29:10.96,CHS,,0,0,0,,- 嗨，你好吗？ - 德斯蒙德\N{\rENG}- Hi how you doing?  - Desmond.
+Dialogue: 0,0:29:11.84,0:29:13.96,CHS,,0,0,0,,这位帅哥是幸运的福特\N{\rENG}This handsome guy right here is Lucky Ford.
+Dialogue: 0,0:29:13.98,0:29:14.43,CHS,,0,0,0,,嘿！\N{\rENG}Hey.
+Dialogue: 0,0:29:14.76,0:29:17.74,CHS,,0,0,0,,那边是沃克和平尼克，他们自诩为洗牌手\N{\rENG}That's Walker and Pinnick over there. Pretending they're card shufflers.
+Dialogue: 0,0:29:17.76,0:29:18.97,CHS,,0,0,0,,安静，格雷斯，好吗\N{\rENG}Pipe down Grease alright.
+Dialogue: 0,0:29:19.00,0:29:21.38,CHS,,0,0,0,,除非你想被钱塞住嘴\N{\rENG}Unless you want to put money where your mouth is.
+Dialogue: 0,0:29:22.93,0:29:23.60,CHS,,0,0,0,,噢嘿\N{\rENG}Oh hey.
+Dialogue: 0,0:29:25.97,0:29:27.03,CHS,,0,0,0,,好书，对吧\N{\rENG}Good Book right?
+Dialogue: 0,0:29:27.20,0:29:28.37,CHS,,0,0,0,,- 对的  - 我觉得是\N{\rENG}- Right.  - I think ahh
+Dialogue: 0,0:29:28.71,0:29:31.13,CHS,,0,0,0,,我觉得“幸运”也有本好书，是吗？“幸运”\N{\rENG}I think Lucky's got a good book, right Lucky?
+Dialogue: 0,0:29:31.17,0:29:31.90,CHS,,0,0,0,,这书好看\N{\rENG}It's a good read.
+Dialogue: 0,0:29:33.62,0:29:35.59,CHS,,0,0,0,,立正！\N{\rENG}Attention!
+Dialogue: 0,0:29:35.86,0:29:36.73,CHS,,0,0,0,,啊！\N{\rENG}Ow!
+Dialogue: 0,0:29:36.79,0:29:38.20,CHS,,0,0,0,,列队，行动\N{\rENG}Line up. Move it.
+Dialogue: 0,0:29:38.44,0:29:41.13,CHS,,0,0,0,,一起来，行动，行动\N{\rENG}Let's go. Move it. Move it.
+Dialogue: 0,0:30:10.88,0:30:14.73,CHS,,0,0,0,,你看起来很怪，你不介意我这样说吧？列兵\N{\rENG}You're a strange looking individual if you don't mind me saying so Private?
+Dialogue: 0,0:30:14.83,0:30:15.54,CHS,,0,0,0,,姓名\N{\rENG}Name?
+Dialogue: 0,0:30:15.57,0:30:16.89,CHS,,0,0,0,,安迪·沃克\N{\rENG}Andy Walker.
+Dialogue: 0,0:30:17.14,0:30:18.52,CHS,,0,0,0,,你死多久了？孩子\N{\rENG}How long have you been dead son?
+Dialogue: 0,0:30:19.31,0:30:19.81,CHS,,0,0,0,,长官\N{\rENG}Sir?
+Dialogue: 0,0:30:19.84,0:30:20.84,CHS,,0,0,0,,我不是长官\N{\rENG}I am not "Sir".
+Dialogue: 0,0:30:21.48,0:30:23.61,CHS,,0,0,0,,我是豪厄尔中士或军士\N{\rENG}I am Sergeant Howell or Sarge.
+Dialogue: 0,0:30:23.86,0:30:25.92,CHS,,0,0,0,,“长官”是叫没用的人\N{\rENG}"Sir " you say for useless people.
+Dialogue: 0,0:30:28.32,0:30:29.57,CHS,,0,0,0,,你的名字是“食尸鬼”你知\N{\rENG}The name is Ghoul you see.
+Dialogue: 0,0:30:29.72,0:30:30.44,CHS,,0,0,0,,沃克\N{\rENG}Walker.
+Dialogue: 0,0:30:30.74,0:30:31.52,CHS,,0,0,0,,中士\N{\rENG}Sergeant.
+Dialogue: 0,0:30:31.62,0:30:32.62,CHS,,0,0,0,,是\N{\rENG}It is.
+Dialogue: 0,0:30:32.67,0:30:33.67,CHS,,0,0,0,,是的，中士\N{\rENG}Yes, Sergeant.
+Dialogue: 0,0:30:49.41,0:30:51.79,CHS,,0,0,0,,你的表演有失常态，列兵\N{\rENG}There's something off with your presentation Private.
+Dialogue: 0,0:30:52.69,0:30:53.69,CHS,,0,0,0,,很难说\N{\rENG}Can't place it.
+Dialogue: 0,0:30:54.82,0:30:55.89,CHS,,0,0,0,,是你的头发\N{\rENG}Is it your hair?
+Dialogue: 0,0:30:57.45,0:30:59.27,CHS,,0,0,0,,还是你裤子上的皱纹\N{\rENG}Is it the wrinkle in your trousers?
+Dialogue: 0,0:30:59.83,0:31:01.17,CHS,,0,0,0,,我脚上插着刀，中士\N{\rENG}I have a knife in my foot Sergeant.
+Dialogue: 0,0:31:02.56,0:31:05.19,CHS,,0,0,0,,噢，是的，当然，是这把刀\N{\rENG}Oh yes. Of course. That's it the knife.
+Dialogue: 0,0:31:06.09,0:31:07.15,CHS,,0,0,0,,你叫什么名字？士兵\N{\rENG}What is your name soldier?
+Dialogue: 0,0:31:07.17,0:31:08.33,CHS,,0,0,0,,史密提·瑞克\N{\rENG}Smitty Riker.
+Dialogue: 0,0:31:08.71,0:31:10.43,CHS,,0,0,0,,不，你的名字是“列兵白痴”\N{\rENG}No. Your name is Private Idiot.
+Dialogue: 0,0:31:10.58,0:31:11.58,CHS,,0,0,0,,你可知为何\N{\rENG}You know why?
+Dialogue: 0,0:31:11.84,0:31:12.62,CHS,,0,0,0,,因为我脚上插着刀\N{\rENG}Cause I have a knife in my foot.
+Dialogue: 0,0:31:12.85,0:31:14.67,CHS,,0,0,0,,谁会把刀插在哪儿？列兵\N{\rENG}Who place the knife there Private?
+Dialogue: 0,0:31:14.77,0:31:16.48,CHS,,0,0,0,,这是个意外，中士，我在练拉伸\N{\rENG}It was an accident Sergeant. I was playing stretch.
+Dialogue: 0,0:31:16.53,0:31:19.83,CHS,,0,0,0,,据我所知你不是有意插在那儿\N{\rENG}I'm hardened by the knowledge you did not placed it there with intention.
+Dialogue: 0,0:31:19.92,0:31:21.81,CHS,,0,0,0,,谁扔的刀\N{\rENG}Who threw the knife?
+Dialogue: 0,0:31:22.71,0:31:23.49,CHS,,0,0,0,,是我，中士\N{\rENG}I did Sergeant.
+Dialogue: 0,0:31:23.78,0:31:24.98,CHS,,0,0,0,,列兵科恩斯基\N{\rENG}Private Kirzinski.
+Dialogue: 0,0:31:26.21,0:31:27.48,CHS,,0,0,0,,你是印地安部族\N{\rENG}You're part Indian.
+Dialogue: 0,0:31:27.57,0:31:29.57,CHS,,0,0,0,,你属哪个部落？孩子\N{\rENG}What tribe do you belong, son?
+Dialogue: 0,0:31:29.76,0:31:31.03,CHS,,0,0,0,,不知道，我是波兰人\N{\rENG}Don't know I'm polish.
+Dialogue: 0,0:31:31.06,0:31:31.86,CHS,,0,0,0,,错\N{\rENG}Wrong.
+Dialogue: 0,0:31:32.03,0:31:34.32,CHS,,0,0,0,,我相信你一定有切诺基族或肖尼族血统\N{\rENG}I believe you must have Cherokee or Shawnee blood in you.
+Dialogue: 0,0:31:34.49,0:31:36.15,CHS,,0,0,0,,- 不，长官  - 你在反驳我\N{\rENG}- No Sir.  - Are you contradicting me?
+Dialogue: 0,0:31:36.29,0:31:37.66,CHS,,0,0,0,,你这婊崽子\N{\rENG}You son of a bitch.
+Dialogue: 0,0:31:37.70,0:31:38.70,CHS,,0,0,0,,不，中士\N{\rENG}No sergeant.
+Dialogue: 0,0:31:39.02,0:31:41.36,CHS,,0,0,0,,让我见识下你的印第安战嚎孩子\N{\rENG}Let me see your Indian war cry son.
+Dialogue: 0,0:31:41.45,0:31:41.75,CHS,,0,0,0,,我不会\N{\rENG}I don't.
+Dialogue: 0,0:31:46.86,0:31:48.41,CHS,,0,0,0,,你的动物图腾是啥\N{\rENG}What is your animal spirit?
+Dialogue: 0,0:31:48.83,0:31:50.50,CHS,,0,0,0,,- 你是乌梢蛇？ - 不，中士\N{\rENG}- Are you a Garter snake?  - No Sergeant.
+Dialogue: 0,0:31:50.53,0:31:52.20,CHS,,0,0,0,,- 你是花栗鼠？ - 不，中士\N{\rENG}- Are you a chipmunk?  - No, sergeant.
+Dialogue: 0,0:31:52.29,0:31:54.97,CHS,,0,0,0,,- 你是跳舞的驯鹿？ - 不，中士\N{\rENG}- Are you a dancing reindeer?  - No sergeant.
+Dialogue: 0,0:31:55.03,0:31:57.04,CHS,,0,0,0,,- 你在反驳我，中士？ - 不，中士\N{\rENG}- Are you contradicting me Private?  - No sargeant.
+Dialogue: 0,0:31:57.07,0:31:58.07,CHS,,0,0,0,,好\N{\rENG}Good.
+Dialogue: 0,0:31:59.14,0:32:01.18,CHS,,0,0,0,,那我从此叫你“酋长”\N{\rENG}Then I shall henceforth call you Chief.
+Dialogue: 0,0:32:01.60,0:32:03.81,CHS,,0,0,0,,作为向你族人致以崇高敬意的标识\N{\rENG}As a sign of great respect to your people.
+Dialogue: 0,0:32:05.17,0:32:06.50,CHS,,0,0,0,,谢谢你，中士\N{\rENG}Thank you, sergeant.
+Dialogue: 0,0:32:07.89,0:32:10.22,CHS,,0,0,0,,你在咧嘴笑我孩子？还是你经常这样\N{\rENG}Are you grinning at me boy or is that your natural state?
+Dialogue: 0,0:32:10.30,0:32:10.97,CHS,,0,0,0,,不，中士\N{\rENG}No Sergeant.
+Dialogue: 0,0:32:11.28,0:32:11.98,CHS,,0,0,0,,姓名，列兵\N{\rENG}Name private.
+Dialogue: 0,0:32:12.15,0:32:13.15,CHS,,0,0,0,,德斯蒙德·多斯\N{\rENG}Desmond Doss.
+Dialogue: 0,0:32:13.78,0:32:16.30,CHS,,0,0,0,,我看库存的玉米都有更好的体质\N{\rENG}I have seen stocks of corn with better physiques.
+Dialogue: 0,0:32:16.66,0:32:18.68,CHS,,0,0,0,,让你想扯掉哪只耳朵，列兵\N{\rENG}Makes you wanna pull an ear off Private.
+Dialogue: 0,0:32:19.01,0:32:20.27,CHS,,0,0,0,,你撑得住体重吗\N{\rENG}Can you carry your weight?
+Dialogue: 0,0:32:20.31,0:32:21.13,CHS,,0,0,0,,是，中士\N{\rENG}Yes Sergeant.
+Dialogue: 0,0:32:21.16,0:32:23.20,CHS,,0,0,0,,对你来说肯定轻松\N{\rENG}Should be easy for you then.
+Dialogue: 0,0:32:23.46,0:32:24.46,CHS,,0,0,0,,下士\N{\rENG}Corporal.
+Dialogue: 0,0:32:24.56,0:32:26.56,CHS,,0,0,0,,你要确保此人远离强风\N{\rENG}Make sure you keep this man away from strong winds.
+Dialogue: 0,0:32:26.63,0:32:27.74,CHS,,0,0,0,,是，中士\N{\rENG}Yes, Sergeant.
+Dialogue: 0,0:32:30.54,0:32:32.12,CHS,,0,0,0,,- 列兵“白痴”  - 是，中士\N{\rENG}- Private idiot.  - Yes Sergeant.
+Dialogue: 0,0:32:32.14,0:32:33.27,CHS,,0,0,0,,把脚抬高\N{\rENG}Raise your foot.
+Dialogue: 0,0:32:33.86,0:32:34.41,CHS,,0,0,0,,更高\N{\rENG}Higher.
+Dialogue: 0,0:32:36.14,0:32:37.92,CHS,,0,0,0,,全部出去，马上\N{\rENG}Everyone outside now.
+Dialogue: 0,0:32:39.25,0:32:40.25,CHS,,0,0,0,,行动\N{\rENG}Move it.
+Dialogue: 0,0:32:41.84,0:32:42.84,CHS,,0,0,0,,我说了行动\N{\rENG}I said move it.
+Dialogue: 0,0:32:43.10,0:32:44.31,CHS,,0,0,0,,我得穿制服，中士\N{\rENG}I'm just getting my uniform Sarge.
+Dialogue: 0,0:32:44.33,0:32:46.00,CHS,,0,0,0,,我有叫他穿吗？下士\N{\rENG}Did I asked him to Corporal?
+Dialogue: 0,0:32:46.03,0:32:47.25,CHS,,0,0,0,,不记得，中士\N{\rENG}No memory of it Sarge.
+Dialogue: 0,0:32:47.31,0:32:50.73,CHS,,0,0,0,,我相信任何为自己自然裸露而如此骄傲的男人\N{\rENG}I believe any man who take such pride in his natural naked state.
+Dialogue: 0,0:32:50.92,0:32:53.34,CHS,,0,0,0,,肯定会享受户外的清爽\N{\rENG}Will surely enjoy the brisk of the outdoors.
+Dialogue: 0,0:32:53.47,0:32:55.45,CHS,,0,0,0,,现在放开你的私处，列兵帕兹\N{\rENG}Now move your private, Private Parts.
+Dialogue: 0,0:32:56.43,0:32:57.43,CHS,,0,0,0,,行动\N{\rENG}Move it.
+Dialogue: 0,0:32:58.55,0:33:00.42,CHS,,0,0,0,,你这个裸露崽子\N{\rENG}You son of an exhibitionist.
+Dialogue: 0,0:33:01.69,0:33:04.36,CHS,,0,0,0,,我要教你们怎么结单套\N{\rENG}I'm gonna teach you how to tie a bowline knot.
+Dialogue: 0,0:33:04.84,0:33:08.08,CHS,,0,0,0,,这样你们能够把你的懒屁股从高处放下\N{\rENG}So you can get your sorry asses down from a height.
+Dialogue: 0,0:33:08.34,0:33:09.44,CHS,,0,0,0,,好让我能踢它们\N{\rENG}So I may then can kick 'em.
+Dialogue: 0,0:33:10.41,0:33:11.41,CHS,,0,0,0,,绕成一个圈\N{\rENG}Create a loop.
+Dialogue: 0,0:33:12.00,0:33:13.60,CHS,,0,0,0,,这是兔子窝\N{\rENG}This is the rabbit hole.
+Dialogue: 0,0:33:13.72,0:33:15.47,CHS,,0,0,0,,兔子出了窝\N{\rENG}The rabbit comes out of his hole.
+Dialogue: 0,0:33:15.57,0:33:16.97,CHS,,0,0,0,,绕着树子跑\N{\rENG}Runs around the tree.
+Dialogue: 0,0:33:17.31,0:33:18.20,CHS,,0,0,0,,回到兔子窝\N{\rENG}Goes back into the hole.
+Dialogue: 0,0:33:19.28,0:33:20.28,CHS,,0,0,0,,完成\N{\rENG}Alright.
+Dialogue: 0,0:33:20.88,0:33:21.88,CHS,,0,0,0,,一起做\N{\rENG}Let's go.
+Dialogue: 0,0:33:24.18,0:33:25.25,CHS,,0,0,0,,很好德克萨斯\N{\rENG}Very good Texas.
+Dialogue: 0,0:33:25.92,0:33:26.80,CHS,,0,0,0,,继续努力，“教授”\N{\rENG}Keep struggling Teach.
+Dialogue: 0,0:33:28.60,0:33:30.13,CHS,,0,0,0,,你从没套过山羊吗，“好莱坞”\N{\rENG}Have you ever rope a goat, Hollywood?
+Dialogue: 0,0:33:30.82,0:33:31.49,CHS,,0,0,0,,没有军士\N{\rENG}No Sarge.
+Dialogue: 0,0:33:31.63,0:33:33.59,CHS,,0,0,0,,- 你从没瞪过山羊眼？ - 没有中士\N{\rENG}- Have you ever looked into a goat's eye.  - No sarge.
+Dialogue: 0,0:33:33.62,0:33:35.56,CHS,,0,0,0,,好，那才不正常\N{\rENG}Good. That would be unnatural.
+Dialogue: 0,0:33:38.12,0:33:40.29,CHS,,0,0,0,,你懂如不吸气必得死\N{\rENG}You know if you don't breath you'll die.
+Dialogue: 0,0:33:41.55,0:33:42.27,CHS,,0,0,0,,不错，列兵“白痴”\N{\rENG}Good Private Idiot.
+Dialogue: 0,0:33:45.48,0:33:49.22,CHS,,0,0,0,,恭喜你老油条，你刚掉了五十英尺，摔断了脖子\N{\rENG}Congratulations Greaseball, you just fell fifty feet and broke your neck.
+Dialogue: 0,0:33:50.70,0:33:51.31,CHS,,0,0,0,,棒极了\N{\rENG}Brialliant.
+Dialogue: 0,0:33:52.01,0:33:53.03,CHS,,0,0,0,,列兵维托·雷诺利\N{\rENG}Private Vito Rinnelli.
+Dialogue: 0,0:33:53.83,0:33:55.08,CHS,,0,0,0,,你勒死自己毫无怜悯\N{\rENG}You strangle yourself none mercy.
+Dialogue: 0,0:33:55.78,0:33:56.78,CHS,,0,0,0,,你是贝内利的粉丝\N{\rENG}Are you a fan of Benelli?
+Dialogue: 0,0:33:57.26,0:33:58.01,CHS,,0,0,0,,不，中士\N{\rENG}No Sergeant.
+Dialogue: 0,0:33:58.01,0:33:58.50,CHS,,0,0,0,,弄高些\N{\rENG}Get taller.
+Dialogue: 0,0:33:59.37,0:34:01.51,CHS,,0,0,0,,你是美国人你会更高些\N{\rENG}You're American you'd be taller.
+Dialogue: 0,0:34:05.37,0:34:07.04,CHS,,0,0,0,,这是什么，多斯\N{\rENG}What do we got here Doss?
+Dialogue: 0,0:34:07.66,0:34:08.61,CHS,,0,0,0,,每个乳房各一个\N{\rENG}One for each titty
+Dialogue: 0,0:34:09.59,0:34:11.19,CHS,,0,0,0,,你是结单套，孩子\N{\rENG}You're tying a bowline boy.
+Dialogue: 0,0:34:11.64,0:34:12.91,CHS,,0,0,0,,不是结胸罩\N{\rENG}Not building a bra.
+Dialogue: 0,0:34:15.46,0:34:17.47,CHS,,0,0,0,,- 有何可笑，下士？ - 说不出来，中士\N{\rENG}- What is so funny Corporal?  - Couldn't tell you Sergeant.
+Dialogue: 0,0:34:20.34,0:34:21.34,CHS,,0,0,0,,来吧\N{\rENG}Come on.
+Dialogue: 0,0:34:21.59,0:34:23.03,CHS,,0,0,0,,来吧女士们，爬起来\N{\rENG}Come on ladies. Pick it up.
+Dialogue: 0,0:34:23.05,0:34:25.47,CHS,,0,0,0,,行动，行动，给我燃起来\N{\rENG}Move it. Move it. I wanna see some fire here.
+Dialogue: 0,0:34:25.51,0:34:26.58,CHS,,0,0,0,,快点\N{\rENG}A little hustle.
+Dialogue: 0,0:34:26.73,0:34:27.93,CHS,,0,0,0,,给我露几手\N{\rENG}Show me something.
+Dialogue: 0,0:34:27.94,0:34:29.98,CHS,,0,0,0,,拼命跑，下！下！下\N{\rENG}Run like you need it. Down. Down. Down.
+Dialogue: 0,0:34:29.98,0:34:31.29,CHS,,0,0,0,,更快！更快！更快\N{\rENG}Faster! Faster! Faster!
+Dialogue: 0,0:34:31.55,0:34:33.21,CHS,,0,0,0,,一起去清洗地道，男孩们\N{\rENG}Let's go wash tunnel boys.
+Dialogue: 0,0:34:33.21,0:34:34.97,CHS,,0,0,0,,现在是时候相信你了\N{\rENG}It is got time to trust you now!
+Dialogue: 0,0:34:35.63,0:34:37.59,CHS,,0,0,0,,行动！行动！行动\N{\rENG}Move. Move. Move.
+Dialogue: 0,0:34:37.59,0:34:39.04,CHS,,0,0,0,,我想看到你赢\N{\rENG}I wanna see you won it.
+Dialogue: 0,0:34:39.04,0:34:40.70,CHS,,0,0,0,,一起来！钻！钻！钻\N{\rENG}Let's go. Get in. Get in. Get in.
+Dialogue: 0,0:34:41.52,0:34:44.19,CHS,,0,0,0,,不要忘记耳后有人，一起来！行动\N{\rENG}Don't forget behind your ears. Let's go. Move!
+Dialogue: 0,0:34:44.93,0:34:47.39,CHS,,0,0,0,,我敢打赌你正享受这样，裸露狂\N{\rENG}I bet you're enjoying this naked degenerate.
+Dialogue: 0,0:34:48.12,0:34:50.61,CHS,,0,0,0,,一起来，快点！快点！快点\N{\rENG}Let's go. Hustle. Hustle. Hustle.
+Dialogue: 0,0:34:50.70,0:34:51.70,CHS,,0,0,0,,行动\N{\rENG}Move.
+Dialogue: 0,0:34:52.72,0:34:54.99,CHS,,0,0,0,,一起来，还等啥，一起来\N{\rENG}Let's go. What are we waiting on. Let's go.
+Dialogue: 0,0:34:55.34,0:34:56.34,CHS,,0,0,0,,把屁股搬起来\N{\rENG}Move your ass.
+Dialogue: 0,0:34:57.71,0:35:00.82,CHS,,0,0,0,,爬木头，翻墙壁，别跟废物亲近\N{\rENG}Get the wood. Get the wall. Don't kiss quitters.
+Dialogue: 0,0:35:00.84,0:35:03.60,CHS,,0,0,0,,加油，加油\N{\rENG}Drive. Drive.
+Dialogue: 0,0:35:03.64,0:35:06.96,CHS,,0,0,0,,- 你没事吧？ - 我没事\N{\rENG}- Are you okay?  - I'm fine.
+Dialogue: 0,0:35:10.50,0:35:13.48,CHS,,0,0,0,,你到底啥毛病？不准休息\N{\rENG}What the hell is wrong with you? No one says take a rest.
+Dialogue: 0,0:35:13.59,0:35:16.33,CHS,,0,0,0,,把屁股搬到终点线，行动\N{\rENG}Move your asses to the finish line. Move.
+Dialogue: 0,0:35:17.98,0:35:19.41,CHS,,0,0,0,,快点，快点\N{\rENG}Hustle. Hustle.
+Dialogue: 0,0:35:19.86,0:35:21.99,CHS,,0,0,0,,让你的屁股跨过该死的线\N{\rENG}Get your asses across damn line.
+Dialogue: 0,0:35:22.94,0:35:25.65,CHS,,0,0,0,,啊，干得漂亮，多斯\N{\rENG}Aye, nice work Doss.
+Dialogue: 0,0:35:33.06,0:35:36.55,CHS,,0,0,0,,这是美国政府给你们每一位的个人礼物\N{\rENG}This is a personal gift from the United States government to each and everyone of you.
+Dialogue: 0,0:35:37.65,0:35:39.38,CHS,,0,0,0,,标准美式步枪\N{\rENG}Standard issue U.S. rifle.
+Dialogue: 0,0:35:39.81,0:35:40.81,CHS,,0,0,0,,三〇口径\N{\rENG}Caliber 30.
+Dialogue: 0,0:35:40.99,0:35:42.10,zhu,,0,0,0,,加兰德步枪\N{\rCHS}M1！\N{\rENG}M1
+Dialogue: 0,0:35:42.10,0:35:43.19,zhu,,0,0,0,,加兰德步枪\N{\rCHS}单配弹夹\N{\rENG}A clippard.
+Dialogue: 0,0:35:43.22,0:35:45.34,CHS,,0,0,0,,肩射式半自动武器\N{\rENG}Shoulder fired semi automatic weapon
+Dialogue: 0,0:35:45.40,0:35:48.72,CHS,,0,0,0,,用于把死亡同毁灭带给敌人\N{\rENG}designed to bring death and destruction to the enemy.
+Dialogue: 0,0:35:49.31,0:35:50.70,CHS,,0,0,0,,它将成为你的爱侣\N{\rENG}This is to be your lover.
+Dialogue: 0,0:35:51.28,0:35:52.15,CHS,,0,0,0,,你的情人\N{\rENG}Your mistress.
+Dialogue: 0,0:35:52.59,0:35:53.59,CHS,,0,0,0,,你的小妾\N{\rENG}Your concubine.
+Dialogue: 0,0:35:53.94,0:35:54.94,CHS,,0,0,0,,也许是\N{\rENG}Perhaps.
+Dialogue: 0,0:35:55.13,0:35:57.25,CHS,,0,0,0,,你生命中唯一的真爱\N{\rENG}The only thing in life you ever truly love.
+Dialogue: 0,0:35:58.13,0:35:59.73,CHS,,0,0,0,,伙计们，一起来跳舞\N{\rENG}Fellas let's dance.
+Dialogue: 0,0:36:00.25,0:36:01.25,CHS,,0,0,0,,挑个女孩\N{\rENG}Grab a girl.
+Dialogue: 0,0:36:02.64,0:36:06.37,CHS,,0,0,0,,不要把枪对着前方，我今天不想中弹\N{\rENG}Don't point your gun forward. I do not want to be shot today.
+Dialogue: 0,0:36:06.68,0:36:09.01,CHS,,0,0,0,,不管你多么心痒\N{\rENG}No matter how much you are tempted.
+Dialogue: 0,0:36:09.18,0:36:11.18,CHS,,0,0,0,,把枪放侧边\N{\rENG}Place the weapon by your side.
+Dialogue: 0,0:36:13.18,0:36:14.18,CHS,,0,0,0,,立正\N{\rENG}Pay attention.
+Dialogue: 0,0:36:22.18,0:36:23.92,CHS,,0,0,0,,有问题吗，列兵“玉米杆”\N{\rENG}Problem Private Cornstock?
+Dialogue: 0,0:36:23.95,0:36:25.58,CHS,,0,0,0,,尺寸不对\N{\rENG}Is there not one in your size?
+Dialogue: 0,0:36:26.05,0:36:27.71,CHS,,0,0,0,,还是颜色有问题\N{\rENG}Or is it the color that is the issue?
+Dialogue: 0,0:36:27.90,0:36:28.90,CHS,,0,0,0,,不，中士\N{\rENG}No Sarge.
+Dialogue: 0,0:36:31.89,0:36:34.15,CHS,,0,0,0,,我被告知我不必携带武器\N{\rENG}I was told I don't have to carry a weapon.
+Dialogue: 0,0:36:35.36,0:36:38.17,CHS,,0,0,0,,上前一步列兵，我没听清\N{\rENG}Come again step forward Private. I can't be hearing this right.
+Dialogue: 0,0:36:44.05,0:36:45.65,CHS,,0,0,0,,我很抱歉，中士\N{\rENG}Well I'm sorry Sergeant.
+Dialogue: 0,0:36:47.45,0:36:48.78,CHS,,0,0,0,,我不能碰枪\N{\rENG}I can't touch a gun.
+Dialogue: 0,0:36:52.24,0:36:53.75,CHS,,0,0,0,,究竟是什么问题\N{\rENG}What exactly is the problem?
+Dialogue: 0,0:36:53.97,0:36:55.35,CHS,,0,0,0,,没有问题，只是误会\N{\rENG}No problem just a mistake.
+Dialogue: 0,0:36:55.78,0:36:59.09,CHS,,0,0,0,,- 我参军时就说过  - 这不可能\N{\rENG}- I told the army when I joined up.  - It's impossible.
+Dialogue: 0,0:37:00.06,0:37:02.13,CHS,,0,0,0,,你可知为何不可能，列兵\N{\rENG}You know why it's not possible, Private?
+Dialogue: 0,0:37:02.42,0:37:03.15,CHS,,0,0,0,,不，长官\N{\rENG}No, Sir.
+Dialogue: 0,0:37:03.20,0:37:05.68,CHS,,0,0,0,,因为美军不会犯错\N{\rENG}Cause the United States Army does not make mistakes.
+Dialogue: 0,0:37:06.18,0:37:07.38,CHS,,0,0,0,,若有问题\N{\rENG}There's a problem.
+Dialogue: 0,0:37:08.34,0:37:10.01,CHS,,0,0,0,,你就是那问题\N{\rENG}You must be that problem.
+Dialogue: 0,0:37:10.56,0:37:12.81,CHS,,0,0,0,,我从没想过被派到步兵连\N{\rENG}I was never supposed to be sent to a rifle company.
+Dialogue: 0,0:37:13.79,0:37:14.79,CHS,,0,0,0,,他是个“CO”，长官\N{\rENG}He's a CO sir.
+Dialogue: 0,0:37:20.30,0:37:22.44,CHS,,0,0,0,,你是个“拒服兵役者”\N{\rENG}You're a "Conscientious Objector".
+Dialogue: 0,0:37:23.16,0:37:25.52,CHS,,0,0,0,,- 而你参了军  - 不，先生\N{\rENG}- And you joined the army.  - Well no sir.
+Dialogue: 0,0:37:26.75,0:37:28.82,CHS,,0,0,0,,我是个“良心合作者”\N{\rENG}I'm a Conscientious Cooperator.
+Dialogue: 0,0:37:30.65,0:37:33.83,CHS,,0,0,0,,- 你在愚弄我？多斯  - 不，不，先生，我自愿\N{\rENG}- You just screwing with me Doss.  - No. No sir. I volunteered.
+Dialogue: 0,0:37:34.66,0:37:39.53,CHS,,0,0,0,,我穿制服没问题，向国旗行礼，尽我的义务\N{\rENG}I got no problem with wearing my uniform. Saluting the flag and doing my duty.
+Dialogue: 0,0:37:39.62,0:37:43.44,CHS,,0,0,0,,只是不可以拿枪杀人\N{\rENG}It's just carrying a gun and taking a human life.
+Dialogue: 0,0:37:44.96,0:37:46.76,CHS,,0,0,0,,你不杀人？就这些\N{\rENG}You don't kill. That's all.
+Dialogue: 0,0:37:46.79,0:37:48.10,CHS,,0,0,0,,是的，先生，就这些\N{\rENG}Yes sir. That's all.
+Dialogue: 0,0:37:48.52,0:37:51.42,CHS,,0,0,0,,你知战争中杀戮确实很多\N{\rENG}You know quite a bit of killing does occur in a war.
+Dialogue: 0,0:37:51.58,0:37:52.16,CHS,,0,0,0,,是，长官\N{\rENG}Yes, sir.
+Dialogue: 0,0:37:52.35,0:37:54.64,CHS,,0,0,0,,我是说，战争的本质\N{\rENG}I mean that is the essential nature of war.
+Dialogue: 0,0:37:54.70,0:37:55.70,CHS,,0,0,0,,是，长官\N{\rENG}Yes sir.
+Dialogue: 0,0:37:55.82,0:37:56.82,CHS,,0,0,0,,好吧\N{\rENG}Alright.
+Dialogue: 0,0:37:57.98,0:38:00.86,CHS,,0,0,0,,你对美军还有任何其它要求吗\N{\rENG}You have any other requirements for the United States army.
+Dialogue: 0,0:38:01.30,0:38:03.08,CHS,,0,0,0,,还有什么我们可以做，以确保\N{\rENG}Is there anything else that we can do to ensure that
+Dialogue: 0,0:38:03.10,0:38:04.84,CHS,,0,0,0,,你会满意地跟我们一起呆这儿\N{\rENG}you're comfortable with your stay here with us?
+Dialogue: 0,0:38:04.85,0:38:07.50,CHS,,0,0,0,,他不想在周六工作，长官\N{\rENG}He doesn't wanna work on Saturday, sir.
+Dialogue: 0,0:38:07.53,0:38:11.84,CHS,,0,0,0,,嗯周六是…我是“基督复临安息日”者，因此\N{\rENG}Well Saturday is... I'm a Seventh-Day Adventist so.
+Dialogue: 0,0:38:12.49,0:38:16.13,CHS,,0,0,0,,周六是我的安息日，那就不允许我工作\N{\rENG}Saturday is my sabbath so I'm not allowed to work then.
+Dialogue: 0,0:38:16.15,0:38:18.54,CHS,,0,0,0,,我不认为这会带来问题，你呢？中士\N{\rENG}I don't think that poses a problem. Do you sergeant?
+Dialogue: 0,0:38:18.72,0:38:21.38,CHS,,0,0,0,,我们应要求敌人别在安息日进攻\N{\rENG}We should simply ask the enemy not to invade on a Sabbath
+Dialogue: 0,0:38:21.41,0:38:24.02,CHS,,0,0,0,,因为列兵多斯在此祈祷\N{\rENG}cause Private Doss here is a prayer.
+Dialogue: 0,0:38:24.24,0:38:26.70,CHS,,0,0,0,,好吧，现在我们搞清楚了\N{\rENG}Alright. Now we got that clear.
+Dialogue: 0,0:38:28.17,0:38:31.24,CHS,,0,0,0,,现在让我告诉你我的要求，它们不像\N{\rENG}Now let me tell you my requirements. They're not as
+Dialogue: 0,0:38:31.29,0:38:34.46,CHS,,0,0,0,,你的那么复杂，它们极简单\N{\rENG}complicated as yours. They are very simple.
+Dialogue: 0,0:38:34.78,0:38:36.24,CHS,,0,0,0,,只要你一直呆在这个连队里\N{\rENG}As long as you're in this company
+Dialogue: 0,0:38:36.50,0:38:37.48,CHS,,0,0,0,,由我指挥\N{\rENG}under my command
+Dialogue: 0,0:38:37.62,0:38:39.68,CHS,,0,0,0,,你就得服从我的命令，句号\N{\rENG}You're gonna obey my orders Period.
+Dialogue: 0,0:38:41.81,0:38:44.88,CHS,,0,0,0,,你若在此做不到，我不信你在战斗能做到\N{\rENG}If you can't do it here. I can't trust you to do it in the battle.
+Dialogue: 0,0:38:49.31,0:38:51.95,zhu,,0,0,0,,美军二战条例第八条，判断军人精神方面是否适合服役\N{\rCHS}我会把你视为符合“第八条例”\N{\rENG}I'm putting you in for "Section 8".
+Dialogue: 0,0:38:51.95,0:38:53.72,zhu,,0,0,0,,美军二战条例第八条，判断军人精神方面是否适合服役\N{\rCHS}我会让你免役\N{\rENG}So I get your discharge.
+Dialogue: 0,0:38:55.05,0:38:56.05,CHS,,0,0,0,,解散\N{\rENG}Dismiss.
+Dialogue: 0,0:38:57.01,0:38:57.67,CHS,,0,0,0,,先生们\N{\rENG}Gentlemen.
+Dialogue: 0,0:38:58.92,0:39:01.59,CHS,,0,0,0,,我想让你们见见列兵德斯蒙德·多斯\N{\rENG}I want you to meet Private Desmond Doss.
+Dialogue: 0,0:39:01.82,0:39:02.82,CHS,,0,0,0,,显然地\N{\rENG}Apparently.
+Dialogue: 0,0:39:03.22,0:39:05.60,CHS,,0,0,0,,列兵多斯不相信暴力\N{\rENG}Private Doss does not believe in violence.
+Dialogue: 0,0:39:06.18,0:39:07.52,CHS,,0,0,0,,他不愿实施暴力\N{\rENG}He does not practice violence.
+Dialogue: 0,0:39:08.03,0:39:09.89,CHS,,0,0,0,,他甚至不屑摸枪\N{\rENG}He will not even deign to touch a weapon.
+Dialogue: 0,0:39:11.25,0:39:12.65,CHS,,0,0,0,,要知道列兵多斯\N{\rENG}You see Private Doss
+Dialogue: 0,0:39:13.39,0:39:15.26,CHS,,0,0,0,,是一个“拒服兵役者”\N{\rENG}is a Conscientious Objector.
+Dialogue: 0,0:39:16.02,0:39:17.35,CHS,,0,0,0,,所以我恳请你们\N{\rENG}So I plead with you.
+Dialogue: 0,0:39:17.83,0:39:20.62,CHS,,0,0,0,,别指望他在战场上拯救你\N{\rENG}Do not look to him to save you on a battlefield.
+Dialogue: 0,0:39:21.65,0:39:23.96,CHS,,0,0,0,,因为他无疑会\N{\rENG}Because he will undoubtedly
+Dialogue: 0,0:39:23.96,0:39:26.47,CHS,,0,0,0,,太忙于跟他的良心搏斗\N{\rENG} be too busy wrestling with his conscience
+Dialogue: 0,0:39:26.66,0:39:27.36,CHS,,0,0,0,,去协助\N{\rENG}to assist.
+Dialogue: 0,0:39:27.40,0:39:29.07,CHS,,0,0,0,,- 中士，那不是真的，中士  - 列兵\N{\rENG}- Sarge, that's not true, sarge.  - Private
+Dialogue: 0,0:39:29.17,0:39:30.15,CHS,,0,0,0,,原地不动！\N{\rENG}as you were.
+Dialogue: 0,0:39:34.13,0:39:37.26,CHS,,0,0,0,,我意识到你们中有些人对此有着强烈感受\N{\rENG}I realize some of you might have strong feelings about this.
+Dialogue: 0,0:39:37.63,0:39:39.16,CHS,,0,0,0,,那就是男人为何而战\N{\rENG}It is what we men fight for.
+Dialogue: 0,0:39:40.14,0:39:41.54,CHS,,0,0,0,,为了捍卫权利\N{\rENG}To defend our rights.
+Dialogue: 0,0:39:42.17,0:39:43.82,CHS,,0,0,0,,为了保护妇女和儿童\N{\rENG}To protect our women and children.
+Dialogue: 0,0:39:44.99,0:39:46.86,CHS,,0,0,0,,即使列兵多斯的信念\N{\rENG}Even if Private Doss's belief
+Dialogue: 0,0:39:47.90,0:39:50.43,CHS,,0,0,0,,可能会导致妇女和儿童死亡\N{\rENG}might cause women and children to die.
+Dialogue: 0,0:39:51.10,0:39:53.40,CHS,,0,0,0,,所以我希望本连队的每个人\N{\rENG}So I will expect every one in this company
+Dialogue: 0,0:39:53.43,0:39:57.25,CHS,,0,0,0,,给予列兵多斯，充分尊重他应有的尊重\N{\rENG}to give Private Doss the full measure of respect he is due.
+Dialogue: 0,0:39:57.97,0:40:00.11,CHS,,0,0,0,,因为短时间内，他将与我们同在\N{\rENG}For the short time he will be with us.
+Dialogue: 0,0:40:01.12,0:40:02.31,CHS,,0,0,0,,清楚了吗\N{\rENG}Am I clear?
+Dialogue: 0,0:40:02.72,0:40:04.17,CHS,,0,0,0,,是的，中士\N{\rENG}Yes, sergeant.
+Dialogue: 0,0:40:13.39,0:40:14.99,CHS,,0,0,0,,你拿的是啥，戴茜\N{\rENG}What you got here Daisy?
+Dialogue: 0,0:40:19.10,0:40:22.10,CHS,,0,0,0,,- 你知道那是什么吗？ - 像是袖珍版\N{\rENG}- You know what that is?  - Just seems kind of small.
+Dialogue: 0,0:40:22.28,0:40:24.05,CHS,,0,0,0,,这是半大男的半大圣经\N{\rENG}It's half-the-Bible for half-the-man.
+Dialogue: 0,0:40:24.06,0:40:25.39,zhu,,0,0,0,,彼得：耶稣十二使徒之首\N{\rCHS}看彼得份上，史密提，把圣经还给他\N{\rENG}Pete's sake, Smitty give him back his Bible.
+Dialogue: 0,0:40:25.39,0:40:27.26,zhu,,0,0,0,,彼得：耶稣十二使徒之首\N{\rCHS}我不记得是在跟你说\N{\rENG}I don't remember speaking with you.
+Dialogue: 0,0:40:31.56,0:40:33.03,CHS,,0,0,0,,你为何不打架\N{\rENG}So how come you don't fight?
+Dialogue: 0,0:40:33.11,0:40:35.25,CHS,,0,0,0,,你自以为优于我们\N{\rENG}Do you think you better than us?
+Dialogue: 0,0:40:36.05,0:40:37.05,CHS,,0,0,0,,不\N{\rENG} No.
+Dialogue: 0,0:40:37.80,0:40:39.12,CHS,,0,0,0,,那么，如果你被攻击，怎么办\N{\rENG}Well, what if you're attacked.
+Dialogue: 0,0:40:41.48,0:40:42.48,CHS,,0,0,0,,哇\N{\rENG}Woah.
+Dialogue: 0,0:40:42.81,0:40:44.01,CHS,,0,0,0,,喜欢吗\N{\rENG}Did you like that?
+Dialogue: 0,0:40:45.33,0:40:48.00,CHS,,0,0,0,,圣经说，你要转过另一边脸\N{\rENG}Bible says to turn your other cheekbone.
+Dialogue: 0,0:40:49.36,0:40:52.77,CHS,,0,0,0,,看见没？跟信仰无关，伙计们\N{\rENG}You see I don't think this is a question of religion, fellas.
+Dialogue: 0,0:40:52.95,0:40:54.68,CHS,,0,0,0,,我认为是懦弱\N{\rENG}I think this is cowardice.
+Dialogue: 0,0:40:55.46,0:40:56.59,CHS,,0,0,0,,显而易见\N{\rENG}Plain and simple.
+Dialogue: 0,0:40:57.01,0:40:58.01,CHS,,0,0,0,,你没事吧？多斯\N{\rENG}You alright Doss?
+Dialogue: 0,0:40:59.24,0:41:00.84,CHS,,0,0,0,,你娘炮？是吗\N{\rENG}You chicken shit, that it?
+Dialogue: 0,0:41:02.85,0:41:03.85,CHS,,0,0,0,,继续\N{\rENG}Go on.
+Dialogue: 0,0:41:04.75,0:41:05.75,CHS,,0,0,0,,打过来\N{\rENG}Take a poke.
+Dialogue: 0,0:41:07.21,0:41:09.34,CHS,,0,0,0,,那好，我不还手\N{\rENG}Okay I'm gonna give a free shot.
+Dialogue: 0,0:41:09.95,0:41:10.95,CHS,,0,0,0,,就是那儿\N{\rENG}Right there.
+Dialogue: 0,0:41:12.38,0:41:13.38,CHS,,0,0,0,,打我多斯\N{\rENG}Hit me Doss.
+Dialogue: 0,0:41:13.70,0:41:14.70,CHS,,0,0,0,,继续\N{\rENG}Go on.
+Dialogue: 0,0:41:15.08,0:41:15.86,CHS,,0,0,0,,啥毛病\N{\rENG}What a matter?
+Dialogue: 0,0:41:15.86,0:41:16.68,CHS,,0,0,0,,上啊\N{\rENG}Go ahead.
+Dialogue: 0,0:41:17.13,0:41:17.99,CHS,,0,0,0,,不打\N{\rENG}No?
+Dialogue: 0,0:41:20.47,0:41:21.65,CHS,,0,0,0,,娘炮\N{\rENG}Chicken shit!
+Dialogue: 0,0:41:27.02,0:41:28.92,CHS,,0,0,0,,- 这是什么？ - 把它给我\N{\rENG}- What is this?  - Give me that.
+Dialogue: 0,0:41:28.94,0:41:30.41,CHS,,0,0,0,,这娘们好看\N{\rENG}This is fine looking broad.
+Dialogue: 0,0:41:30.50,0:41:31.50,CHS,,0,0,0,,- 哇  - 漂亮\N{\rENG}- Wooooh.  - Nice.
+Dialogue: 0,0:41:32.70,0:41:34.46,CHS,,0,0,0,,如今这种娘们\N{\rENG}Now this would be the kind of broad
+Dialogue: 0,0:41:35.51,0:41:37.11,CHS,,0,0,0,,真正的男人才配得上\N{\rENG}That deserve a real man.
+Dialogue: 0,0:41:38.46,0:41:39.66,CHS,,0,0,0,,把它还给我\N{\rENG}Give me that back.
+Dialogue: 0,0:41:40.88,0:41:41.61,CHS,,0,0,0,,请\N{\rENG}Please.
+Dialogue: 0,0:41:43.70,0:41:44.31,CHS,,0,0,0,,请\N{\rENG}Please.
+Dialogue: 0,0:41:45.34,0:41:46.98,CHS,,0,0,0,,请把它归还，史密提\N{\rENG}Please give it back, Smitty.
+Dialogue: 0,0:41:48.00,0:41:50.00,CHS,,0,0,0,,请把它归还，史密提\N{\rENG}Please give it back, Smitty.
+Dialogue: 0,0:42:00.38,0:42:02.18,CHS,,0,0,0,,你听得到声音？德斯蒙德\N{\rENG}Do you hear voices Desmond?
+Dialogue: 0,0:42:05.56,0:42:06.56,CHS,,0,0,0,,不，长官\N{\rENG}No, Sir.
+Dialogue: 0,0:42:07.36,0:42:10.69,CHS,,0,0,0,,我理解为上帝在跟你说话？是那样吗\N{\rENG}I understand that God talks to you. Is that right?
+Dialogue: 0,0:42:11.06,0:42:12.76,CHS,,0,0,0,,长官，我没疯\N{\rENG}Sir, I'm not a crazy person.
+Dialogue: 0,0:42:12.88,0:42:15.48,CHS,,0,0,0,,那你觉得大多数人怎么看你\N{\rENG}Then how you feel most people regard you
+Dialogue: 0,0:42:16.33,0:42:17.33,CHS,,0,0,0,,疯子\N{\rENG}Crazy person.
+Dialogue: 0,0:42:17.69,0:42:19.69,CHS,,0,0,0,,我不同别人我知道，只是\N{\rENG}I'm different I know that. But
+Dialogue: 0,0:42:22.51,0:42:24.54,CHS,,0,0,0,,我不愿弄虚作假\N{\rENG}I'm not gonna pretend to be something I'm not.
+Dialogue: 0,0:42:24.57,0:42:25.57,CHS,,0,0,0,,我就是我\N{\rENG}I am what I am.
+Dialogue: 0,0:42:26.06,0:42:27.06,CHS,,0,0,0,,听起来很孤独\N{\rENG}Sounds lonely.
+Dialogue: 0,0:42:28.30,0:42:29.30,CHS,,0,0,0,,你孤独吗\N{\rENG}You lonely?
+Dialogue: 0,0:42:34.35,0:42:36.02,CHS,,0,0,0,,那么你听不到声音\N{\rENG}So you don't hear voices.
+Dialogue: 0,0:42:36.08,0:42:37.08,CHS,,0,0,0,,不，长官\N{\rENG}No, sir.
+Dialogue: 0,0:42:37.72,0:42:38.72,CHS,,0,0,0,,我向上帝祷告，我还\N{\rENG}I pray to God and I
+Dialogue: 0,0:42:39.36,0:42:42.86,CHS,,0,0,0,,觉得他能听见，只是那并非交谈\N{\rENG}like to think He hears me but it ain't a conversation.
+Dialogue: 0,0:42:43.37,0:42:45.97,CHS,,0,0,0,,就像此刻我绝不会假装我们得谈谈\N{\rENG}Like how I won't gonna pretend we have right now.
+Dialogue: 0,0:42:46.67,0:42:47.39,CHS,,0,0,0,,假装？列兵\N{\rENG}Pretending, Private?
+Dialogue: 0,0:42:47.59,0:42:49.12,CHS,,0,0,0,,是，长官，我知道你的打算干嘛\N{\rENG}Yes, sir. I know what you really wanna do is
+Dialogue: 0,0:42:49.14,0:42:51.99,CHS,,0,0,0,,说我是“第八条例者”，把我撵出部队，只是\N{\rENG}is give me “a Section 8” draw me out of the army. But
+Dialogue: 0,0:42:52.05,0:42:53.31,CHS,,0,0,0,,我不是\N{\rENG}I'm not.
+Dialogue: 0,0:42:53.80,0:42:54.63,CHS,,0,0,0,,神明在上\N{\rENG}Up above.
+Dialogue: 0,0:42:54.66,0:42:56.91,CHS,,0,0,0,,我只是信我所信\N{\rENG}I just simply believe what I believe.
+Dialogue: 0,0:42:56.96,0:43:00.14,CHS,,0,0,0,,好吧我尽量去理解\N{\rENG}Well I'm trying to understand.
+Dialogue: 0,0:43:00.45,0:43:05.28,CHS,,0,0,0,,好吗？是上帝叫你别拿枪\N{\rENG}Alright? Was it God who told you not to pick up a rifle?
+Dialogue: 0,0:43:05.34,0:43:07.58,CHS,,0,0,0,,上帝说勿杀人\N{\rENG}God says not to kill.
+Dialogue: 0,0:43:08.46,0:43:09.91,CHS,,0,0,0,,那是他的最重要的戒律之一\N{\rENG}That one of His most important commandments.
+Dialogue: 0,0:43:10.03,0:43:13.49,CHS,,0,0,0,,大多数人把此理解为别谋杀\N{\rENG}Most people take that to only don't commit murder.
+Dialogue: 0,0:43:14.09,0:43:17.12,CHS,,0,0,0,,战争是完全不同的情况\N{\rENG}War is completely different set of circumstances.
+Dialogue: 0,0:43:17.27,0:43:20.67,CHS,,0,0,0,,耶稣说，我把一个新的命令给你们\N{\rENG}Jesus said a new commandment I give them to you.
+Dialogue: 0,0:43:22.15,0:43:23.73,CHS,,0,0,0,,即你爱别人\N{\rENG}That you love one another.
+Dialogue: 0,0:43:23.80,0:43:25.06,CHS,,0,0,0,,有如我爱你\N{\rENG}Just as I love you.
+Dialogue: 0,0:43:25.12,0:43:28.90,CHS,,0,0,0,,我们正在跟撒旦作战，肯定是\N{\rENG}This is satan himself we're fighting. Sure as
+Dialogue: 0,0:43:29.01,0:43:30.79,CHS,,0,0,0,,虔诚的基督徒，你看得出来\N{\rENG}good Christian you can see that.
+Dialogue: 0,0:43:30.86,0:43:33.46,CHS,,0,0,0,,我看得出，长官，这也是我参军的原因\N{\rENG}I can see that sir and that is why I joined up.
+Dialogue: 0,0:43:36.49,0:43:38.82,CHS,,0,0,0,,但是很抱歉，我不能带武器\N{\rENG}But I'm sorry I will not bear arms.
+Dialogue: 0,0:43:39.26,0:43:42.26,CHS,,0,0,0,,他的宗教观确实独一无二，但这些\N{\rENG}His religious view is certainly unique but they
+Dialogue: 0,0:43:42.28,0:43:45.37,CHS,,0,0,0,,不违反第八条例的免役范畴\N{\rENG}do not constitute ground for Section 8 discharge.
+Dialogue: 0,0:43:45.76,0:43:48.85,CHS,,0,0,0,,我该如何让这样的人听命于我\N{\rENG}How am I suppose to maintain discipline with a man like that in my unit?
+Dialogue: 0,0:43:48.98,0:43:49.98,CHS,,0,0,0,,我不知道\N{\rENG}I don't know.
+Dialogue: 0,0:43:50.07,0:43:52.69,CHS,,0,0,0,,但他是一个合法的“拒服兵役者”\N{\rENG}But he is a legitimate Conscientious Objector.
+Dialogue: 0,0:43:52.71,0:43:55.42,CHS,,0,0,0,,他必须被允许作为“军医”提供\N{\rENG}He must be allowed to work as Combat Medic provided
+Dialogue: 0,0:43:55.49,0:43:58.09,CHS,,0,0,0,,他有资格在所有其它区域进行训练\N{\rENG}he qualifies in all other areas in his training.
+Dialogue: 0,0:43:58.97,0:44:02.18,CHS,,0,0,0,,也许我们可帮助缓和他的想法\N{\rENG}Perhaps we could help make alleviant his idea.
+Dialogue: 0,0:44:03.63,0:44:06.19,zhu,,0,0,0,,K.P：清洗打扫整理等繁、重、脏的工作\N{\rCHS}好，你把他关在兵营去K.P\N{\rENG}Yeah you restrict him to barracks in K.P
+Dialogue: 0,0:44:06.19,0:44:08.90,zhu,,0,0,0,,K.P：清洗打扫整理等繁、重、脏的工作\N{\rCHS}他扔上帝给你，你扔地狱砸他\N{\rENG}He throws God at you. You throw hell right at him.
+Dialogue: 0,0:44:08.93,0:44:10.02,CHS,,0,0,0,,我要他消失\N{\rENG}I want him gone.
+Dialogue: 0,0:44:10.10,0:44:16.00,ZHU,,0,0,0,,{\fad(0,1500)}禁止洗衣，浴室禁止穿鞋\N{\rzhu}Scrubbing Clothes NOT ALLOWED, NO SHOES ALLOWED in shower room
+Dialogue: 0,0:44:27.36,0:44:28.90,CHS,,0,0,0,,多斯，你是个耻辱\N{\rENG}Doss your area is in disgrace.
+Dialogue: 0,0:44:29.57,0:44:30.70,CHS,,0,0,0,,这是个猪圈\N{\rENG}It's a pig stock.
+Dialogue: 0,0:44:31.94,0:44:33.57,CHS,,0,0,0,,- 有何可笑，瑞克？ - 不，中士\N{\rENG}- Something funny Riker?  - No sarge.
+Dialogue: 0,0:44:33.60,0:44:36.42,CHS,,0,0,0,,- 你脑子进大粪了？ - 不，中士\N{\rENG}- You got some shit on your mind?  - No sarge.
+Dialogue: 0,0:44:37.75,0:44:39.76,CHS,,0,0,0,,你们没意识到的\N{\rENG}What you men fail to recognize
+Dialogue: 0,0:44:39.81,0:44:43.41,CHS,,0,0,0,,就是一只队伍并不会比它的最弱者更强\N{\rENG}is a unit is no better than its weakest member.
+Dialogue: 0,0:44:44.62,0:44:46.33,CHS,,0,0,0,,我希望你们记住这教训\N{\rENG}I hope you learned that lesson.
+Dialogue: 0,0:44:46.56,0:44:48.80,CHS,,0,0,0,,本周末不准休息\N{\rENG}There will be no passes this weekend.
+Dialogue: 0,0:44:49.26,0:44:50.72,CHS,,0,0,0,,全部去K.P\N{\rENG}You all will be on KP.
+Dialogue: 0,0:44:51.79,0:44:55.08,CHS,,0,0,0,,现在全体全速徒步二十英里\N{\rENG}Right now everybody on full gear for 20-mile hike.
+Dialogue: 0,0:44:55.35,0:44:56.35,CHS,,0,0,0,,一起去\N{\rENG}Let's go.
+Dialogue: 0,0:44:56.66,0:44:57.66,CHS,,0,0,0,,一起去\N{\rENG}Let's go.
+Dialogue: 0,0:45:01.66,0:45:03.06,CHS,,0,0,0,,保持头脑清醒\N{\rENG}Get your heads right.
+Dialogue: 0,0:45:03.69,0:45:05.97,CHS,,0,0,0,,不要自怜\N{\rENG}Don't start feeling sorry for yourself.
+Dialogue: 0,0:45:05.99,0:45:08.96,CHS,,0,0,0,,你们的自怜样叫我恶心\N{\rENG}Makes me sick seeing you feel sorry for yourself.
+Dialogue: 0,0:45:09.13,0:45:11.36,CHS,,0,0,0,,你们这些狗不知累为何物\N{\rENG}You dogs don't know what tired is.
+Dialogue: 0,0:45:11.41,0:45:13.61,CHS,,0,0,0,,我们会继续跑直到我倒下\N{\rENG}We gonna keep going till I drop.
+Dialogue: 0,0:45:16.10,0:45:17.54,CHS,,0,0,0,,来吧，伙计们\N{\rENG}Come on guys.
+Dialogue: 0,0:45:22.45,0:45:24.25,CHS,,0,0,0,,嘿住手！别打了\N{\rENG}Hey knock it. Knock it off.
+Dialogue: 0,0:45:24.44,0:45:25.84,CHS,,0,0,0,,去睡觉\N{\rENG}Trying to sleep here.
+Dialogue: 0,0:45:29.70,0:45:31.10,CHS,,0,0,0,,放开我，放开\N{\rENG}Get off me. Get off.
+Dialogue: 0,0:45:39.11,0:45:40.97,CHS,,0,0,0,,为什么你还在这里\N{\rENG}Why the hell you still here?
+Dialogue: 0,0:45:51.68,0:45:53.28,CHS,,0,0,0,,- 注意！ - 原地别动\N{\rENG}- Heed hut.  - As you were.
+Dialogue: 0,0:46:01.23,0:46:02.23,CHS,,0,0,0,,多斯在哪儿\N{\rENG}Where's Doss?
+Dialogue: 0,0:46:25.52,0:46:27.12,CHS,,0,0,0,,这对你不好，伙计\N{\rENG}This isn't good for you buddy.
+Dialogue: 0,0:46:27.48,0:46:29.61,CHS,,0,0,0,,当然，我参军不是想这样\N{\rENG}Sure ain't what I joined up for.
+Dialogue: 0,0:46:31.99,0:46:33.67,CHS,,0,0,0,,这跟你为何参军无关\N{\rENG}It's not about what you joined up for.
+Dialogue: 0,0:46:35.14,0:46:36.95,CHS,,0,0,0,,有关在此诸位的生活\N{\rENG}About the lives of every men in here.
+Dialogue: 0,0:46:38.73,0:46:39.73,CHS,,0,0,0,,及你的，孩子\N{\rENG}And yours son.
+Dialogue: 0,0:46:41.21,0:46:42.48,CHS,,0,0,0,,是时候退出了\N{\rENG}It's time you quit this.
+Dialogue: 0,0:46:44.17,0:46:46.13,CHS,,0,0,0,,穿好衣服，我送你\N{\rENG}Finish getting dress and I'll walk you down.
+Dialogue: 0,0:46:53.40,0:46:54.40,CHS,,0,0,0,,好了，多斯\N{\rENG}It's okay Doss.
+Dialogue: 0,0:46:56.63,0:46:57.65,CHS,,0,0,0,,别为此羞愧\N{\rENG}There's no shame in this.
+Dialogue: 0,0:47:13.96,0:47:14.96,CHS,,0,0,0,,我们走吧\N{\rENG}Let's go.
+Dialogue: 0,0:47:16.19,0:47:21.15,CHS,,0,0,0,,我有额外的执勤，今天，上午我得去K.P，所以\N{\rENG}I got an extra guard duty. Today and I'm on KP this morning. So
+Dialogue: 0,0:47:24.08,0:47:25.08,CHS,,0,0,0,,我不能\N{\rENG}I can't.
+Dialogue: 0,0:47:31.39,0:47:32.39,CHS,,0,0,0,,好吧，多斯\N{\rENG}Alright Doss.
+Dialogue: 0,0:47:35.17,0:47:36.17,CHS,,0,0,0,,列兵多斯\N{\rENG}Private Doss.
+Dialogue: 0,0:47:36.81,0:47:38.77,CHS,,0,0,0,,你能认出打你的人吗\N{\rENG}Can you identify the men that beat you?
+Dialogue: 0,0:47:46.19,0:47:47.19,CHS,,0,0,0,,不，中士\N{\rENG}No sarge.
+Dialogue: 0,0:47:48.03,0:47:49.91,CHS,,0,0,0,,你是说你不知道是谁打了你\N{\rENG}Are you saying that you don't know who attack you?
+Dialogue: 0,0:47:51.29,0:47:53.55,CHS,,0,0,0,,我从未说过我被打了，中士\N{\rENG}I never said I was attacked sarge.
+Dialogue: 0,0:47:54.75,0:47:57.02,CHS,,0,0,0,,你究竟在说啥？多斯\N{\rENG}What the hell are you saying Doss?
+Dialogue: 0,0:47:57.49,0:47:59.89,CHS,,0,0,0,,你伤得难以入睡\N{\rENG}You bruised half your body sleeping.
+Dialogue: 0,0:48:01.89,0:48:03.71,CHS,,0,0,0,,我睡得很沉\N{\rENG}I sleep pretty hard.
+Dialogue: 0,0:48:09.26,0:48:13.33,CHS,,0,0,0,,本周计划湿训，确保你戴上帽子\N{\rENG}Planning on getting wet this week make sure you put on a hat.
+Dialogue: 0,0:48:13.39,0:48:15.37,CHS,,0,0,0,,我不希望任何人回来尿在奶油里\N{\rENG}I don't want anyone back piss in cream.
+Dialogue: 0,0:48:15.83,0:48:18.05,CHS,,0,0,0,,你不是想要咖啡吗？中士\N{\rENG}What you don't want to offer your coffee Sarge.
+Dialogue: 0,0:48:18.19,0:48:20.46,CHS,,0,0,0,,给你颗枪子儿如何？史密提\N{\rENG}How about a shot right now Smitty?
+Dialogue: 0,0:48:21.16,0:48:22.77,CHS,,0,0,0,,讲讲经验，中士\N{\rENG}Speaking from experience Sarge.
+Dialogue: 0,0:48:22.84,0:48:24.99,CHS,,0,0,0,,你得问你娘，老油条\N{\rENG}You have to ask your mom about that Greaseball.
+Dialogue: 0,0:48:30.73,0:48:31.73,CHS,,0,0,0,,稍息\N{\rENG}At ease.
+Dialogue: 0,0:48:36.53,0:48:37.53,CHS,,0,0,0,,列兵多斯\N{\rENG}Private Doss.
+Dialogue: 0,0:48:38.59,0:48:40.46,CHS,,0,0,0,,恐怕我不能准你的假\N{\rENG}I'm afraid I can't authorize your pass.
+Dialogue: 0,0:48:40.48,0:48:43.50,CHS,,0,0,0,,假期只给通过基本训练的人\N{\rENG}This is a furlough for men who had pass the basic training.
+Dialogue: 0,0:48:46.95,0:48:49.11,CHS,,0,0,0,,尊敬的长官，我过了\N{\rENG}Respectfully sir I have.
+Dialogue: 0,0:48:50.87,0:48:52.94,CHS,,0,0,0,,我申请了此假，三周前\N{\rENG}I put in for this furlough three weeks ago.
+Dialogue: 0,0:48:53.06,0:48:55.32,CHS,,0,0,0,,我要结婚，今天下午\N{\rENG}I'm getting married this afternoon.
+Dialogue: 0,0:48:55.66,0:48:57.99,CHS,,0,0,0,,你步枪不合格\N{\rENG}It says you're not rifle-qualified.
+Dialogue: 0,0:48:59.68,0:49:01.53,CHS,,0,0,0,,我不需要携带步枪，长官\N{\rENG}Well I'm not required to carry a rifle, sir.
+Dialogue: 0,0:49:01.64,0:49:02.77,CHS,,0,0,0,,上校施特尔策，他，他…\N{\rENG}Colonel Colonel Stelzer he he...
+Dialogue: 0,0:49:02.80,0:49:05.31,CHS,,0,0,0,,上校施特尔策规定：\N{\rENG}Colonel Stelzer stipulation was
+Dialogue: 0,0:49:05.75,0:49:08.40,CHS,,0,0,0,,特许多斯作为军医服役\N{\rENG}Doss must be allowed to work as a combat medic.
+Dialogue: 0,0:49:08.62,0:49:12.94,CHS,,0,0,0,,准予他有资格在任何其它区域完成训练\N{\rENG}Provided he qualifies in all other areas of his training.
+Dialogue: 0,0:49:13.09,0:49:16.05,CHS,,0,0,0,,而你在枪械上无资格，列兵\N{\rENG}And you have not qualified on the rifle range, Private.
+Dialogue: 0,0:49:17.05,0:49:18.05,CHS,,0,0,0,,很清楚\N{\rENG}Pretty clear.
+Dialogue: 0,0:49:21.22,0:49:23.82,CHS,,0,0,0,,给我演示下你会拿枪\N{\rENG}Show me you know how to handle a rifle.
+Dialogue: 0,0:49:24.53,0:49:26.26,CHS,,0,0,0,,我就准假\N{\rENG}And I'll sign your furlough.
+Dialogue: 0,0:49:26.49,0:49:27.49,CHS,,0,0,0,,下士坎农\N{\rENG}Corporal Cannon.
+Dialogue: 0,0:49:27.57,0:49:30.17,CHS,,0,0,0,,给列兵多斯你的枪\N{\rENG}Hand Private Doss your firearm.
+Dialogue: 0,0:49:40.01,0:49:41.05,CHS,,0,0,0,,我不会碰步枪，长官\N{\rENG}I won't touch a rifle, sir.
+Dialogue: 0,0:49:41.16,0:49:43.26,CHS,,0,0,0,,我不是要求你，列兵\N{\rENG}I'm not asking you Private.
+Dialogue: 0,0:49:44.25,0:49:47.00,CHS,,0,0,0,,这是个部队指挥官的直接命令\N{\rENG}That is a direct order from a company commander.
+Dialogue: 0,0:49:47.76,0:49:49.77,CHS,,0,0,0,,看上帝份上，多斯\N{\rENG}For God's sake Doss.
+Dialogue: 0,0:49:50.89,0:49:53.32,CHS,,0,0,0,,别再废话，退出\N{\rENG}You stop this nonsense and quit.
+Dialogue: 0,0:49:54.55,0:49:55.18,CHS,,0,0,0,,拒绝\N{\rENG}Refuse.
+Dialogue: 0,0:49:56.09,0:49:58.96,CHS,,0,0,0,,我则没有追索权，只能送你去军事法庭\N{\rENG}And I will have no recourse but to court-martial you.
+Dialogue: 0,0:49:59.46,0:50:02.69,CHS,,0,0,0,,你将在军事监狱度过战争期\N{\rENG}And you will spend the duration of the war in military prison.
+Dialogue: 0,0:50:05.64,0:50:06.64,CHS,,0,0,0,,我不能，长官\N{\rENG}I can't, sir.
+Dialogue: 0,0:50:19.33,0:50:21.92,CHS,,0,0,0,,你愿意等多久，多萝西\N{\rENG}How much longer would you like to wait, Dorothy?
+Dialogue: 0,0:50:23.50,0:50:25.50,CHS,,0,0,0,,我想得足够久\N{\rENG}I think it's been long enough.
+Dialogue: 0,0:50:26.89,0:50:27.96,CHS,,0,0,0,,这真是太遗憾了\N{\rENG}I'm so very sorry.
+Dialogue: 0,0:50:28.84,0:50:31.04,CHS,,0,0,0,,有时男人会临阵退缩\N{\rENG}Sometimes men just get cold feet.
+Dialogue: 0,0:50:33.37,0:50:34.74,CHS,,0,0,0,,有的男人会\N{\rENG}Some men might.
+Dialogue: 0,0:50:35.74,0:50:37.25,CHS,,0,0,0,,但我的德斯蒙德不会\N{\rENG}Not my Desmond.
+Dialogue: 0,0:51:10.29,0:51:12.48,CHS,,0,0,0,,你可能觉得我真是婊子养的\N{\rENG}You probably thinking I'm a really son of a bitch.
+Dialogue: 0,0:51:13.17,0:51:15.88,CHS,,0,0,0,,只在乎规定不关心自己人\N{\rENG}Who cares only about regulations and not his men.
+Dialogue: 0,0:51:19.42,0:51:20.42,CHS,,0,0,0,,可以吗\N{\rENG}May I?
+Dialogue: 0,0:51:27.22,0:51:30.02,CHS,,0,0,0,,我跟任何人一样信任此书\N{\rENG}I believe in this Book as much as any men.
+Dialogue: 0,0:51:30.22,0:51:31.42,CHS,,0,0,0,,跟任何人一样\N{\rENG}Just like any men.
+Dialogue: 0,0:51:31.65,0:51:32.92,CHS,,0,0,0,,我会被良心困扰\N{\rENG}I wrestled with my conscience.
+Dialogue: 0,0:51:32.94,0:51:36.27,CHS,,0,0,0,,但你会怎做，当世上你珍视的一切皆受攻击\N{\rENG}But what do you do when everything you value in this world is under attacked.
+Dialogue: 0,0:51:37.76,0:51:38.96,CHS,,0,0,0,,我不知道，长官\N{\rENG}I don't know, sir.
+Dialogue: 0,0:51:40.75,0:51:43.42,CHS,,0,0,0,,我没法回答那种大问题\N{\rENG}I ain't got answer to question that big.
+Dialogue: 0,0:51:44.27,0:51:47.47,CHS,,0,0,0,,但我感同我珍视的正受攻击\N{\rENG}But I also feel like my values are under attacked.
+Dialogue: 0,0:51:47.98,0:51:49.11,CHS,,0,0,0,,我不知何故\N{\rENG}I don't know why.
+Dialogue: 0,0:51:49.77,0:51:52.88,CHS,,0,0,0,,我不关心你的原则，因为日本人不\N{\rENG}I don't give a rat-ass about your principles because the Japs don't.
+Dialogue: 0,0:51:53.72,0:51:56.97,CHS,,0,0,0,,如果他们有人攻击你和受伤的士兵，你怎么办\N{\rENG}If one of them attacks you and some wounded soldiers. What are you gonna do?
+Dialogue: 0,0:51:57.77,0:51:59.37,CHS,,0,0,0,,用你的圣经揍他\N{\rENG}Hit him with your Bible?
+Dialogue: 0,0:52:00.11,0:52:02.13,CHS,,0,0,0,,我已准备好为大家牺牲\N{\rENG}I'm prepare to give my life for my men.
+Dialogue: 0,0:52:02.44,0:52:04.98,CHS,,0,0,0,,你无法赢得战争即使你牺牲\N{\rENG}You don't win wars by giving up your life.
+Dialogue: 0,0:52:06.13,0:52:06.89,CHS,,0,0,0,,看吧\N{\rENG}Look.
+Dialogue: 0,0:52:07.37,0:52:10.28,CHS,,0,0,0,,我只身到此，因我不愿看到你烂在牢房\N{\rENG}I'm only here because I don't wanna see you rotting in a prison cell.
+Dialogue: 0,0:52:11.00,0:52:12.00,CHS,,0,0,0,,认罪\N{\rENG}Plead guilty.
+Dialogue: 0,0:52:12.17,0:52:15.39,CHS,,0,0,0,,为自己争取法庭怜悯，也许他们会让你回家祈祷\N{\rENG}Put yourself at the mercy of the court. Maybe they'll let you go home and pray.
+Dialogue: 0,0:52:18.46,0:52:20.89,CHS,,0,0,0,,让勇士们去赢得战争\N{\rENG}Let the brave men out there go and win this war.
+Dialogue: 0,0:52:29.89,0:52:32.42,CHS,,0,0,0,,如果我不能说服你，也许她可以\N{\rENG}If I can't convince you, maybe she can.
+Dialogue: 0,0:52:34.42,0:52:36.42,CHS,,0,0,0,,他们不准我打电话你\N{\rENG}They wouldn't let me call you.
+Dialogue: 0,0:52:38.38,0:52:40.32,CHS,,0,0,0,,我知道不是你不打\N{\rENG}I know it wasn't your making.
+Dialogue: 0,0:52:43.70,0:52:45.43,CHS,,0,0,0,,他们对你做了些啥\N{\rENG}What did they done to you?
+Dialogue: 0,0:52:47.92,0:52:49.38,CHS,,0,0,0,,没关系我很好\N{\rENG}It's okay I'm alright.
+Dialogue: 0,0:52:49.42,0:52:51.68,CHS,,0,0,0,,只是打了几下墙还有些失落\N{\rENG}Just a couple of rounds with a wall and lost.
+Dialogue: 0,0:52:52.88,0:52:55.75,CHS,,0,0,0,,他们说你会入狱，德斯蒙德\N{\rENG}They're saying you could go to prison Desmond.
+Dialogue: 0,0:52:56.25,0:52:57.25,CHS,,0,0,0,,甚至更糟\N{\rENG}Leaven worth.
+Dialogue: 0,0:52:58.46,0:52:59.84,CHS,,0,0,0,,一定有别的办法\N{\rENG}There must be some other way.
+Dialogue: 0,0:53:00.46,0:53:02.03,CHS,,0,0,0,,我不知将会怎样\N{\rENG}I don't know what that could be.
+Dialogue: 0,0:53:02.33,0:53:04.42,CHS,,0,0,0,,我做了他们要求的每件事，除了这件事\N{\rENG}I done everything they'd asked me except this one thing.
+Dialogue: 0,0:53:04.45,0:53:07.14,CHS,,0,0,0,,他们一直待我如罪犯，只因我不愿杀敌\N{\rENG}They've been treating me like a criminal just cause I won't kill.
+Dialogue: 0,0:53:07.16,0:53:08.16,CHS,,0,0,0,,你尽了力\N{\rENG}You tried.
+Dialogue: 0,0:53:08.75,0:53:10.48,CHS,,0,0,0,,没人否认\N{\rENG}Nobody can say you didn't.
+Dialogue: 0,0:53:11.35,0:53:13.55,CHS,,0,0,0,,但你在狱中能救谁\N{\rENG}But who you gonna save in prison?
+Dialogue: 0,0:53:15.89,0:53:16.71,CHS,,0,0,0,,可能没人\N{\rENG}Probably nobody.
+Dialogue: 0,0:53:16.74,0:53:19.35,CHS,,0,0,0,,那你为何不拿起笨枪，四处挥挥\N{\rENG}Then why can't you just pick up the stupid gun and wave it around.
+Dialogue: 0,0:53:19.77,0:53:21.92,CHS,,0,0,0,,你不必用枪，只需带枪\N{\rENG}You don't have to use it. Just made it half-way.
+Dialogue: 0,0:53:24.04,0:53:25.11,CHS,,0,0,0,,我不能那样做\N{\rENG}I can't do that.
+Dialogue: 0,0:53:25.21,0:53:26.67,CHS,,0,0,0,,是的，你能，这只是骄傲\N{\rENG}Yes, you can. It's just pride.
+Dialogue: 0,0:53:26.69,0:53:27.49,CHS,,0,0,0,,骄傲跟倔强\N{\rENG}Pride and stubborness.
+Dialogue: 0,0:53:27.61,0:53:29.39,CHS,,0,0,0,,别把你的意志跟上帝的混同\N{\rENG}Don't confuse your will with the Lord's.
+Dialogue: 0,0:53:42.94,0:53:44.21,CHS,,0,0,0,,我一直很骄傲\N{\rENG}I've been proudful.
+Dialogue: 0,0:53:46.42,0:53:47.69,CHS,,0,0,0,,也许我真的很骄傲\N{\rENG}Maybe I'm proudful.
+Dialogue: 0,0:53:52.51,0:53:57.37,CHS,,0,0,0,,但我不知，我怎能独自活着，若不忠于我之所信\N{\rENG}But I don't know how I'm gonna live with myself if I don't stay true to what I believe.
+Dialogue: 0,0:53:58.10,0:54:00.70,CHS,,0,0,0,,看着我们你怎能跟我一起活下去\N{\rENG}Watching us how you could live with me.
+Dialogue: 0,0:54:02.27,0:54:05.05,CHS,,0,0,0,,我想做个男人，如你所见\N{\rENG}I wanna be a man and I wanna be in your eyes.
+Dialogue: 0,0:54:12.41,0:54:14.01,CHS,,0,0,0,,我爱上你\N{\rENG}I fell in love with you.
+Dialogue: 0,0:54:14.84,0:54:17.30,CHS,,0,0,0,,因你不象其他人\N{\rENG}Because you weren't like anyone else.
+Dialogue: 0,0:54:18.85,0:54:20.52,CHS,,0,0,0,,你也不会想那样\N{\rENG}And you didn't try to be.
+Dialogue: 0,0:54:23.08,0:54:27.54,CHS,,0,0,0,,任何时刻都别认为你会让我失望\N{\rENG}Do not think for one moment that you'll disappoint me.
+Dialogue: 0,0:54:30.41,0:54:31.74,CHS,,0,0,0,,我将爱你\N{\rENG}I will love you.
+Dialogue: 0,0:54:32.56,0:54:34.07,CHS,,0,0,0,,无论怎样\N{\rENG}No matter what.
+Dialogue: 0,0:54:46.39,0:54:48.52,CHS,,0,0,0,,我不知他要做啥\N{\rENG}I don't know what he's gonna do.
+Dialogue: 0,0:54:48.82,0:54:50.42,CHS,,0,0,0,,他输定了，无论如何\N{\rENG}He loses no matter what.
+Dialogue: 0,0:54:51.49,0:54:54.64,CHS,,0,0,0,,他们想让他认罪，但这会让他开除军籍\N{\rENG}They want him to plead guilty but then it'll get him dishonorable discharge.
+Dialogue: 0,0:54:55.44,0:54:57.98,CHS,,0,0,0,,否则他就是违抗他们，他必会入狱\N{\rENG}Otherwise he fights them he will for sure go to prison.
+Dialogue: 0,0:54:58.75,0:55:02.27,CHS,,0,0,0,,无论怎样，他们会叫他懦夫，我看不出他怎能那样活着\N{\rENG}Either way they'll call him a coward and I don't see how he can live with that.
+Dialogue: 0,0:55:03.25,0:55:05.51,CHS,,0,0,0,,谢谢你多萝西\N{\rENG}Thank you Dorothy.
+Dialogue: 0,0:55:06.86,0:55:08.59,CHS,,0,0,0,,如果你能跟他谈谈\N{\rENG}If you get to talk to him.
+Dialogue: 0,0:55:09.38,0:55:13.83,CHS,,0,0,0,,告诉他我们爱他，会为他祈祷，会为你们祈祷\N{\rENG}Tell him that we love him and that we'll pray for him and we'll pray for both of you.
+Dialogue: 0,0:55:13.89,0:55:14.89,CHS,,0,0,0,,我会的\N{\rENG}I will.
+Dialogue: 0,0:55:15.39,0:55:16.39,CHS,,0,0,0,,拜拜\N{\rENG}Bye-bye.
+Dialogue: 0,0:55:31.02,0:55:32.95,CHS,,0,0,0,,我当然失去了理智\N{\rENG}Of course I'm out of my mind.
+Dialogue: 0,0:55:33.00,0:55:35.21,CHS,,0,0,0,,你以为我是谁，我疯了\N{\rENG}What do you think I am. I'm out of my mind.
+Dialogue: 0,0:55:35.39,0:55:37.05,CHS,,0,0,0,,请你离开这屋\N{\rENG}Will you leave this room.
+Dialogue: 0,0:55:37.72,0:55:39.07,CHS,,0,0,0,,不要，汤姆，把它放下\N{\rENG}Don't Tom. Put it down.
+Dialogue: 0,0:55:39.28,0:55:40.81,CHS,,0,0,0,,放开我，婆娘\N{\rENG}Get away from me woman.
+Dialogue: 0,0:55:53.88,0:55:56.88,ZHU,,0,0,0,,{\fad(0,200)}美利坚合众国之印\N{\rzhu}SEAL OF THE UNITED STATES OF AMERICA
+Dialogue: 0,0:56:11.84,0:56:13.11,CHS,,0,0,0,,有何贵干，先生\N{\rENG}May I help you sir?
+Dialogue: 0,0:56:13.11,0:56:15.90,CHS,,0,0,0,,我想找准将穆斯格罗夫\N{\rENG}I wish to speak to Brigadier General Musgrove.
+Dialogue: 0,0:56:16.18,0:56:19.65,CHS,,0,0,0,,没有预约可不行，那样绝无可能\N{\rENG}Not without an appointment you can't. That would be quite impossible.
+Dialogue: 0,0:56:25.40,0:56:30.60,CHS,,0,0,0,,如能劳你告诉他：下士托马斯多斯将感激一个简短的面谈\N{\rENG}If you would kinda tell him Corporal Thomas Doss would've appreciate a brief word.
+Dialogue: 0,0:56:31.34,0:56:33.61,CHS,,0,0,0,,他在开非常重要的会\N{\rENG}He is in a very important meeting.
+Dialogue: 0,0:56:34.46,0:56:38.53,CHS,,0,0,0,,我跟他在法国贝洛伍德打过仗，他是我队长\N{\rENG}I fought with him in France at Belleau Wood. He was my Captain.
+Dialogue: 0,0:56:41.08,0:56:44.61,CHS,,0,0,0,,求您女士，此事至关重要\N{\rENG}Please maam. It's most vital.
+Dialogue: 0,0:57:02.07,0:57:03.66,CHS,,0,0,0,,仅需一分钟\N{\rENG}Be over in a minute.
+Dialogue: 0,0:57:03.67,0:57:07.14,CHS,,0,0,0,,你将安全到家，就跟没事一样\N{\rENG}You'll be home safe and sound like nothing ever happened.
+Dialogue: 0,0:58:00.25,0:58:02.47,CHS,,0,0,0,,这是列兵多斯的听证会\N{\rENG}This is a hearing in the matter of Private Doss.
+Dialogue: 0,0:58:02.49,0:58:06.22,CHS,,0,0,0,,指控是他违反了其指挥官的一系列直接命令\N{\rENG}The charge is disobeying a series of direct orders from his commanding officer.
+Dialogue: 0,0:58:06.29,0:58:07.83,CHS,,0,0,0,,被告怎么说\N{\rENG}How says the defendant?
+Dialogue: 0,0:58:09.77,0:58:14.13,CHS,,0,0,0,,列兵多斯希望进行无罪答辩\N{\rENG}Private Doss wishes to enter a not guilty plea.
+Dialogue: 0,0:58:14.67,0:58:16.61,CHS,,0,0,0,,是这样吗，列兵？我以为已同意过\N{\rENG}Is that so Private? I thought this was agreed.
+Dialogue: 0,0:58:16.63,0:58:18.97,CHS,,0,0,0,,你想进行某种讨价还价的答辩？\N{\rENG}You want to enter some sort of plea bargain.
+Dialogue: 0,0:58:21.05,0:58:23.46,CHS,,0,0,0,,- 是的，长官，但我改变了主意  - 就这样\N{\rENG}- Yes, sir. But I changed my mind.  - Just like that?
+Dialogue: 0,0:58:23.46,0:58:25.86,CHS,,0,0,0,,你希望进行军事诉讼\N{\rENG}You wish to proceed to a court martial.
+Dialogue: 0,0:58:27.00,0:58:28.00,CHS,,0,0,0,,是的，长官\N{\rENG}Yes, sir.
+Dialogue: 0,0:58:28.52,0:58:30.59,CHS,,0,0,0,,那你如愿了列兵\N{\rENG}Your on your head then Private.
+Dialogue: 0,0:58:31.73,0:58:32.73,CHS,,0,0,0,,开始\N{\rENG}Proceed.
+Dialogue: 0,0:58:35.96,0:58:36.96,CHS,,0,0,0,,法官大人\N{\rENG}Your honor.
+Dialogue: 0,0:58:37.34,0:58:38.64,CHS,,0,0,0,,列兵多斯\N{\rENG}Private Doss.
+Dialogue: 0,0:58:38.78,0:58:42.31,CHS,,0,0,0,,挥舞其道德观，有如某种荣誉的徽章\N{\rENG}Wave his morality like it's some kind of badge of honor.
+Dialogue: 0,0:58:42.39,0:58:43.92,CHS,,0,0,0,,他炫耀他的蔑视\N{\rENG}He flaunts his contempt.
+Dialogue: 0,0:58:43.95,0:58:47.32,CHS,,0,0,0,,靠直接违反其指挥官的一系列直接命令\N{\rENG}By directly disobeying a series of direct order from his commanding officer.
+Dialogue: 0,0:58:47.45,0:58:51.79,CHS,,0,0,0,,当这些最优秀的年轻人牺牲自己性命抵御邪恶时\N{\rENG}When the very best of our young men are sacrificing their lives against evil.
+Dialogue: 0,0:58:54.20,0:58:55.20,CHS,,0,0,0,,- 你没事吧？ - 是的\N{\rENG}- You okay?  - Yes.
+Dialogue: 0,0:58:56.84,0:58:59.06,CHS,,0,0,0,,- 他们还在审议？ - 是的，先生\N{\rENG}- They still deliberating?  - Yes, sir.
+Dialogue: 0,0:58:59.23,0:59:01.29,CHS,,0,0,0,,好吧，你把这个拿进去\N{\rENG}Okay you go take this in there.
+Dialogue: 0,0:59:01.30,0:59:03.42,CHS,,0,0,0,,我不能，必须是军人\N{\rENG}I can't. It's strictly military personnel.
+Dialogue: 0,0:59:04.14,0:59:05.93,CHS,,0,0,0,,那你让他们中某个带进去\N{\rENG}Well you get one of them to take it in.
+Dialogue: 0,0:59:05.95,0:59:08.26,CHS,,0,0,0,,他们不会帮忙，他们就等着埋了他\N{\rENG}They ain't no help. They're fixing to burying him.
+Dialogue: 0,0:59:08.28,0:59:11.98,CHS,,0,0,0,,任何军事法院只需问被告一个问题：\N{\rENG}There's only one question that any military court need ask of the accused.
+Dialogue: 0,0:59:12.66,0:59:16.37,CHS,,0,0,0,,你否认违反上校萨斯顿的直接命令\N{\rENG}Do you deny disobeying Colonel Sangston's direct orders?
+Dialogue: 0,0:59:19.09,0:59:20.92,CHS,,0,0,0,,那么，你否认吗？列兵\N{\rENG}Well. Do you private?
+Dialogue: 0,0:59:26.76,0:59:27.80,CHS,,0,0,0,,不，长官，我不否认\N{\rENG}No, sir. I don't.
+Dialogue: 0,0:59:27.83,0:59:29.63,CHS,,0,0,0,,那你为何要质疑它呢\N{\rENG}Why are you contesting it, then?
+Dialogue: 0,0:59:29.68,0:59:32.57,CHS,,0,0,0,,这对你为何如此重要，使你拒绝去\N{\rENG}Why is it so important to you, given your refusal to even
+Dialogue: 0,0:59:32.59,0:59:35.35,CHS,,0,0,0,,触摸武器，即使是在部队中服役\N{\rENG}touch a weapon to serve in a combat unit?
+Dialogue: 0,0:59:35.83,0:59:39.70,CHS,,0,0,0,,因为当日本偷袭珍珠港之时，我视为针对我个人\N{\rENG}Because when the Japanese attacked Pearl Harbor, I took it personal.
+Dialogue: 0,0:59:41.19,0:59:44.34,CHS,,0,0,0,,我认识的每个人都愤然参军，包括我\N{\rENG}Everyone I knew was on fire to join up, including me.
+Dialogue: 0,0:59:47.63,0:59:49.83,CHS,,0,0,0,,有两个人在我们镇上\N{\rENG}There were two men in my hometown
+Dialogue: 0,0:59:51.48,0:59:55.28,zhu,,0,0,0,,4-F：二战服役有关的物理，心理，或道德标准\N{\rCHS}被判4F不合格，他们就自杀了，因为不能服役\N{\rENG}Declared 4-F unfit, they killed themselves cause they couldn't serve.
+Dialogue: 0,0:59:55.86,0:59:58.47,ZHU,,0,0,0,,
+Dialogue: 0,0:59:59.33,1:00:01.25,CHS,,0,0,0,,为何？我在国防工厂有份工作\N{\rENG}Why, I had a job in a defense plant.
+Dialogue: 0,1:00:01.27,1:00:04.04,CHS,,0,0,0,,我可以续约，但那样不对\N{\rENG}I could've taken a deferment, but that ain't right.
+Dialogue: 0,1:00:06.33,1:00:09.66,CHS,,0,0,0,,这样不对：别人就该去战斗去牺牲\N{\rENG}It isn't right that other men should fight and die
+Dialogue: 0,1:00:10.95,1:00:13.82,CHS,,0,0,0,,而我只是安全的呆坐屋里，我需要服役，长官\N{\rENG}that I would just be sitting at home safe. I need this, sir.
+Dialogue: 0,1:00:16.28,1:00:18.93,CHS,,0,0,0,,我有能力有激情作为军医服役\N{\rENG}I got the energy and the passion to serve as a medic,
+Dialogue: 0,1:00:21.28,1:00:25.61,CHS,,0,0,0,,应当在其他伙伴当中，毫无危害，只是…\N{\rENG}right in the middle with the other guys. No less danger, just...
+Dialogue: 0,1:00:25.93,1:00:30.13,CHS,,0,0,0,,当每个人都在取命，我是去救命\N{\rENG}while everybody else is taking life, I'm going to be saving it.
+Dialogue: 0,1:00:32.52,1:00:34.57,CHS,,0,0,0,,既然这世界已把自己搞得四分五裂\N{\rENG}With the world so set on tearing itself apart,
+Dialogue: 0,1:00:34.59,1:00:36.49,CHS,,0,0,0,,这对我不算是太糟糕的事\N{\rENG}it doesn't seem like such a bad thing to me
+Dialogue: 0,1:00:36.51,1:00:39.23,CHS,,0,0,0,,去把那些碎片重聚一块儿\N{\rENG}to wanna put a little bit of it back together.
+Dialogue: 0,1:00:42.84,1:00:44.10,CHS,,0,0,0,,抱歉先生，无人准进\N{\rENG}Sorry sir, nobody is allowed.
+Dialogue: 0,1:00:44.13,1:00:46.66,CHS,,0,0,0,,不，你不知，我儿就是被告\N{\rENG}No. You don't understand. My son is the defendant.
+Dialogue: 0,1:00:46.70,1:00:49.04,CHS,,0,0,0,,- 我理解，先生，但是无人准进  - 我有封信\N{\rENG}- I understand sir but nobody is allowed  - I have information.
+Dialogue: 0,1:00:50.52,1:00:52.64,CHS,,0,0,0,,好吧，表达的情感值得称赞\N{\rENG}Well, the sentiments expressed are laudable.
+Dialogue: 0,1:00:52.67,1:00:55.67,CHS,,0,0,0,,指控的事实无可争辩\N{\rENG}The facts of the charge seem incontestable so
+Dialogue: 0,1:00:56.47,1:00:58.87,CHS,,0,0,0,,那边所为何事\N{\rENG}What the hell is going on out there?
+Dialogue: 0,1:00:59.53,1:01:00.80,CHS,,0,0,0,,让他进来\N{\rENG}Let him go.
+Dialogue: 0,1:01:12.21,1:01:13.82,CHS,,0,0,0,,那是一战制服\N{\rENG}That's the Great War uniform.
+Dialogue: 0,1:01:13.90,1:01:15.39,CHS,,0,0,0,,是的，长官\N{\rENG}It is, sir.
+Dialogue: 0,1:01:15.51,1:01:17.21,CHS,,0,0,0,,长官，我得请您过目此信\N{\rENG}Sir, I need to show you this.
+Dialogue: 0,1:01:17.23,1:01:18.65,CHS,,0,0,0,,恕我直言，先生\N{\rENG}With respect, sir.
+Dialogue: 0,1:01:18.71,1:01:20.99,CHS,,0,0,0,,您不再是军人\N{\rENG}You are no longer a member of the military.
+Dialogue: 0,1:01:21.01,1:01:23.02,CHS,,0,0,0,,你不能参加此审议，我很遗憾\N{\rENG}You unable to attend this meeting. I'm sorry.
+Dialogue: 0,1:01:23.86,1:01:25.62,CHS,,0,0,0,,这么说真是这样的了\N{\rENG}Is that truly the way it works?
+Dialogue: 0,1:01:26.88,1:01:28.61,CHS,,0,0,0,,你为国而战\N{\rENG}You fight for your country
+Dialogue: 0,1:01:28.84,1:01:31.96,CHS,,0,0,0,,你失去了无数挚爱，然后你就没用了\N{\rENG}You lose so much ever dear to you. And then you're done with?
+Dialogue: 0,1:01:32.05,1:01:34.64,CHS,,0,0,0,,仅剩制服，无权发声\N{\rENG}Uniform's forgotten. You have no voice?
+Dialogue: 0,1:01:35.27,1:01:36.34,CHS,,0,0,0,,你参战了\N{\rENG}You were enlist?
+Dialogue: 0,1:01:36.59,1:01:38.42,CHS,,0,0,0,,是的，长官，在贝洛伍德\N{\rENG}I was sir Belleau Wood.
+Dialogue: 0,1:01:38.81,1:01:41.25,CHS,,0,0,0,,两次授勋，我看到的，先生\N{\rENG}Twice decorated. I see it sir.
+Dialogue: 0,1:01:42.27,1:01:44.14,CHS,,0,0,0,,我想你是被告之父\N{\rENG}I take it you're the father.
+Dialogue: 0,1:01:44.82,1:01:46.83,CHS,,0,0,0,,我是，长官，托马斯·多斯\N{\rENG}I am, sir. Thomas Doss.
+Dialogue: 0,1:01:46.84,1:01:49.97,CHS,,0,0,0,,那么作为前军人，你知这儿有法律\N{\rENG}Then as former military man. You know there are laws here.
+Dialogue: 0,1:01:50.00,1:01:53.59,CHS,,0,0,0,,长官，我清楚法律，我是，我知我儿受这些法律保护\N{\rENG}Sir, I know the law. I am. I know my son is protected by those laws.
+Dialogue: 0,1:01:53.62,1:01:55.37,CHS,,0,0,0,,它们受宪法约束\N{\rENG}They are framed in our constitution.
+Dialogue: 0,1:01:55.85,1:01:57.51,CHS,,0,0,0,,我相信它们，像他那样\N{\rENG}And I believe in them as he does.
+Dialogue: 0,1:01:57.87,1:02:00.34,CHS,,0,0,0,,那就是为何我曾为捍卫它们而战\N{\rENG}That's why I went and fought to protect them.
+Dialogue: 0,1:02:01.51,1:02:04.74,CHS,,0,0,0,,这就是我所思所为，因为如果不是为此\N{\rENG}It's what I thought I was doing because if it wasn't for that
+Dialogue: 0,1:02:04.74,1:02:07.77,CHS,,0,0,0,,我就不知我到底去那里干了啥，长官\N{\rENG}then I have no idea what the hell I was doing there, sir.
+Dialogue: 0,1:02:09.68,1:02:11.28,CHS,,0,0,0,,谢谢你，下士多斯\N{\rENG}Thank you Corporal Doss.
+Dialogue: 0,1:02:13.95,1:02:15.48,CHS,,0,0,0,,让我看看这信\N{\rENG}Let me have the letter.
+Dialogue: 0,1:02:23.25,1:02:24.25,CHS,,0,0,0,,你得离开\N{\rENG}You must go.
+Dialogue: 0,1:02:40.22,1:02:44.03,CHS,,0,0,0,,被告作为一个“拒服兵役者”的权利，受国会一项法案的保护\N{\rENG}The defendant's rights as a Conscientious Objector are protected by an Act of Congress.
+Dialogue: 0,1:02:44.12,1:02:47.88,CHS,,0,0,0,,他不能被迫放弃这些权利\N{\rENG}And he cannot be compelled to waive those rights.
+Dialogue: 0,1:02:48.77,1:02:52.88,CHS,,0,0,0,,权利包括本案述及之违抗携带武器命令\N{\rENG}That includes in this case his disobeying orders to bear arm.
+Dialogue: 0,1:02:53.06,1:02:57.20,CHS,,0,0,0,,签署，准将穆斯格罗夫，战争服务指挥官，华盛顿特区\N{\rENG}Signed Brigadier General Musgrove. War Services Commander, Washington DC.
+Dialogue: 0,1:02:57.94,1:02:58.71,CHS,,0,0,0,,上校\N{\rENG}Colonel.
+Dialogue: 0,1:03:03.28,1:03:05.28,CHS,,0,0,0,,我撤销控诉\N{\rENG}I withdraw the charges.
+Dialogue: 0,1:03:05.37,1:03:07.23,CHS,,0,0,0,,那么本案驳回\N{\rENG}Then this case is dismissed.
+Dialogue: 0,1:03:08.02,1:03:10.76,CHS,,0,0,0,,列兵多斯，你可自由的投入战斗的地狱烈火\N{\rENG}Private Doss you are free to run into the hell fire of battle
+Dialogue: 0,1:03:10.76,1:03:13.89,CHS,,0,0,0,,无需任何武器保护自己\N{\rENG}without a single weapon to protect yourself.
+Dialogue: 0,1:03:15.12,1:03:16.92,CHS,,0,0,0,,你可恢复原职责\N{\rENG}You may resume your duties.
+Dialogue: 0,1:03:17.17,1:03:19.01,CHS,,0,0,0,,作为军医开始训练\N{\rENG}Begin training as a combat medic.
+Dialogue: 0,1:03:25.34,1:03:26.74,CHS,,0,0,0,,- 他去哪儿了？ - 走了\N{\rENG}- Where is he?  - Gone.
+Dialogue: 0,1:03:26.74,1:03:30.17,CHS,,0,0,0,,出来就走，我请求他留下，说他同样想留下\N{\rENG}Straight after. I begged him to stay. I told him he want the same.
+Dialogue: 0,1:03:31.31,1:03:33.87,CHS,,0,0,0,,你回家后告诉他：我爱他\N{\rENG}When you get home you tell him that I love him.
+Dialogue: 0,1:03:33.89,1:03:34.89,CHS,,0,0,0,,好的\N{\rENG}Okay.
+Dialogue: 0,1:04:15.13,1:04:17.57,CHS,,0,0,0,,你要好好的回到我身边\N{\rENG}You better come home to me.
+Dialogue: 0,1:04:22.33,1:04:28.11,CHS,,0,0,0,,冲绳岛，三月 1945\N{\rENG}OKINAWA, MAY 1945
+Dialogue: 0,1:04:29.85,1:04:33.29,CHS,,0,0,0,,山姆大叔微微笑，平静有如孩子貌\N{\rENG}Uncle Sam is smiling. Peaceful as a child
+Dialogue: 0,1:04:33.34,1:04:34.35,CHS,,0,0,0,,但是切忌让他闹\N{\rENG}But never get him rowdy
+Dialogue: 0,1:04:34.39,1:04:36.07,CHS,,0,0,0,,别唱了，汤姆\N{\rENG}Cut it out, Tom.
+Dialogue: 0,1:04:36.10,1:04:37.10,CHS,,0,0,0,,- 你现在想玩吗？ - 闭嘴\N{\rENG}- So now you wanna play?  - Shut up
+Dialogue: 0,1:04:37.17,1:04:39.26,CHS,,0,0,0,,- 拜托！安静下  - 闭嘴，衰人\N{\rENG}- C'mon pipe down.  - Shut up man.
+Dialogue: 0,1:04:41.75,1:04:44.54,CHS,,0,0,0,,把袜子塞嘴里，小男孩，当我们到那儿时再唱\N{\rENG}Put a sock in it boy. You save the choral for when we get there.
+Dialogue: 0,1:04:44.80,1:04:46.13,CHS,,0,0,0,,司机驾到\N{\rENG}Your driver is here.
+Dialogue: 0,1:04:49.34,1:04:50.35,CHS,,0,0,0,,让路\N{\rENG}Give 'em room.
+Dialogue: 0,1:04:50.41,1:04:52.98,CHS,,0,0,0,,晴空，万里无云\N{\rENG}Clear. Clear blue sky.
+Dialogue: 0,1:05:40.56,1:05:42.17,zhu,,0,0,0,,美国陆军第96步兵师，二战服役\N{\rCHS}九十六师\N{\rENG}96th.
+Dialogue: 0,1:05:42.17,1:05:43.54,zhu,,0,0,0,,美国陆军第96步兵师，二战服役\N{\rCHS}他们都剩下些啥？\N{\rENG}What's left of 'em.
+Dialogue: 0,1:05:44.25,1:05:46.63,CHS,,0,0,0,,这些是他们的后备军\N{\rENG}These are the guys who replaced them.
+Dialogue: 0,1:06:17.49,1:06:19.36,CHS,,0,0,0,,我觉得不错，这儿挺好\N{\rENG}Seems good to me. It's cool.
+Dialogue: 0,1:06:20.94,1:06:22.17,CHS,,0,0,0,,安全，中士\N{\rENG}All clear Sarge.
+Dialogue: 0,1:06:40.24,1:06:41.24,CHS,,0,0,0,,队长格洛弗\N{\rENG}Captain Glover.
+Dialogue: 0,1:06:43.59,1:06:45.19,CHS,,0,0,0,,中尉曼维，九十六师\N{\rENG}Lieutenant Manville. 96th.
+Dialogue: 0,1:06:45.80,1:06:47.49,CHS,,0,0,0,,我们被派给您，长官\N{\rENG}We've been assigned to you, sir.
+Dialogue: 0,1:06:47.71,1:06:48.71,CHS,,0,0,0,,好的\N{\rENG}Okay.
+Dialogue: 0,1:06:49.43,1:06:51.43,CHS,,0,0,0,,- 大家给这些伙计弄点吃的  - 是，长官\N{\rENG}- Let's get these men some chow.  - Yes, sir.
+Dialogue: 0,1:06:51.51,1:06:54.04,CHS,,0,0,0,,- 这是中士豪厄尔  - 很高兴见到你，长官\N{\rENG}- This is Sergeant Howell.  - Good to meet you sir.
+Dialogue: 0,1:06:54.10,1:06:55.37,CHS,,0,0,0,,谁是多斯\N{\rENG}Who's Doss?
+Dialogue: 0,1:06:56.75,1:06:57.75,CHS,,0,0,0,,在那儿\N{\rENG}Over there.
+Dialogue: 0,1:07:00.76,1:07:01.76,CHS,,0,0,0,,你是多斯\N{\rENG}You Doss?
+Dialogue: 0,1:07:04.16,1:07:05.65,CHS,,0,0,0,,伊夫·谢克特\N{\rENG}Irv Schecter
+Dialogue: 0,1:07:11.11,1:07:13.36,CHS,,0,0,0,,你和我和“桃子”在此\N{\rENG}You and me and Peach here.
+Dialogue: 0,1:07:13.87,1:07:16.70,CHS,,0,0,0,,是本区仅有的医护人员，所以\N{\rENG}About the only medics we got left in this area. So
+Dialogue: 0,1:07:17.25,1:07:19.97,CHS,,0,0,0,,我想我们将一起工作\N{\rENG}I guess we're going to be working together.
+Dialogue: 0,1:07:20.06,1:07:21.86,CHS,,0,0,0,,你刚从前线来\N{\rENG}You just come off the line?
+Dialogue: 0,1:07:21.88,1:07:22.88,CHS,,0,0,0,,情形如何\N{\rENG}What's it like?
+Dialogue: 0,1:07:25.54,1:07:27.00,CHS,,0,0,0,,我问了情形如何\N{\rENG}I said what's it like?
+Dialogue: 0,1:07:30.50,1:07:31.50,CHS,,0,0,0,,钢锯吗\N{\rENG}Hacksaw?
+Dialogue: 0,1:07:33.55,1:07:35.17,CHS,,0,0,0,,我们攻下六次\N{\rENG}We caught it about six times.
+Dialogue: 0,1:07:35.31,1:07:37.17,CHS,,0,0,0,,六次被他们赶出\N{\rENG}Six times they threw us off.
+Dialogue: 0,1:07:40.76,1:07:44.23,CHS,,0,0,0,,最后一次没留下任何东西可修复\N{\rENG}Last time wasn't anything left for something to fix.
+Dialogue: 0,1:07:46.51,1:07:47.58,CHS,,0,0,0,,他们是畜生\N{\rENG}They're animals.
+Dialogue: 0,1:07:49.78,1:07:51.24,CHS,,0,0,0,,恶臭的畜生\N{\rENG}Stinking animals.
+Dialogue: 0,1:07:52.09,1:07:54.49,CHS,,0,0,0,,小日本不关心他们是死是活\N{\rENG}Nips don't care if they live or die.
+Dialogue: 0,1:07:55.66,1:07:56.66,CHS,,0,0,0,,他们想死\N{\rENG}They wanna die.
+Dialogue: 0,1:07:56.78,1:07:58.38,CHS,,0,0,0,,他们不断袭击你\N{\rENG}They keep coming at you.
+Dialogue: 0,1:07:58.96,1:08:00.62,CHS,,0,0,0,,他们从不放弃\N{\rENG}They never gonna give up.
+Dialogue: 0,1:08:02.15,1:08:03.15,CHS,,0,0,0,,永不\N{\rENG}Never.
+Dialogue: 0,1:08:04.72,1:08:05.72,CHS,,0,0,0,,嘿，伙计\N{\rENG}Hey buddy.
+Dialogue: 0,1:08:10.27,1:08:12.50,CHS,,0,0,0,,日本鬼专门袭击伤员\N{\rENG}The Japs deliberately target the wounded.
+Dialogue: 0,1:08:13.61,1:08:15.66,CHS,,0,0,0,,去掉你所有的红十字标志\N{\rENG}Lose all your red cross markings.
+Dialogue: 0,1:08:16.64,1:08:18.95,CHS,,0,0,0,,小日本极好枪击军医\N{\rENG}Nips put a premium on shooting medics.
+Dialogue: 0,1:08:19.78,1:08:21.52,CHS,,0,0,0,,那白色的靶心\N{\rENG}That white's a bull's-eye.
+Dialogue: 0,1:08:22.72,1:08:24.62,CHS,,0,0,0,,拿去，我给你个新头盔\N{\rENG}Here I got you a new helmet.
+Dialogue: 0,1:08:25.77,1:08:27.26,CHS,,0,0,0,,一码配所有\N{\rENG}One-size-fits-all.
+Dialogue: 0,1:08:35.51,1:08:36.91,CHS,,0,0,0,,这是我们的目标\N{\rENG}That's our objective.
+Dialogue: 0,1:08:37.10,1:08:38.10,CHS,,0,0,0,,钢锯岭\N{\rENG}Hacksaw Ridge.
+Dialogue: 0,1:08:38.83,1:08:41.33,CHS,,0,0,0,,我们占领它，可能就拿下冲绳\N{\rENG}We take it. Maybe we get Okinawa.
+Dialogue: 0,1:08:42.46,1:08:44.86,CHS,,0,0,0,,拿下冲绳，我们就能占领日本\N{\rENG}We get Okinawa. We take Japan.
+Dialogue: 0,1:08:45.56,1:08:46.41,CHS,,0,0,0,,吸口气\N{\rENG}Take a breather.
+Dialogue: 0,1:08:46.43,1:08:48.80,CHS,,0,0,0,,我们的海军朋友会温柔的请他们欢迎各位\N{\rENG}Our pals in the Navy are gonna soften them up for us.
+Dialogue: 0,1:09:15.97,1:09:17.90,CHS,,0,0,0,,那死样没人能活\N{\rENG}Nobody can survive that shit.
+Dialogue: 0,1:09:19.46,1:09:20.59,CHS,,0,0,0,,噢，但他们能\N{\rENG}Oh, but they can.
+Dialogue: 0,1:09:39.71,1:09:40.71,CHS,,0,0,0,,中尉\N{\rENG}Lieutenant.
+Dialogue: 0,1:09:41.28,1:09:44.05,CHS,,0,0,0,,此处的这些掩体，这里和这里，准确吗？\N{\rENG}This bunkers here. Here and here. Is that accurate?
+Dialogue: 0,1:09:45.64,1:09:47.79,CHS,,0,0,0,,是的，长官\N{\rENG}Yes, sir.
+Dialogue: 0,1:09:55.99,1:09:59.38,CHS,,0,0,0,,是的，长官，也许他们会从后面看，但这就是全部\N{\rENG}Yes, sir. Maybe they are gonna look from the back but that's all.
+Dialogue: 0,1:10:01.40,1:10:03.64,CHS,,0,0,0,,完全不同，那上边\N{\rENG}It's all different. Up there.
+Dialogue: 0,1:10:03.74,1:10:05.27,CHS,,0,0,0,,[全体进攻]\N{\rENG}[All here accounted.]
+Dialogue: 0,1:10:06.76,1:10:07.76,CHS,,0,0,0,,战士们\N{\rENG}Gents.
+Dialogue: 0,1:10:08.73,1:10:10.15,CHS,,0,0,0,,出发\N{\rENG}Move out!
+Dialogue: 0,1:10:35.96,1:10:36.96,CHS,,0,0,0,,是血\N{\rENG}It's blood.
+Dialogue: 0,1:10:37.12,1:10:38.12,CHS,,0,0,0,,糟透了\N{\rENG}No shit.
+Dialogue: 0,1:10:40.55,1:10:42.95,CHS,,0,0,0,,我们已不在堪萨斯了，多萝西\N{\rENG}We're not in Kansas anymore Dorothy.
+Dialogue: 0,1:10:44.69,1:10:46.04,CHS,,0,0,0,,继续爬\N{\rENG}Keep climbing.
+Dialogue: 0,1:10:56.55,1:10:58.69,CHS,,0,0,0,,这里，来把你的手给我\N{\rENG}Here. Come on give me your hand.
+Dialogue: 0,1:11:18.86,1:11:19.86,CHS,,0,0,0,,让路\N{\rENG}Make way.
+Dialogue: 0,1:11:25.66,1:11:27.86,CHS,,0,0,0,,拉尔夫，把这个给杰索普\N{\rENG}Ralph, get this to Jessop.
+Dialogue: 0,1:13:15.20,1:13:16.20,CHS,,0,0,0,,来了\N{\rENG}Incoming!
+Dialogue: 0,1:13:18.61,1:13:19.61,CHS,,0,0,0,,趴下\N{\rENG}Get down!
+Dialogue: 0,1:13:23.15,1:13:24.15,CHS,,0,0,0,,趴下\N{\rENG}Get down!
+Dialogue: 0,1:13:36.92,1:13:38.29,CHS,,0,0,0,,他们到底在哪儿\N{\rENG}Where the hell are they?!!!
+Dialogue: 0,1:13:38.34,1:13:39.60,CHS,,0,0,0,,我看不到他们\N{\rENG}I can't see them!!!
+Dialogue: 0,1:13:42.26,1:13:43.46,CHS,,0,0,0,,该死的在哪儿\N{\rENG}Where the fuck?!!!
+Dialogue: 0,1:13:47.36,1:13:48.36,CHS,,0,0,0,,军医\N{\rENG}Medic!
+Dialogue: 0,1:13:49.43,1:13:50.43,CHS,,0,0,0,,在这边\N{\rENG}Over here!
+Dialogue: 0,1:13:53.30,1:13:54.80,CHS,,0,0,0,,把手放在这儿\N{\rENG}Put your hand right here.
+Dialogue: 0,1:13:54.84,1:13:56.57,CHS,,0,0,0,,按住肠子\N{\rENG}Put your hand on that gut.
+Dialogue: 0,1:13:57.33,1:14:00.79,CHS,,0,0,0,,来吧，我们帮你找掩护\N{\rENG}Come on. We're gonna get you under cover.
+Dialogue: 0,1:14:18.53,1:14:20.00,CHS,,0,0,0,,继续前进\N{\rENG}Keep moving forward.
+Dialogue: 0,1:14:29.56,1:14:30.82,CHS,,0,0,0,,看不到任何东西\N{\rENG}Can't see anything.
+Dialogue: 0,1:14:31.18,1:14:32.18,CHS,,0,0,0,,是那个吗？\N{\rENG}It's that one?
+Dialogue: 0,1:14:32.22,1:14:33.75,CHS,,0,0,0,,我不知打哪儿\N{\rENG}I dunno where to shoot.
+Dialogue: 0,1:14:39.65,1:14:40.98,CHS,,0,0,0,,好吧，我们上\N{\rENG}Alright let's go.
+Dialogue: 0,1:14:44.76,1:14:45.76,CHS,,0,0,0,,迪诺\N{\rENG}Dino!
+Dialogue: 0,1:14:51.01,1:14:52.01,CHS,,0,0,0,,噢，糟糕\N{\rENG}Oh shit!
+Dialogue: 0,1:15:00.28,1:15:01.48,CHS,,0,0,0,,多斯，迪诺中弹\N{\rENG}Doss, Dino's down.
+Dialogue: 0,1:15:01.60,1:15:02.60,CHS,,0,0,0,,我来了\N{\rENG}I'm coming.
+Dialogue: 0,1:15:18.01,1:15:19.27,CHS,,0,0,0,,让路\N{\rENG}Get out of the way!
+Dialogue: 0,1:15:50.63,1:15:51.63,CHS,,0,0,0,,你受伤了\N{\rENG}You hurt?
+Dialogue: 0,1:15:52.55,1:15:53.55,CHS,,0,0,0,,我很好\N{\rENG}I'm fine.
+Dialogue: 0,1:16:11.75,1:16:13.02,CHS,,0,0,0,,来吧！我帮你\N{\rENG}Come on! I got you.
+Dialogue: 0,1:16:13.14,1:16:14.14,CHS,,0,0,0,,吸气\N{\rENG}Breath.
+Dialogue: 0,1:16:17.48,1:16:18.48,CHS,,0,0,0,,尽量吸气\N{\rENG}Just breath.
+Dialogue: 0,1:16:19.05,1:16:20.05,CHS,,0,0,0,,吸气\N{\rENG}Breath.
+Dialogue: 0,1:16:20.08,1:16:21.08,CHS,,0,0,0,,没关系\N{\rENG}It's okay.
+Dialogue: 0,1:16:23.10,1:16:24.10,CHS,,0,0,0,,尽量吸气\N{\rENG}Just breath.
+Dialogue: 0,1:16:24.20,1:16:25.20,CHS,,0,0,0,,尽量吸气\N{\rENG}Just breath.
+Dialogue: 0,1:16:27.10,1:16:28.10,CHS,,0,0,0,,我帮你\N{\rENG}I got you.
+Dialogue: 0,1:16:31.51,1:16:32.51,CHS,,0,0,0,,嘿！嘿\N{\rENG}Hey! Hey!
+Dialogue: 0,1:16:33.19,1:16:35.32,CHS,,0,0,0,,给他一针吗啡再继续前进\N{\rENG}Give him a shot of morphine and move on.
+Dialogue: 0,1:16:36.33,1:16:37.48,CHS,,0,0,0,,他挺不了一天\N{\rENG}He's not gonna last a day.
+Dialogue: 0,1:16:37.53,1:16:39.51,CHS,,0,0,0,,求你，求你了多斯，别，别\N{\rENG}Please. Please Doss. No. No.
+Dialogue: 0,1:16:39.72,1:16:40.72,CHS,,0,0,0,,别丢下我\N{\rENG}Don't leave me.
+Dialogue: 0,1:16:40.77,1:16:43.37,CHS,,0,0,0,,别丢下我，请别丢下我\N{\rENG}Don't leave me. Please don't leave me.
+Dialogue: 0,1:16:43.40,1:16:44.40,CHS,,0,0,0,,我有孩子\N{\rENG}I got kids.
+Dialogue: 0,1:16:45.31,1:16:47.46,CHS,,0,0,0,,求你！别这样\N{\rENG}Please! Please dont!
+Dialogue: 0,1:16:47.52,1:16:48.98,CHS,,0,0,0,,请别丢下我\N{\rENG}Please don't leave me!
+Dialogue: 0,1:16:49.12,1:16:50.65,CHS,,0,0,0,,我不会离开\N{\rENG}I ain't going anywhere!
+Dialogue: 0,1:16:50.85,1:16:52.83,CHS,,0,0,0,,我要带你回家，我会救你，拉尔夫\N{\rENG}I'm going to get you home. I got you Ralph.
+Dialogue: 0,1:16:52.92,1:16:53.92,CHS,,0,0,0,,好吗\N{\rENG}Okay!
+Dialogue: 0,1:16:53.95,1:16:55.57,CHS,,0,0,0,,我会带你回家\N{\rENG}I'm gonna get you home.
+Dialogue: 0,1:16:56.70,1:16:59.10,CHS,,0,0,0,,吗啡来了，吗啡来了\N{\rENG}Here's come the morphine. Here's come the morphine.
+Dialogue: 0,1:16:59.19,1:17:02.15,CHS,,0,0,0,,很快就会起作用，拉尔夫，我们会转移你\N{\rENG}Just gonna kick it real quick, Ralph. We gonna get you shifted.
+Dialogue: 0,1:17:02.64,1:17:03.64,CHS,,0,0,0,,担架\N{\rENG}Stretcher!
+Dialogue: 0,1:17:04.50,1:17:06.75,CHS,,0,0,0,,担架\N{\rENG}Stretcher!
+Dialogue: 0,1:17:11.27,1:17:12.11,CHS,,0,0,0,,起来\N{\rENG}Get up!
+Dialogue: 0,1:17:12.13,1:17:13.00,CHS,,0,0,0,,继续前进\N{\rENG}Keep moving!
+Dialogue: 0,1:17:13.06,1:17:13.87,CHS,,0,0,0,,中士，我受伤了\N{\rENG}Sergeant. I'm wounded.
+Dialogue: 0,1:17:13.93,1:17:15.63,CHS,,0,0,0,,你没事\N{\rENG}There's nothing wrong with you.
+Dialogue: 0,1:17:16.78,1:17:17.78,CHS,,0,0,0,,倒霉\N{\rENG}Shit!
+Dialogue: 0,1:17:17.88,1:17:18.88,CHS,,0,0,0,,坚持，小子\N{\rENG}Hang on kid.
+Dialogue: 0,1:17:21.32,1:17:22.21,CHS,,0,0,0,,动起来\N{\rENG}Move!
+Dialogue: 0,1:17:22.25,1:17:24.00,CHS,,0,0,0,,不当士兵就当死人\N{\rENG}A soldier who doesn't is a dead one.
+Dialogue: 0,1:17:26.95,1:17:28.22,CHS,,0,0,0,,我们有个优先级\N{\rENG}We got a priority.
+Dialogue: 0,1:17:34.78,1:17:36.38,CHS,,0,0,0,,优先级？你还没有分类\N{\rENG}Priority. You haven't of triage?
+Dialogue: 0,1:17:36.45,1:17:38.92,CHS,,0,0,0,,- 他会死在我们送他们下去之前  - 你不能肯定\N{\rENG}- He'll be dead before we get 'em down.  - You don't know that.
+Dialogue: 0,1:17:40.40,1:17:41.40,CHS,,0,0,0,,送他下去\N{\rENG}Get him down!
+Dialogue: 0,1:17:41.89,1:17:42.89,CHS,,0,0,0,,那好\N{\rENG}Alright!
+Dialogue: 0,1:17:43.24,1:17:43.74,CHS,,0,0,0,,嗯？\N{\rENG}Huh?
+Dialogue: 0,1:17:44.24,1:17:46.17,CHS,,0,0,0,,- 好吧  - 很好\N{\rENG}- Okay.  - Okay.
+Dialogue: 0,1:17:46.22,1:17:47.22,CHS,,0,0,0,,好吧，走吧\N{\rENG}Okay. Go!
+Dialogue: 0,1:17:47.97,1:17:50.77,CHS,,0,0,0,,没事的老友，我们会送你回家\N{\rENG}It's alright buddy. We gonna get you home.
+Dialogue: 0,1:17:55.30,1:17:56.30,CHS,,0,0,0,,军医\N{\rENG}Medic!
+Dialogue: 0,1:17:56.33,1:17:57.80,CHS,,0,0,0,,救命！救命\N{\rENG}Help! Help!
+Dialogue: 0,1:17:58.02,1:18:02.27,CHS,,0,0,0,,我觉得若我们看不见他们，他们也看不见我们\N{\rENG}I figured if we can't see them and they can't see us neither.
+Dialogue: 0,1:18:03.12,1:18:04.52,CHS,,0,0,0,,救命\N{\rENG}Help!
+Dialogue: 0,1:18:05.94,1:18:06.94,CHS,,0,0,0,,我不能动\N{\rENG}I took it bad.
+Dialogue: 0,1:18:16.20,1:18:17.98,CHS,,0,0,0,,我来了，弗兰克，你伤在哪儿？\N{\rENG}I got it Frank. Where you hit?
+Dialogue: 0,1:18:28.65,1:18:31.03,CHS,,0,0,0,,我认为他们只是自作聪明！\N{\rENG}I think they just did smart-ass!
+Dialogue: 0,1:18:31.10,1:18:33.83,CHS,,0,0,0,,来吧！来吧！用手抓住我这儿\N{\rENG}Come on, Come on,give me your hand here.
+Dialogue: 0,1:18:36.89,1:18:37.89,CHS,,0,0,0,,趴下，长官\N{\rENG}Get down sir.
+Dialogue: 0,1:18:38.64,1:18:39.64,CHS,,0,0,0,,在那儿\N{\rENG}Over there!
+Dialogue: 0,1:18:39.72,1:18:40.72,CHS,,0,0,0,,掩体\N{\rENG}The bunkers!
+Dialogue: 0,1:18:43.23,1:18:45.03,CHS,,0,0,0,,看到了，最好呆下边，长官\N{\rENG}I do. Better stay down sir.
+Dialogue: 0,1:18:48.67,1:18:49.60,CHS,,0,0,0,,发现敌人\N{\rENG}I got 'em!
+Dialogue: 0,1:18:49.68,1:18:50.67,CHS,,0,0,0,,正前方\N{\rENG}Dead ahead!
+Dialogue: 0,1:18:50.69,1:18:52.09,CHS,,0,0,0,,是的，我也看到了\N{\rENG}Yeah. I see them too.
+Dialogue: 0,1:18:52.12,1:18:54.59,CHS,,0,0,0,,准备好所有武器消灭他们\N{\rENG}Get ready give 'em everything you got.
+Dialogue: 0,1:18:54.78,1:18:57.00,CHS,,0,0,0,,我会让武攻队从两侧围剿\N{\rENG}I'll sent them a weapon's team to flank them.
+Dialogue: 0,1:19:03.49,1:19:05.82,CHS,,0,0,0,,抓紧点，你会完好如初\N{\rENG}Be there tight. You gonna be right as new.
+Dialogue: 0,1:19:06.30,1:19:07.94,CHS,,0,0,0,,- 好吧？ - 我来吧，多斯\N{\rENG}- Alright?  - I got it Doss.
+Dialogue: 0,1:19:08.19,1:19:09.02,CHS,,0,0,0,,好了\N{\rENG}Got it.
+Dialogue: 0,1:19:10.92,1:19:11.50,CHS,,0,0,0,,嘿\N{\rENG}Hey
+Dialogue: 0,1:19:12.68,1:19:13.68,CHS,,0,0,0,,你干得可好？\N{\rENG}You doing okay?
+Dialogue: 0,1:19:14.26,1:19:15.26,CHS,,0,0,0,,还好\N{\rENG}Okay.
+Dialogue: 0,1:19:27.97,1:19:28.97,CHS,,0,0,0,,开火\N{\rENG}Fire!
+Dialogue: 0,1:19:41.28,1:19:42.28,CHS,,0,0,0,,上\N{\rENG}Go!
+Dialogue: 0,1:19:47.29,1:19:48.29,CHS,,0,0,0,,婊崽子\N{\rENG}Son of a bitch!
+Dialogue: 0,1:19:49.72,1:19:50.72,CHS,,0,0,0,,干掉他们，接着打\N{\rENG}Get 'em. Get on it!
+Dialogue: 0,1:19:50.80,1:19:51.80,CHS,,0,0,0,,- 遵命长官  - 马上\N{\rENG}- Yes sir.  - Now!
+Dialogue: 0,1:19:57.89,1:19:58.89,CHS,,0,0,0,,烟雾弹\N{\rENG}Smoke!
+Dialogue: 0,1:20:02.40,1:20:03.40,CHS,,0,0,0,,医护兵\N{\rENG}Corpsman.
+Dialogue: 0,1:20:10.28,1:20:11.28,CHS,,0,0,0,,上\N{\rENG}Go!
+Dialogue: 0,1:20:11.34,1:20:13.67,CHS,,0,0,0,,上！“食尸鬼”！往洞里打\N{\rENG}Go! Ghoul! Get in the hole.
+Dialogue: 0,1:20:14.36,1:20:15.75,CHS,,0,0,0,,…母亲\N{\rENG}Mother...
+Dialogue: 0,1:20:18.07,1:20:19.07,CHS,,0,0,0,,上\N{\rENG}Go!
+Dialogue: 0,1:20:20.73,1:20:21.96,CHS,,0,0,0,,要坚强\N{\rENG}Be strong!
+Dialogue: 0,1:20:28.12,1:20:29.12,CHS,,0,0,0,,掩护\N{\rENG}Cover!
+Dialogue: 0,1:20:36.20,1:20:37.20,CHS,,0,0,0,,炸药包\N{\rENG}Satchels!
+Dialogue: 0,1:20:40.76,1:20:41.74,CHS,,0,0,0,,“食尸鬼”\N{\rENG}Ghoul?
+Dialogue: 0,1:20:41.76,1:20:42.76,CHS,,0,0,0,,这儿\N{\rENG}Here!
+Dialogue: 0,1:20:47.73,1:20:48.73,CHS,,0,0,0,,来吧坚持住\N{\rENG}C'mon stick it.
+Dialogue: 0,1:20:49.63,1:20:50.63,CHS,,0,0,0,,坚持住食尸鬼\N{\rENG}Stick it Ghoul.
+Dialogue: 0,1:20:53.20,1:20:54.20,CHS,,0,0,0,,掩护！掩护\N{\rENG}Cover! Cover!
+Dialogue: 0,1:21:07.33,1:21:08.33,CHS,,0,0,0,,崽…\N{\rENG}Son of a...
+Dialogue: 0,1:21:19.77,1:21:20.77,CHS,,0,0,0,,掩护他\N{\rENG}Cover his ass!
+Dialogue: 0,1:21:53.96,1:21:54.96,CHS,,0,0,0,,上\N{\rENG}Go!
+Dialogue: 0,1:22:39.69,1:22:40.69,CHS,,0,0,0,,军医\N{\rENG}Medic!
+Dialogue: 0,1:22:43.63,1:22:45.69,CHS,,0,0,0,,我在这里，用手按住它\N{\rENG}I'm here. Put your hand on it.
+Dialogue: 0,1:22:46.10,1:22:47.43,CHS,,0,0,0,,用手按住它\N{\rENG}Put your hand on it!
+Dialogue: 0,1:23:18.30,1:23:19.30,CHS,,0,0,0,,上！上！上\N{\rENG}Go! Go! Go!
+Dialogue: 0,1:23:22.08,1:23:23.08,CHS,,0,0,0,,上！上！上\N{\rENG}Go! Go! Go!
+Dialogue: 0,1:23:34.15,1:23:35.15,CHS,,0,0,0,,“食尸鬼”\N{\rENG}Ghoul.
+Dialogue: 0,1:23:35.50,1:23:36.50,CHS,,0,0,0,,“食尸鬼”\N{\rENG}Ghoul.
+Dialogue: 0,1:23:39.37,1:23:40.37,CHS,,0,0,0,,你伤在哪儿？\N{\rENG}Where you hit?
+Dialogue: 0,1:23:40.54,1:23:41.54,CHS,,0,0,0,,我不知\N{\rENG}I don't know.
+Dialogue: 0,1:23:43.85,1:23:46.25,CHS,,0,0,0,,你没伤着头没事的\N{\rENG}You not hit in the head that's okay.
+Dialogue: 0,1:23:46.84,1:23:47.98,CHS,,0,0,0,,你叫啥名\N{\rENG}What's your name?
+Dialogue: 0,1:23:48.92,1:23:49.63,CHS,,0,0,0,,安迪\N{\rENG}Andy.
+Dialogue: 0,1:23:49.67,1:23:50.73,CHS,,0,0,0,,安迪啥\N{\rENG}Andy what?
+Dialogue: 0,1:23:50.84,1:23:51.84,CHS,,0,0,0,,安迪·沃克\N{\rENG}Andy Walker.
+Dialogue: 0,1:23:52.49,1:23:53.76,CHS,,0,0,0,,外号\N{\rENG}Also known as?
+Dialogue: 0,1:23:55.52,1:23:56.52,CHS,,0,0,0,,- “食尸鬼”  - “食尸鬼”\N{\rENG}- Ghoul.  - Ghoul.
+Dialogue: 0,1:23:56.83,1:23:58.59,CHS,,0,0,0,,“食尸鬼”你没事，你没事\N{\rENG}Ghoul you're okay. You're okay.
+Dialogue: 0,1:24:03.82,1:24:04.82,CHS,,0,0,0,,很称职汉子们\N{\rENG}Good job men.
+Dialogue: 0,1:24:05.07,1:24:06.07,CHS,,0,0,0,,干得不错\N{\rENG}Good work.
+Dialogue: 0,1:24:06.56,1:24:08.44,CHS,,0,0,0,,就此过夜，我们守住本地\N{\rENG}Take it for the night. We hold this spot.
+Dialogue: 0,1:24:08.56,1:24:10.54,CHS,,0,0,0,,我们明天消灭剩下的山脊\N{\rENG}We mop up the rest of the ridge tomorrow.
+Dialogue: 0,1:24:11.80,1:24:12.80,CHS,,0,0,0,,好了男孩们\N{\rENG}Okay boys.
+Dialogue: 0,1:24:13.43,1:24:15.26,CHS,,0,0,0,,给自己找个舒适安全窝儿\N{\rENG}Find yourself a nice safe hole.
+Dialogue: 0,1:24:15.27,1:24:16.46,CHS,,0,0,0,,角落或靠近掩体\N{\rENG}End or near the bunker.
+Dialogue: 0,1:24:16.53,1:24:18.27,CHS,,0,0,0,,我们每两小时换次岗\N{\rENG}We'll take watch every two hours.
+Dialogue: 0,1:24:18.57,1:24:19.71,CHS,,0,0,0,,我们不知那边是些啥\N{\rENG}We don't know what's out there.
+Dialogue: 0,1:24:20.03,1:24:21.63,CHS,,0,0,0,,死忠，愚蠢\N{\rENG}Heads down, asses lower.
+Dialogue: 0,1:24:21.74,1:24:23.40,CHS,,0,0,0,,不说英语的全毙了\N{\rENG}Shoot anything that don't speak English.
+Dialogue: 0,1:24:23.45,1:24:24.45,CHS,,0,0,0,,包括“老油条”？中士\N{\rENG}That includes Grease Sarge?
+Dialogue: 0,1:24:24.66,1:24:25.80,CHS,,0,0,0,,尤其是他\N{\rENG}Particularly him.
+Dialogue: 0,1:24:26.38,1:24:28.44,CHS,,0,0,0,,我不关心他是否需要尿尿或大号\N{\rENG}I don't care if he needed to take a piss or a dump.
+Dialogue: 0,1:24:28.79,1:24:30.38,CHS,,0,0,0,,单独去那边可不安全\N{\rENG}It ain't safe to go out there alone.
+Dialogue: 0,1:24:32.49,1:24:33.96,CHS,,0,0,0,,你到底要去哪儿？多斯\N{\rENG}Where the hell you going Doss?
+Dialogue: 0,1:24:35.50,1:24:37.09,CHS,,0,0,0,,那边还有很多伤员，中士\N{\rENG}Still more wounded out there Sarge.
+Dialogue: 0,1:24:37.91,1:24:38.79,CHS,,0,0,0,,我和他一起去\N{\rENG}I'll go with him.
+Dialogue: 0,1:24:39.44,1:24:41.37,CHS,,0,0,0,,聪明点，耳朵放低些\N{\rENG}Be smart keep your ears down.
+Dialogue: 0,1:24:43.37,1:24:45.10,CHS,,0,0,0,,好了，大家找个地儿\N{\rENG}Alright let's find a spot.
+Dialogue: 0,1:24:52.36,1:24:55.29,CHS,,0,0,0,,亨利在首轮十五分钟就挂了\N{\rENG}You know Henry dead in the first 15 minutes.
+Dialogue: 0,1:24:55.33,1:24:56.53,CHS,,0,0,0,,直接挂掉\N{\rENG}Just straight off.
+Dialogue: 0,1:24:58.12,1:24:59.03,CHS,,0,0,0,,是直接挂掉\N{\rENG}It's straight off.
+Dialogue: 0,1:25:00.54,1:25:01.54,CHS,,0,0,0,,彼得森\N{\rENG}Peterson.
+Dialogue: 0,1:25:01.57,1:25:02.57,CHS,,0,0,0,,大力水手\N{\rENG}Popeye.
+Dialogue: 0,1:25:03.62,1:25:04.96,CHS,,0,0,0,,斯坦福和墨菲\N{\rENG}Stanford and Murphy.
+Dialogue: 0,1:25:11.48,1:25:13.88,CHS,,0,0,0,,和平年代子葬父\N{\rENG}In peace sons bury their father.
+Dialogue: 0,1:25:15.35,1:25:17.75,CHS,,0,0,0,,战争时期父葬子\N{\rENG}In war fathers bury their sons.
+Dialogue: 0,1:25:20.41,1:25:22.67,CHS,,0,0,0,,别说丧气话好吗\N{\rENG}Wanna stop spouting that crap out?
+Dialogue: 0,1:25:24.44,1:25:25.70,CHS,,0,0,0,,这帮不了任何人\N{\rENG}It don't help none.
+Dialogue: 0,1:25:27.16,1:25:28.16,CHS,,0,0,0,,是啊\N{\rENG}Yeah.
+Dialogue: 0,1:25:28.97,1:25:30.20,CHS,,0,0,0,,是的，你说得对\N{\rENG}Yeah, you got that right.
+Dialogue: 0,1:25:30.89,1:25:31.89,CHS,,0,0,0,,在此无用\N{\rENG}Not here.
+Dialogue: 0,1:25:34.18,1:25:35.18,CHS,,0,0,0,,嘿\N{\rENG}Hey.
+Dialogue: 0,1:25:36.19,1:25:37.19,CHS,,0,0,0,,给我那个\N{\rENG}Give me that.
+Dialogue: 0,1:25:43.94,1:25:44.94,CHS,,0,0,0,,嘿\N{\rENG}Hey!
+Dialogue: 0,1:25:44.96,1:25:45.34,CHS,,0,0,0,,嘿\N{\rENG}Hey!
+Dialogue: 0,1:25:45.37,1:25:47.63,CHS,,0,0,0,,我们找到个腹部伤员\N{\rENG}We got an abdominal wound.
+Dialogue: 0,1:25:47.92,1:25:50.33,CHS,,0,0,0,,- 小伙子需要血浆  - 明白了，他和我们一起\N{\rENG}- This lad is gonna need some plasma.  - You got it. He'll be with us.
+Dialogue: 0,1:25:52.11,1:25:53.11,CHS,,0,0,0,,我们救了你\N{\rENG}We got you.
+Dialogue: 0,1:26:01.97,1:26:03.56,CHS,,0,0,0,,我们找个窝呆呆\N{\rENG}Should we find a hole and dig in?
+Dialogue: 0,1:26:04.47,1:26:05.67,CHS,,0,0,0,,我觉得行\N{\rENG}Sounds good to me.
+Dialogue: 0,1:26:07.04,1:26:07.95,CHS,,0,0,0,,戴上头盔\N{\rENG}Put your helmet on.
+Dialogue: 0,1:26:18.27,1:26:19.53,CHS,,0,0,0,,你要吃那些\N{\rENG}You gonna eat them?
+Dialogue: 0,1:26:22.31,1:26:23.45,CHS,,0,0,0,,我不吃肉\N{\rENG}I don't eat meat.
+Dialogue: 0,1:26:23.70,1:26:24.70,CHS,,0,0,0,,自取\N{\rENG}Help yourself.
+Dialogue: 0,1:26:26.35,1:26:27.68,CHS,,0,0,0,,当然了，你不吃\N{\rENG}Of course you don't.
+Dialogue: 0,1:26:36.92,1:26:38.65,CHS,,0,0,0,,她是个不错的女子\N{\rENG}That's one heck of a dame.
+Dialogue: 0,1:26:41.10,1:26:43.03,CHS,,0,0,0,,你知道你有她让我们很受打击，是吗？\N{\rENG}You know you find that you whack us with her don't you?
+Dialogue: 0,1:26:50.91,1:26:51.91,CHS,,0,0,0,,是的，我知道\N{\rENG}Yes, I do.
+Dialogue: 0,1:26:53.80,1:26:55.26,CHS,,0,0,0,,别告诉她这些\N{\rENG}Don't tell her that.
+Dialogue: 0,1:26:55.31,1:26:57.91,CHS,,0,0,0,,她不会太喜欢我这样的男人\N{\rENG}She won't be much happy with a man like me anyway.
+Dialogue: 0,1:26:58.06,1:26:59.69,CHS,,0,0,0,,是啊，直到她了解你\N{\rENG}Yeah until she got to know you.
+Dialogue: 0,1:27:01.69,1:27:03.35,CHS,,0,0,0,,我是个混蛋，有时\N{\rENG}I'm an asshole sometimes.
+Dialogue: 0,1:27:04.24,1:27:05.24,CHS,,0,0,0,,有时\N{\rENG}Sometimes?
+Dialogue: 0,1:27:08.91,1:27:10.27,CHS,,0,0,0,,你是对的\N{\rENG}You're alright.
+Dialogue: 0,1:27:36.85,1:27:38.32,CHS,,0,0,0,,这些日本人很卑鄙\N{\rENG}These Japs are sneaky.
+Dialogue: 0,1:27:40.11,1:27:42.84,CHS,,0,0,0,,我值头班，现在你眯会儿\N{\rENG}I take first watch. Now you get some shut eye.
+Dialogue: 0,1:28:28.64,1:28:29.71,CHS,,0,0,0,,地狱之梦\N{\rENG}Hell of a dream?
+Dialogue: 0,1:28:47.94,1:28:49.61,CHS,,0,0,0,,我梦见自己被杀\N{\rENG}I dreamed I got myself killed.
+Dialogue: 0,1:28:50.83,1:28:52.10,CHS,,0,0,0,,我毫无办法\N{\rENG}I can't do nothing.
+Dialogue: 0,1:28:53.69,1:28:54.75,CHS,,0,0,0,,只需步枪\N{\rENG}Rifles just do.
+Dialogue: 0,1:29:00.01,1:29:01.01,CHS,,0,0,0,,它不会咬人\N{\rENG}It won't bite.
+Dialogue: 0,1:29:02.64,1:29:03.64,CHS,,0,0,0,,对，那么\N{\rENG}Yeah, well.
+Dialogue: 0,1:29:06.22,1:29:07.04,CHS,,0,0,0,,看看你周围\N{\rENG}Look around you.
+Dialogue: 0,1:29:07.48,1:29:08.95,CHS,,0,0,0,,经历了我们这些遭遇\N{\rENG}After what we've been through.
+Dialogue: 0,1:29:09.98,1:29:11.87,CHS,,0,0,0,,任何理智的人都会尖叫着找寻武器\N{\rENG}Any sane man would be screaming for a weapon.
+Dialogue: 0,1:29:11.91,1:29:13.78,CHS,,0,0,0,,我从未声称自己理智\N{\rENG}I never claimed to be sane.
+Dialogue: 0,1:29:19.99,1:29:21.52,CHS,,0,0,0,,我爸是酒鬼\N{\rENG}My daddy's a drunk.
+Dialogue: 0,1:29:24.07,1:29:28.01,CHS,,0,0,0,,他屡戒屡犯多年，酒瘾缠身，酒后失态\N{\rENG}He fought it for years but it kinda got a hold of him hard and made him mean.
+Dialogue: 0,1:29:28.66,1:29:30.44,CHS,,0,0,0,,至少你知道何时我曾与十人中的任何一位同在\N{\rENG}At least you know when mine could've been with any one of the ten guys
+Dialogue: 0,1:29:30.46,1:29:32.38,CHS,,0,0,0,,而他们没有一个人该死\N{\rENG}And none of them would worth a damn.
+Dialogue: 0,1:29:34.83,1:29:36.16,CHS,,0,0,0,,所以你妈妈养大了你\N{\rENG}So your momma raise you?
+Dialogue: 0,1:29:36.31,1:29:37.03,CHS,,0,0,0,,我记得她\N{\rENG}I knew her.
+Dialogue: 0,1:29:37.21,1:29:39.35,CHS,,0,0,0,,但她把我丢给孤儿院，在我五岁时\N{\rENG}But she gave me to an orphanage when I was five.
+Dialogue: 0,1:29:39.57,1:29:40.91,CHS,,0,0,0,,再没见过她\N{\rENG}Never saw her again.
+Dialogue: 0,1:29:43.20,1:29:44.59,CHS,,0,0,0,,我知如何快速行动\N{\rENG}I know how to act quick.
+Dialogue: 0,1:29:46.48,1:29:49.31,CHS,,0,0,0,,但现在我识人更快，我则确实看错了你\N{\rENG}But now I judge people quicker and I got you very wrong.
+Dialogue: 0,1:29:59.25,1:30:00.95,CHS,,0,0,0,,我爸只是经常打我跟我哥\N{\rENG}My dad used to beat me and my brother just
+Dialogue: 0,1:30:00.97,1:30:04.42,CHS,,0,0,0,,因为日升又因为日落而打我们\N{\rENG}cause the sun rose and whip us cause it sets.
+Dialogue: 0,1:30:06.85,1:30:08.05,CHS,,0,0,0,,我能忍受那样\N{\rENG}I could take that.
+Dialogue: 0,1:30:10.49,1:30:12.95,CHS,,0,0,0,,但当他打妈妈时\N{\rENG}But when he would do it to our momma.
+Dialogue: 0,1:30:22.19,1:30:24.06,CHS,,0,0,0,,够了！不再\N{\rENG}That's enough. No more.
+Dialogue: 0,1:30:24.82,1:30:25.82,CHS,,0,0,0,,听清楚没\N{\rENG}Do you hear me?
+Dialogue: 0,1:30:25.88,1:30:27.49,CHS,,0,0,0,,扣下那该死的扳机\N{\rENG}Pull that damn trigger.
+Dialogue: 0,1:30:27.54,1:30:28.88,CHS,,0,0,0,,不要，德斯蒙德，住手\N{\rENG}Don't Desmond. Stop!
+Dialogue: 0,1:30:37.39,1:30:38.48,CHS,,0,0,0,,但你并没杀他\N{\rENG}But you didn't kill him.
+Dialogue: 0,1:30:41.31,1:30:42.51,CHS,,0,0,0,,在心里，我杀了\N{\rENG}In my heart I did.
+Dialogue: 0,1:31:04.80,1:31:09.20,CHS,,0,0,0,,这就是为何我向上帝发誓我再也不去摸枪\N{\rENG}So that's why I made my promise to God I ain't never gonna touch a gun again.
+Dialogue: 0,1:31:13.71,1:31:15.83,CHS,,0,0,0,,好吧我不会给你我的，因为你是疯子\N{\rENG}Well I ain't giving you mine cause you're crazy.
+Dialogue: 0,1:32:19.88,1:32:23.31,CHS,,0,0,0,,行动！行动！让你们的屁股离开那儿\N{\rENG}Move! Move! Get your assess over there!
+Dialogue: 0,1:32:23.34,1:32:24.81,CHS,,0,0,0,,- 我们为何不…一起撤！ - 撤！撤\N{\rENG}- Why don't we... let's go.  - Go! Go!
+Dialogue: 0,1:32:42.66,1:32:46.04,CHS,,0,0,0,,回去！撤退！撤\N{\rENG}Go back! Fall back! Go!
+Dialogue: 0,1:33:01.00,1:33:03.13,CHS,,0,0,0,,他们来自地下\N{\rENG}They're coming from underground!
+Dialogue: 0,1:33:03.61,1:33:06.58,CHS,,0,0,0,,长官！长官！这是贝克六队，请求立即支援\N{\rENG}Sir! Sir! This is Baker Six request immediate support!
+Dialogue: 0,1:33:06.61,1:33:08.76,CHS,,0,0,0,,目标是北三零五一五\N{\rENG}Target is North Thirty Five One Five
+Dialogue: 0,1:33:08.84,1:33:09.96,CHS,,0,0,0,,你没注意你在哪儿吗？\N{\rENG}Don't you notice where you are?
+Dialogue: 0,1:33:09.98,1:33:14.41,CHS,,0,0,0,,是的，我有留意究竟在哪儿，但我可不想再呆在这儿\N{\rENG}Yes, I notice where the hell we are but I don't expect to be here much longer.
+Dialogue: 0,1:33:15.09,1:33:16.70,CHS,,0,0,0,,我叫了炮兵打击\N{\rENG}I called an artillery strike!
+Dialogue: 0,1:33:16.73,1:33:19.55,CHS,,0,0,0,,撤退！行动！行动\N{\rENG}Fall back! Move! Move!
+Dialogue: 0,1:33:25.60,1:33:26.60,CHS,,0,0,0,,撤退\N{\rENG}Fall back!
+Dialogue: 0,1:33:33.34,1:33:34.34,CHS,,0,0,0,,还有人\N{\rENG}Get some!
+Dialogue: 0,1:34:07.55,1:34:08.55,CHS,,0,0,0,,掩护我\N{\rENG}Cover me!
+Dialogue: 0,1:34:11.62,1:34:12.62,CHS,,0,0,0,,撤！撤\N{\rENG}Go! Go!
+Dialogue: 0,1:34:18.36,1:34:19.36,CHS,,0,0,0,,啊\N{\rENG}Argh!
+Dialogue: 0,1:34:25.37,1:34:26.44,CHS,,0,0,0,,离开这儿，小子\N{\rENG}Get out of here, kid!
+Dialogue: 0,1:34:29.79,1:34:30.79,CHS,,0,0,0,,过来，孩子\N{\rENG}Come here, son!
+Dialogue: 0,1:34:34.89,1:34:36.22,CHS,,0,0,0,,你知怎做\N{\rENG}You know what to do!
+Dialogue: 0,1:34:36.60,1:34:37.93,CHS,,0,0,0,,保持压住它\N{\rENG}Keep pressure on it!
+Dialogue: 0,1:34:41.47,1:34:42.94,CHS,,0,0,0,,不！不需要血浆\N{\rENG}No! Don't need plasma!
+Dialogue: 0,1:34:43.04,1:34:44.04,CHS,,0,0,0,,把它给他\N{\rENG}Give it to him!
+Dialogue: 0,1:34:44.06,1:34:45.06,CHS,,0,0,0,,在那边\N{\rENG}Over there!
+Dialogue: 0,1:34:45.14,1:34:46.27,CHS,,0,0,0,,我会没事的，去吧\N{\rENG}I'll be okay. Go!
+Dialogue: 0,1:34:46.47,1:34:47.47,CHS,,0,0,0,,去吧\N{\rENG}Go!
+Dialogue: 0,1:34:48.02,1:34:48.88,CHS,,0,0,0,,- 里斯！ - 什么\N{\rENG}- Reece!  - What?!!!
+Dialogue: 0,1:34:48.91,1:34:50.56,CHS,,0,0,0,,- 背他走！ - 收到\N{\rENG}- Get on the back!  - You got it!
+Dialogue: 0,1:34:50.58,1:34:52.52,CHS,,0,0,0,,好的，回头见\N{\rENG}Okay see you soon.
+Dialogue: 0,1:34:57.75,1:35:00.03,CHS,,0,0,0,,来吧！来吧\N{\rENG}C'mon. C'mon!
+Dialogue: 0,1:35:03.24,1:35:05.17,CHS,,0,0,0,,我们马上行动，来吧！来吧\N{\rENG}We gotta move right now! C'mon! C'mon!
+Dialogue: 0,1:35:47.48,1:35:49.47,CHS,,0,0,0,,行动！行动\N{\rENG}Move! Move!
+Dialogue: 0,1:36:33.26,1:36:34.79,CHS,,0,0,0,,我很害怕，我很害怕\N{\rENG}I'm scared. I'm scared.
+Dialogue: 0,1:36:35.39,1:36:37.05,CHS,,0,0,0,,这能止痛\N{\rENG}This gonna help the pain.
+Dialogue: 0,1:36:39.68,1:36:41.43,CHS,,0,0,0,,不！不要！不要！你别这样\N{\rENG}No! Don't! Dont'! Don't you do that!
+Dialogue: 0,1:36:41.46,1:36:42.71,CHS,,0,0,0,,来吧\N{\rENG}C'mon!
+Dialogue: 0,1:36:42.74,1:36:44.51,CHS,,0,0,0,,来吧！史密提留下陪我\N{\rENG}C'mon Smitty you stay with me!
+Dialogue: 0,1:36:44.58,1:36:46.11,CHS,,0,0,0,,我们得一起行动\N{\rENG}Let's go we gotta move!
+Dialogue: 0,1:37:07.39,1:37:09.12,CHS,,0,0,0,,嘿！帮我把他送下去\N{\rENG}Hey! Help me get him down.
+Dialogue: 0,1:37:09.14,1:37:10.54,CHS,,0,0,0,,帮我把他送下去\N{\rENG}Help me get him down!
+Dialogue: 0,1:37:11.57,1:37:12.79,CHS,,0,0,0,,来吧让我们行动，来吧\N{\rENG}Come on let's move. Come on.
+Dialogue: 0,1:37:12.81,1:37:14.69,CHS,,0,0,0,,帮不了你，伙计，他走了\N{\rENG}Can't help you buddy. He's gone.
+Dialogue: 0,1:37:14.71,1:37:18.76,CHS,,0,0,0,,没有，来吧，我们要离开这儿\N{\rENG}No. Come on. We got to get out of here.
+Dialogue: 0,1:37:31.54,1:37:32.54,CHS,,0,0,0,,放下绳子\N{\rENG}Down the rope!
+Dialogue: 0,1:37:33.17,1:37:34.17,CHS,,0,0,0,,下一个\N{\rENG}After it.
+Dialogue: 0,1:38:12.42,1:38:13.89,CHS,,0,0,0,,他要我去哪儿\N{\rENG}Where does it He want me?
+Dialogue: 0,1:38:22.48,1:38:23.75,CHS,,0,0,0,,我不明白\N{\rENG}I don't understand.
+Dialogue: 0,1:38:30.26,1:38:31.40,CHS,,0,0,0,,我听不到你\N{\rENG}I can't hear You.
+Dialogue: 0,1:38:35.68,1:38:42.30,CHS,,0,0,0,,救我\N{\rENG}Help me!
+Dialogue: 0,1:38:44.66,1:38:45.66,CHS,,0,0,0,,好吧\N{\rENG}Alright!
+Dialogue: 0,1:39:14.77,1:39:15.77,CHS,,0,0,0,,有多少\N{\rENG}How many?
+Dialogue: 0,1:39:17.31,1:39:18.77,CHS,,0,0,0,,只有三十二个下来了，长官\N{\rENG}32 only came down, sir.
+Dialogue: 0,1:39:19.72,1:39:20.72,CHS,,0,0,0,,上帝啊\N{\rENG}Good Lord.
+Dialogue: 0,1:39:22.96,1:39:25.10,CHS,,0,0,0,,- 我们四下找找  - 是，长官\N{\rENG}- Let sow them up.  - Yes, sir.
+Dialogue: 0,1:40:03.87,1:40:04.87,CHS,,0,0,0,,哈利\N{\rENG}Harry.
+Dialogue: 0,1:40:04.90,1:40:05.96,CHS,,0,0,0,,我是德斯蒙德\N{\rENG}It's Desmond.
+Dialogue: 0,1:40:06.00,1:40:09.63,CHS,,0,0,0,,我们会医好你，你只需保持呼吸，好吗\N{\rENG}We gonna fix you up. You just gotta keep breathing. Okay
+Dialogue: 0,1:40:10.93,1:40:12.87,CHS,,0,0,0,,上校想见你，长官\N{\rENG}Colonel want to see you, sir.
+Dialogue: 0,1:40:12.88,1:40:14.01,CHS,,0,0,0,,我需要你的吉普\N{\rENG}I need your jeep.
+Dialogue: 0,1:40:14.04,1:40:16.61,CHS,,0,0,0,,你两个留此警戒，提防日本鬼子\N{\rENG}You two stay here and keep watch. Keep your eyes peel for Japs.
+Dialogue: 0,1:40:16.64,1:40:17.29,CHS,,0,0,0,,不行，但是…\N{\rENG}No. But the...
+Dialogue: 0,1:40:17.32,1:40:18.11,CHS,,0,0,0,,留此警戒\N{\rENG}Stay here and keep watch!
+Dialogue: 0,1:40:18.13,1:40:19.33,CHS,,0,0,0,,遵命，长官\N{\rENG}Yes, sir.
+Dialogue: 0,1:40:28.38,1:40:29.68,CHS,,0,0,0,,救命！救我\N{\rENG}Help! Help me.
+Dialogue: 0,1:40:31.44,1:40:32.34,CHS,,0,0,0,,当心\N{\rENG}Watch out!
+Dialogue: 0,1:40:33.99,1:40:34.99,CHS,,0,0,0,,我救你\N{\rENG}I got you.
+Dialogue: 0,1:40:39.27,1:40:41.27,CHS,,0,0,0,,把手放上面，保持按住它\N{\rENG}Put your hand on it. Keep pressure on it.
+Dialogue: 0,1:40:41.56,1:40:42.63,CHS,,0,0,0,,我会回来\N{\rENG}I'm coming back.
+Dialogue: 0,1:40:42.74,1:40:43.74,CHS,,0,0,0,,- 好吗？ - 别离开\N{\rENG}- Okay.  - Don't leave.
+Dialogue: 0,1:40:59.92,1:41:01.18,CHS,,0,0,0,,轻些，伙计们，轻些\N{\rENG}Easy fellas. Easy.
+Dialogue: 0,1:41:01.73,1:41:02.73,CHS,,0,0,0,,就放这儿\N{\rENG}Here we go.
+Dialogue: 0,1:41:07.57,1:41:09.46,CHS,,0,0,0,,好了伙计们，一起来\N{\rENG}Okay guys let's go.
+Dialogue: 0,1:41:09.59,1:41:10.99,CHS,,0,0,0,,一、二、三，行动\N{\rENG}One-Two-Three. Move.
+Dialogue: 0,1:41:16.87,1:41:19.21,CHS,,0,0,0,,没关系，我们还在一起\N{\rENG}It's okay.All we together
+Dialogue: 0,1:41:20.83,1:41:22.29,CHS,,0,0,0,,我把你救到这儿了\N{\rENG}I got you here
+Dialogue: 0,1:41:23.36,1:41:24.76,CHS,,0,0,0,,只需坐稳，好吗\N{\rENG}Just sit tight, okay.
+Dialogue: 0,1:41:46.67,1:41:47.67,CHS,,0,0,0,,你没事伙计\N{\rENG}You okay buddy.
+Dialogue: 0,1:41:52.72,1:41:54.50,CHS,,0,0,0,,混蛋，这会起作用\N{\rENG}Son of a gun. This is gonn a work
+Dialogue: 0,1:41:55.11,1:41:56.41,CHS,,0,0,0,,每条腿一个\N{\rENG}One for each leg.
+Dialogue: 0,1:41:56.46,1:41:58.33,CHS,,0,0,0,,我们马上帮你穿好\N{\rENG}We gonna get you dress up in a jiffy.
+Dialogue: 0,1:41:58.34,1:41:59.47,CHS,,0,0,0,,再放你下去\N{\rENG}and get you down.
+Dialogue: 0,1:42:00.35,1:42:01.35,CHS,,0,0,0,,我救你\N{\rENG}I got you.
+Dialogue: 0,1:42:03.58,1:42:04.58,CHS,,0,0,0,,我现在救你\N{\rENG}I got you now.
+Dialogue: 0,1:42:07.19,1:42:08.74,CHS,,0,0,0,,你得相信我\N{\rENG}You can trust me.
+Dialogue: 0,1:42:36.88,1:42:37.88,CHS,,0,0,0,,日本佬\N{\rENG}Japs!
+Dialogue: 0,1:42:37.97,1:42:40.10,CHS,,0,0,0,,等等，我们的人，等等\N{\rENG}Hold on. One of ours. Hold on.
+Dialogue: 0,1:42:40.17,1:42:41.44,CHS,,0,0,0,,一起去，一起去\N{\rENG}Let's go. Let's go.
+Dialogue: 0,1:42:44.00,1:42:45.47,CHS,,0,0,0,,我救你，我救你\N{\rENG}I got you. I got you.
+Dialogue: 0,1:42:46.84,1:42:47.84,CHS,,0,0,0,,来吧\N{\rENG}Come on.
+Dialogue: 0,1:42:47.87,1:42:49.27,CHS,,0,0,0,,我救你，你没事了\N{\rENG}I got you. You okay.
+Dialogue: 0,1:42:49.31,1:42:50.31,CHS,,0,0,0,,你没事了\N{\rENG}You okay.
+Dialogue: 0,1:42:54.80,1:42:55.80,CHS,,0,0,0,,嘿\N{\rENG}Hey!
+Dialogue: 0,1:42:56.53,1:42:57.53,CHS,,0,0,0,,又一个\N{\rENG}Another one.
+Dialogue: 0,1:43:02.75,1:43:05.95,CHS,,0,0,0,,上校，呼叫取消炮击钢锯，不能投弹\N{\rENG}Colonel. Call off the artillery attack on Hacksaw. Couldn't pull it in.
+Dialogue: 0,1:43:05.98,1:43:08.58,CHS,,0,0,0,,还有超过一百人在那儿\N{\rENG}There's still over a 100 men left out there.
+Dialogue: 0,1:43:08.63,1:43:11.03,CHS,,0,0,0,,告诉他们取消炮击钢锯\N{\rENG}Tell them to call off the artillery on Hacksaw.
+Dialogue: 0,1:43:11.19,1:43:12.87,CHS,,0,0,0,,(无线电)埃布尔、贝克、壹，结束\N{\rENG}[Radio] Able-Baker-One ,over.
+Dialogue: 0,1:43:12.91,1:43:13.91,CHS,,0,0,0,,坐下，杰克\N{\rENG}Sit down Jack.
+Dialogue: 0,1:43:14.05,1:43:15.25,CHS,,0,0,0,,我给你喝的\N{\rENG}I get you a drink.
+Dialogue: 0,1:43:27.03,1:43:28.37,CHS,,0,0,0,,只是失去掩护\N{\rENG}Just lost our cover.
+Dialogue: 0,1:43:31.04,1:43:33.33,CHS,,0,0,0,,他们要开始了，我们赶紧行动\N{\rENG}They're starting. We gotta move.
+Dialogue: 0,1:43:39.55,1:43:40.55,CHS,,0,0,0,,刚好\N{\rENG}About time.
+Dialogue: 0,1:43:41.79,1:43:43.25,CHS,,0,0,0,,他们不断下来\N{\rENG}They just keep coming.
+Dialogue: 0,1:43:43.46,1:43:44.86,CHS,,0,0,0,,好的，抬起来\N{\rENG}Okay. Pick it up.
+Dialogue: 0,1:43:44.87,1:43:45.87,CHS,,0,0,0,,我抬这边\N{\rENG}I got this.
+Dialogue: 0,1:44:22.53,1:44:23.53,CHS,,0,0,0,,多斯\N{\rENG}Doss.
+Dialogue: 0,1:44:24.51,1:44:25.51,CHS,,0,0,0,,多斯\N{\rENG}Doss.
+Dialogue: 0,1:44:27.82,1:44:28.82,CHS,,0,0,0,,救命\N{\rENG}Help.
+Dialogue: 0,1:44:29.51,1:44:30.51,CHS,,0,0,0,,救我\N{\rENG}Help me.
+Dialogue: 0,1:44:41.47,1:44:43.27,CHS,,0,0,0,,你必须信任我\N{\rENG}You gonna have to trust me.
+Dialogue: 0,1:44:43.66,1:44:44.66,CHS,,0,0,0,,吸口气\N{\rENG}Take a breath.
+Dialogue: 0,1:45:44.11,1:45:45.11,CHS,,0,0,0,,我们走伙计\N{\rENG}Let's go buddy.
+Dialogue: 0,1:45:46.27,1:45:47.27,CHS,,0,0,0,,我们走\N{\rENG}Let's go.
+Dialogue: 0,1:45:49.33,1:45:52.32,CHS,,0,0,0,,杰克，你不知道你在那儿的人是死是活\N{\rENG}Jack. You don't know if your men out there are dead or alive.
+Dialogue: 0,1:45:52.38,1:45:54.23,CHS,,0,0,0,,没有援军，我们不能回到上边去\N{\rENG}We can't go back up there without reinforcement.
+Dialogue: 0,1:45:54.26,1:45:55.38,CHS,,0,0,0,,你会让剩下的人也送命\N{\rENG}You'll end up killing the rest.
+Dialogue: 0,1:45:55.40,1:45:56.53,CHS,,0,0,0,,那就给我援军\N{\rENG}So give me the reinforcement.
+Dialogue: 0,1:45:56.56,1:45:59.72,CHS,,0,0,0,,我没有新人，我没有任何连队\N{\rENG}I don't have any fresh men. I don't have any troops.
+Dialogue: 0,1:46:00.53,1:46:02.66,CHS,,0,0,0,,三个营被消灭在今天\N{\rENG}3 batallions got wipe out today.
+Dialogue: 0,1:46:02.68,1:46:04.95,CHS,,0,0,0,,新兵到这儿还要一天多\N{\rENG}And it'll take more than a day to get men here.
+Dialogue: 0,1:46:05.27,1:46:07.00,CHS,,0,0,0,,我需要他们早点到\N{\rENG}I need them faster than that.
+Dialogue: 0,1:47:59.04,1:48:00.26,CHS,,0,0,0,,没关系，没关系\N{\rENG}It's okay. It's okay.
+Dialogue: 0,1:48:01.40,1:48:02.77,CHS,,0,0,0,,没事了，没事了\N{\rENG}It's alright. It's alright.
+Dialogue: 0,1:48:04.24,1:48:05.24,CHS,,0,0,0,,没关系\N{\rENG}It's okay.
+Dialogue: 0,1:48:22.64,1:48:24.84,CHS,,0,0,0,,吗啡，好的\N{\rENG}Morphine it's good.
+Dialogue: 0,1:48:26.61,1:48:27.61,CHS,,0,0,0,,嘘\N{\rENG}Shhh.
+Dialogue: 0,1:49:02.26,1:49:03.26,CHS,,0,0,0,,军医，军医\N{\rENG}Medic. Medic.
+Dialogue: 0,1:49:03.66,1:49:04.80,CHS,,0,0,0,,军医，我是多斯\N{\rENG}Medic. It's Doss.
+Dialogue: 0,1:49:05.45,1:49:06.45,CHS,,0,0,0,,我是多斯，安静\N{\rENG}It's Doss. Be quiet.
+Dialogue: 0,1:49:06.75,1:49:07.75,CHS,,0,0,0,,安静\N{\rENG}Be quiet.
+Dialogue: 0,1:49:07.82,1:49:09.56,CHS,,0,0,0,,我们来救你，你伤哪儿\N{\rENG}We got you. Where you hit?
+Dialogue: 0,1:49:10.88,1:49:11.88,CHS,,0,0,0,,我看不见\N{\rENG}I can't see.
+Dialogue: 0,1:49:11.98,1:49:13.58,CHS,,0,0,0,,安静，安静点\N{\rENG}Be quiet. Just be quiet.
+Dialogue: 0,1:49:16.06,1:49:17.06,CHS,,0,0,0,,现在别动\N{\rENG}Hold still now.
+Dialogue: 0,1:49:18.19,1:49:19.19,CHS,,0,0,0,,我救你\N{\rENG}I got you.
+Dialogue: 0,1:49:19.65,1:49:20.65,CHS,,0,0,0,,抓稳\N{\rENG}Hold tight.
+Dialogue: 0,1:49:21.67,1:49:22.67,CHS,,0,0,0,,弄好了\N{\rENG}There you go.
+Dialogue: 0,1:49:22.73,1:49:24.00,CHS,,0,0,0,,试着看，试着看\N{\rENG}Try that. Try that.
+Dialogue: 0,1:49:27.08,1:49:28.55,CHS,,0,0,0,,我以为我瞎了\N{\rENG}I thought I was blind.
+Dialogue: 0,1:49:29.35,1:49:30.25,CHS,,0,0,0,,嘘\N{\rENG}Shhh.
+Dialogue: 0,1:49:30.77,1:49:31.77,CHS,,0,0,0,,冷静\N{\rENG}Keep it down.
+Dialogue: 0,1:49:31.93,1:49:32.93,CHS,,0,0,0,,你能走吗\N{\rENG}Can you walk?
+Dialogue: 0,1:49:32.96,1:49:33.78,CHS,,0,0,0,,我不知\N{\rENG}I don't know.
+Dialogue: 0,1:49:33.81,1:49:35.94,CHS,,0,0,0,,- 因为我们得离开这儿  - 好的\N{\rENG}- Cause we gotta get out of here.  - Okay.
+Dialogue: 0,1:49:51.29,1:49:52.35,CHS,,0,0,0,,好了，我们接住你了\N{\rENG}Okay we got you.
+Dialogue: 0,1:49:53.09,1:49:54.09,CHS,,0,0,0,,我们接住你了\N{\rENG}We got you.
+Dialogue: 0,1:50:07.22,1:50:08.22,CHS,,0,0,0,,嗨，你\N{\rENG}Hey, there.
+Dialogue: 0,1:50:08.88,1:50:09.95,CHS,,0,0,0,,是我，德斯蒙德\N{\rENG}It's me Desmond.
+Dialogue: 0,1:50:11.40,1:50:12.40,CHS,,0,0,0,,医好你\N{\rENG}Fix you up.
+Dialogue: 0,1:50:14.44,1:50:16.37,CHS,,0,0,0,,你准备离开这儿，我肯定\N{\rENG}You ready to get out here. I'm sure am.
+Dialogue: 0,1:50:32.26,1:50:33.26,CHS,,0,0,0,,恳请上帝\N{\rENG}Please Lord.
+Dialogue: 0,1:50:34.52,1:50:35.92,CHS,,0,0,0,,让我再救一个\N{\rENG}Help me get one more.
+Dialogue: 0,1:50:36.86,1:50:38.26,CHS,,0,0,0,,让我再救一个\N{\rENG}Help me get one more.
+Dialogue: 0,1:51:05.50,1:51:08.78,CHS,,0,0,0,,请让我再救一个\N{\rENG}Please help me get one more.
+Dialogue: 0,1:51:27.85,1:51:28.85,CHS,,0,0,0,,再一个\N{\rENG}One more.
+Dialogue: 0,1:51:29.26,1:51:30.66,CHS,,0,0,0,,让我再救一个\N{\rENG}Help me get one more.
+Dialogue: 0,1:51:43.28,1:51:44.28,CHS,,0,0,0,,再一个\N{\rENG}One more.
+Dialogue: 0,1:51:45.80,1:51:47.20,CHS,,0,0,0,,让我再救一个\N{\rENG}Help me get one more.
+Dialogue: 0,1:51:50.76,1:51:51.76,CHS,,0,0,0,,再一个\N{\rENG}One more.
+Dialogue: 0,1:51:53.52,1:51:54.52,CHS,,0,0,0,,来了\N{\rENG}Coming through.
+Dialogue: 0,1:51:57.70,1:51:59.38,CHS,,0,0,0,,这些家伙到底哪来的\N{\rENG}Where the hell these guys coming from?
+Dialogue: 0,1:51:59.40,1:52:00.40,CHS,,0,0,0,,钢锯\N{\rENG}Hacksaw.
+Dialogue: 0,1:52:00.66,1:52:01.61,CHS,,0,0,0,,我以为他们已撤完了\N{\rENG}I thought they pulled out.
+Dialogue: 0,1:52:02.01,1:52:03.08,CHS,,0,0,0,,并非所有\N{\rENG}Not all of them.
+Dialogue: 0,1:52:03.33,1:52:05.65,CHS,,0,0,0,,某疯子在那里把伤员从顶上放下来\N{\rENG}Some nuts out there drive the wounded from the top.
+Dialogue: 0,1:52:06.72,1:52:08.31,CHS,,0,0,0,,甚至放下了几个日本佬\N{\rENG}Even lowered a couple of Japs.
+Dialogue: 0,1:52:09.48,1:52:10.26,CHS,,0,0,0,,他们没能挺得住\N{\rENG}They didn't make it
+Dialogue: 0,1:52:10.64,1:52:12.44,CHS,,0,0,0,,回头直接带给你\N{\rENG}Get back with you directly.
+Dialogue: 0,1:52:12.96,1:52:13.96,CHS,,0,0,0,,轻点，轻点\N{\rENG}Easy. Easy.
+Dialogue: 0,1:52:15.17,1:52:16.37,CHS,,0,0,0,,满了，出发\N{\rENG}All set. Move out.
+Dialogue: 0,1:52:18.69,1:52:19.69,CHS,,0,0,0,,我们走\N{\rENG}Let's go.
+Dialogue: 0,1:52:48.27,1:52:48.97,CHS,,0,0,0,,到这儿来\N{\rENG}Get in here.
+Dialogue: 0,1:52:49.02,1:52:50.62,CHS,,0,0,0,,到处都是日本人\N{\rENG}There's Nips everywhere.
+Dialogue: 0,1:52:52.60,1:52:53.60,CHS,,0,0,0,,婊崽子\N{\rENG}Son of a bitch.
+Dialogue: 0,1:52:53.91,1:52:55.11,CHS,,0,0,0,,列兵“玉米秆”\N{\rENG}Private Cornstock.
+Dialogue: 0,1:52:55.36,1:52:58.03,CHS,,0,0,0,,你一无是处如果不是满带惊喜\N{\rENG}You're nothing if not full of surprises.
+Dialogue: 0,1:52:58.58,1:53:00.26,CHS,,0,0,0,,- 你想要些吗啡？ - 想得很\N{\rENG}- You want some morphine.  - Hell yes.
+Dialogue: 0,1:53:00.28,1:53:01.35,CHS,,0,0,0,,那条或两条\N{\rENG}That or both.
+Dialogue: 0,1:53:01.37,1:53:02.37,CHS,,0,0,0,,好吧\N{\rENG}Okay.
+Dialogue: 0,1:53:03.26,1:53:04.26,CHS,,0,0,0,,来了\N{\rENG}There.
+Dialogue: 0,1:53:04.74,1:53:05.74,CHS,,0,0,0,,给你\N{\rENG}There you go.
+Dialogue: 0,1:53:09.28,1:53:10.28,CHS,,0,0,0,,好吧\N{\rENG}Alright.
+Dialogue: 0,1:53:10.52,1:53:11.65,CHS,,0,0,0,,放松，让我看看\N{\rENG}Easy. Let me see.
+Dialogue: 0,1:53:12.49,1:53:15.20,CHS,,0,0,0,,这样如何？好吧，不坏\N{\rENG}How's this? Okay. Not bad.
+Dialogue: 0,1:53:17.34,1:53:18.34,CHS,,0,0,0,,让我看看\N{\rENG}Let me see.
+Dialogue: 0,1:53:19.37,1:53:20.81,CHS,,0,0,0,,我会做得比这还要糟\N{\rENG}I'll make much much than this.
+Dialogue: 0,1:53:20.83,1:53:22.77,CHS,,0,0,0,,但女孩们还是不会吻你\N{\rENG}But girls still won't kiss you.
+Dialogue: 0,1:53:24.31,1:53:25.31,CHS,,0,0,0,,中士\N{\rENG}Sarge.
+Dialogue: 0,1:53:26.22,1:53:27.65,CHS,,0,0,0,,你在此呆一会儿可好？\N{\rENG}You okay here for a while?
+Dialogue: 0,1:53:27.69,1:53:28.69,CHS,,0,0,0,,好的，我还好\N{\rENG}Yeah I'm fine.
+Dialogue: 0,1:53:28.80,1:53:29.80,CHS,,0,0,0,,尽管离开\N{\rENG}Get outta here.
+Dialogue: 0,1:53:29.92,1:53:30.98,CHS,,0,0,0,,我会回来\N{\rENG}I'm coming back.
+Dialogue: 0,1:53:31.42,1:53:32.66,CHS,,0,0,0,,你准备好了？我们走\N{\rENG}You ready? Let's go.
+Dialogue: 0,1:53:32.67,1:53:33.94,CHS,,0,0,0,,你跟我，来吧\N{\rENG}You and me. C'mon.
+Dialogue: 0,1:54:08.40,1:54:11.28,CHS,,0,0,0,,上尉，有事你得瞧瞧\N{\rENG}Captain. Something you gotta see.
+Dialogue: 0,1:54:13.90,1:54:16.32,CHS,,0,0,0,,整个夜里我们的人被一个个的放下来\N{\rENG}Our guys have been coming down in droves all night.
+Dialogue: 0,1:54:16.35,1:54:17.44,CHS,,0,0,0,,而“好莱坞”在此\N{\rENG}And Hollywood's here.
+Dialogue: 0,1:54:17.45,1:54:18.73,CHS,,0,0,0,,我从没想过还能再见此人\N{\rENG}I never thought I'd see that guy again.
+Dialogue: 0,1:54:18.76,1:54:20.24,CHS,,0,0,0,,来吧跟我来，他在这儿\N{\rENG}Come on follow me. He's right here.
+Dialogue: 0,1:54:24.25,1:54:25.71,CHS,,0,0,0,,这到底是怎么回事\N{\rENG}What the hell is this?
+Dialogue: 0,1:54:26.68,1:54:27.88,CHS,,0,0,0,,你好，长官\N{\rENG}How you doing sir?
+Dialogue: 0,1:54:27.98,1:54:28.98,CHS,,0,0,0,,嘿，“帽子”\N{\rENG}Hey, Cap.
+Dialogue: 0,1:54:29.22,1:54:30.22,CHS,,0,0,0,,上尉\N{\rENG}Captain.
+Dialogue: 0,1:54:32.88,1:54:34.26,CHS,,0,0,0,,很高兴看到你，孩子\N{\rENG}It's good to see you kid.
+Dialogue: 0,1:54:34.32,1:54:35.32,CHS,,0,0,0,,上帝保佑，长官\N{\rENG}God bless, sir.
+Dialogue: 0,1:54:36.11,1:54:37.25,CHS,,0,0,0,,你怎么下来的，孩子\N{\rENG}How you get down, son?
+Dialogue: 0,1:54:37.48,1:54:38.48,CHS,,0,0,0,,是多斯\N{\rENG}It's Doss.
+Dialogue: 0,1:54:38.89,1:54:39.97,CHS,,0,0,0,,豪厄尔仍在那儿\N{\rENG}Howell's still out there.
+Dialogue: 0,1:54:40.00,1:54:42.17,CHS,,0,0,0,,豪厄尔和多斯做的\N{\rENG}Howell and Doss did this?
+Dialogue: 0,1:54:43.09,1:54:43.99,CHS,,0,0,0,,不，长官，只是多斯\N{\rENG}No, sir. It's just Doss.
+Dialogue: 0,1:54:45.19,1:54:46.61,CHS,,0,0,0,,- 只是多斯？ - 只是多斯\N{\rENG}- Just Doss?  - Just Doss.
+Dialogue: 0,1:54:47.07,1:54:49.25,CHS,,0,0,0,,对，多斯，那“懦夫”\N{\rENG}Yeah Doss the Coward.
+Dialogue: 0,1:56:05.51,1:56:06.79,CHS,,0,0,0,,你喜欢鞋上的枪，不是吗\N{\rENG}You like gun on a shoe ain't ya.
+Dialogue: 0,1:56:06.82,1:56:07.82,CHS,,0,0,0,,给我这个\N{\rENG}Give me this.
+Dialogue: 0,1:56:08.82,1:56:12.01,CHS,,0,0,0,,现在打靶太迟了，你不觉得\N{\rENG}It's a bit late for target practice now don't you think.
+Dialogue: 0,1:56:15.35,1:56:16.35,CHS,,0,0,0,,跳上来\N{\rENG}Jump on it.
+Dialogue: 0,1:56:16.71,1:56:17.56,CHS,,0,0,0,,你开玩笑吧\N{\rENG}You kidding?
+Dialogue: 0,1:56:17.59,1:56:19.12,CHS,,0,0,0,,不，我来拖你\N{\rENG}No, I'm gonna drag you.
+Dialogue: 0,1:56:24.41,1:56:25.58,CHS,,0,0,0,,一起干吧\N{\rENG}Let's do it.
+Dialogue: 0,1:56:28.34,1:56:29.34,CHS,,0,0,0,,- 好没？ - 好了\N{\rENG}- Ready?  - Yeah
+Dialogue: 0,1:56:29.62,1:56:30.62,CHS,,0,0,0,,我们走\N{\rENG}Let's go!
+Dialogue: 0,1:56:35.24,1:56:36.24,CHS,,0,0,0,,我们有追兵\N{\rENG}We got company.
+Dialogue: 0,1:56:38.17,1:56:39.17,CHS,,0,0,0,,来吧\N{\rENG}Come on.
+Dialogue: 0,1:56:59.23,1:57:00.36,CHS,,0,0,0,,我们得跳\N{\rENG}We're gonna jump.
+Dialogue: 0,1:57:01.82,1:57:02.95,CHS,,0,0,0,,你在耍我吧？“玉米秆”\N{\rENG}You gotta be kidding me, Cornstock?
+Dialogue: 0,1:57:02.97,1:57:05.35,CHS,,0,0,0,,你是结单套，不是结胸罩\N{\rENG}You got a bowline, not building a bra.
+Dialogue: 0,1:57:06.70,1:57:07.70,CHS,,0,0,0,,来吧\N{\rENG}Come on!
+Dialogue: 0,1:57:11.36,1:57:12.36,CHS,,0,0,0,,- 好没？ - 啊哈\N{\rENG}- Ready?  - Ah huh.
+Dialogue: 0,1:57:12.39,1:57:13.39,CHS,,0,0,0,,下去\N{\rENG}Get off!
+Dialogue: 0,1:57:40.55,1:57:42.13,CHS,,0,0,0,,- 放下我！ - 是，中士\N{\rENG}- Put me down!  - Yes, Sergeant.
+Dialogue: 0,1:57:42.71,1:57:43.62,CHS,,0,0,0,,中士豪厄尔\N{\rENG}Sergeant Howell.
+Dialogue: 0,1:57:43.64,1:57:45.17,CHS,,0,0,0,,多斯还在那儿\N{\rENG}Doss is still up there.
+Dialogue: 0,1:57:46.90,1:57:47.90,CHS,,0,0,0,,到底咋回事？\N{\rENG}What the hell?
+Dialogue: 0,1:57:47.92,1:57:49.75,CHS,,0,0,0,,他被日本佬尾追\N{\rENG}He's got Japs on his tail.
+Dialogue: 0,1:58:21.48,1:58:22.48,CHS,,0,0,0,,我们接住他了\N{\rENG}We got him.
+Dialogue: 0,1:58:22.80,1:58:24.20,CHS,,0,0,0,,很好，很好\N{\rENG}It's good. It's good.
+Dialogue: 0,1:58:31.79,1:58:34.18,CHS,,0,0,0,,喔，好了，好了，多斯\N{\rENG}Woah. It's okay. It's okay. Doss.
+Dialogue: 0,1:58:35.74,1:58:36.74,CHS,,0,0,0,,你安全了\N{\rENG}You're safe.
+Dialogue: 0,1:58:37.40,1:58:38.40,CHS,,0,0,0,,好吧\N{\rENG}Okay.
+Dialogue: 0,1:58:58.97,1:58:59.97,CHS,,0,0,0,,德斯蒙德\N{\rENG}Desmond.
+Dialogue: 0,1:59:03.07,1:59:04.07,CHS,,0,0,0,,放松\N{\rENG}Easy.
+Dialogue: 0,1:59:04.74,1:59:05.74,CHS,,0,0,0,,这儿，来吧\N{\rENG}Here come on.
+Dialogue: 0,1:59:05.99,1:59:06.99,CHS,,0,0,0,,坐下\N{\rENG}Take a seat.
+Dialogue: 0,1:59:11.10,1:59:12.17,CHS,,0,0,0,,你受伤了\N{\rENG}Are you wounded?
+Dialogue: 0,1:59:17.08,1:59:18.08,CHS,,0,0,0,,没有\N{\rENG}No.
+Dialogue: 0,1:59:18.26,1:59:19.26,CHS,,0,0,0,,没有\N{\rENG}No.
+Dialogue: 0,1:59:21.67,1:59:24.40,CHS,,0,0,0,,大家立即送这名士兵去医疗篷\N{\rENG}Let's get this soldier to a hospital tent right now.
+Dialogue: 0,1:59:24.49,1:59:25.62,CHS,,0,0,0,,来吧，现在放轻\N{\rENG}Come on easy now.
+Dialogue: 0,1:59:25.97,1:59:26.97,CHS,,0,0,0,,放松，放松\N{\rENG}Easy. Easy.
+Dialogue: 0,2:00:16.07,2:00:17.07,CHS,,0,0,0,,伊夫在哪儿\N{\rENG}Where's Irv?
+Dialogue: 0,2:00:17.24,2:00:18.24,CHS,,0,0,0,,伊夫\N{\rENG}Irv.
+Dialogue: 0,2:00:18.29,2:00:20.10,CHS,,0,0,0,,你是说谢克特军医\N{\rENG}You mean Schecter the Medic?
+Dialogue: 0,2:00:20.26,2:00:21.46,CHS,,0,0,0,,他没能挺住\N{\rENG}He didn't make it.
+Dialogue: 0,2:00:21.86,2:00:22.72,CHS,,0,0,0,,他死于震伤\N{\rENG}He died of shocked.
+Dialogue: 0,2:00:22.83,2:00:23.83,CHS,,0,0,0,,没有血浆\N{\rENG}No plasma.
+Dialogue: 0,2:00:25.33,2:00:25.93,CHS,,0,0,0,,抱歉\N{\rENG}Sorry.
+Dialogue: 0,2:01:02.08,2:01:03.81,CHS,,0,0,0,,我只看到一个瘦小子\N{\rENG}All I saw was a skinny kid.
+Dialogue: 0,2:01:03.84,2:01:05.64,CHS,,0,0,0,,我不知你是谁\N{\rENG}I didn't know who you were.
+Dialogue: 0,2:01:10.21,2:01:13.71,CHS,,0,0,0,,你比任何别的男人报效祖国所做的多得多\N{\rENG}You done more than any other men could've done in a service to his country.
+Dialogue: 0,2:01:14.59,2:01:16.94,CHS,,0,0,0,,我此生从未如此看错人\N{\rENG}I have never been more wrong about someone in my life.
+Dialogue: 0,2:01:18.78,2:01:21.18,CHS,,0,0,0,,我希望有天你能原谅我\N{\rENG}I hope one day you could forgive me.
+Dialogue: 0,2:01:33.57,2:01:35.63,CHS,,0,0,0,,我们明天必须回到上边\N{\rENG}We have to go back up tomorrow.
+Dialogue: 0,2:01:38.28,2:01:40.95,CHS,,0,0,0,,我意识到明天是你的安息日\N{\rENG}I realize that tomorrow is your Sabbath.
+Dialogue: 0,2:01:47.16,2:01:49.72,CHS,,0,0,0,,这些人大多数不相信你所信仰的方式\N{\rENG}Most of these men don't believe the same way you do.
+Dialogue: 0,2:01:51.70,2:01:53.17,CHS,,0,0,0,,他们如此相信\N{\rENG}They believe so much
+Dialogue: 0,2:01:54.26,2:01:55.80,CHS,,0,0,0,,你有多坚信\N{\rENG}How much you believe.
+Dialogue: 0,2:01:58.89,2:02:01.59,CHS,,0,0,0,,你在山脊上的所为就是奇迹\N{\rENG}What you did on that Ridge is nothing short of miracle.
+Dialogue: 0,2:02:01.96,2:02:03.49,CHS,,0,0,0,,他们想要一块\N{\rENG}They wanna piece of it.
+Dialogue: 0,2:02:06.53,2:02:08.80,CHS,,0,0,0,,没有你，他们不会去那儿\N{\rENG}They're not gonna go up there without you.
+Dialogue: 0,2:02:20.01,2:02:21.38,CHS,,0,0,0,,你到底拖延什么，上尉\N{\rENG}What the hell is your delay, Captain?
+Dialogue: 0,2:02:21.38,2:02:23.57,CHS,,0,0,0,,你应该在十分钟前开始进攻\N{\rENG}You supposed to begin that assault 10 minutes ago.
+Dialogue: 0,2:02:23.84,2:02:25.11,CHS,,0,0,0,,我们在等着，长官\N{\rENG}We're waiting, sir.
+Dialogue: 0,2:02:25.16,2:02:26.43,CHS,,0,0,0,,等着啥\N{\rENG}Waiting for what?
+Dialogue: 0,2:02:29.17,2:02:32.04,CHS,,0,0,0,,列兵多斯完成为我们的祈祷，长官\N{\rENG}Private Doss to finish praying for us, sir.
+Dialogue: 0,2:02:32.07,2:02:35.76,CHS,,0,0,0,,- 列兵多斯在为你祈祷？ - 列兵多斯到底是谁\N{\rENG}- Private Doss is praying for you.  - Who the hell is Private Doss?
+Dialogue: 0,2:02:57.57,2:02:58.70,CHS,,0,0,0,,我们去干活\N{\rENG}Let's go to work.
+Dialogue: 0,2:04:51.74,2:04:52.74,CHS,,0,0,0,,趴下\N{\rENG}Down!
+Dialogue: 0,2:04:52.77,2:04:54.84,CHS,,0,0,0,,趴下！趴在地上\N{\rENG}Get down! Get down on the ground!
+Dialogue: 0,2:04:56.13,2:04:57.33,CHS,,0,0,0,,立即趴在地上\N{\rENG}On the ground now!
+Dialogue: 0,2:05:36.75,2:05:39.27,CHS,,0,0,0,,躺下！躺下！我有吗啡\N{\rENG}Lay down! Lay down! I got the morphine.
+Dialogue: 0,2:05:40.58,2:05:42.74,CHS,,0,0,0,,我们走！我们走！我们带这个人离开这儿\N{\rENG}Let's go! Let's go. Let's get this man outta here.
+Dialogue: 0,2:05:42.76,2:05:43.76,CHS,,0,0,0,,走！走\N{\rENG}Go! Go!
+Dialogue: 0,2:05:48.27,2:05:49.27,CHS,,0,0,0,,我的圣经\N{\rENG}My Bible.
+Dialogue: 0,2:05:49.63,2:05:50.63,CHS,,0,0,0,,我的圣经\N{\rENG}My Bible.
+Dialogue: 0,2:05:52.51,2:05:55.03,CHS,,0,0,0,,停下！停下！停下\N{\rENG}Stop! Stop! Stop!
+Dialogue: 0,2:05:55.21,2:05:57.57,CHS,,0,0,0,,我的圣经，我的圣经\N{\rENG}My Bible. My Bible.
+Dialogue: 0,2:05:58.85,2:05:59.85,CHS,,0,0,0,,好吧\N{\rENG}Okay.
+Dialogue: 0,2:06:04.38,2:06:06.45,ZHU,,0,0,0,,{\rZHU}{\fs80\fsp5}一号外科器
+Dialogue: 0,2:07:15.82,2:07:17.35,CHS,,0,0,0,,你回家了，德斯蒙德\N{\rENG}You going home Desmond.
+Dialogue: 0,2:07:17.86,2:07:19.46,CHS,,0,0,0,,我们已拿下钢锯\N{\rENG}We've taken the Hacksaw.
+Dialogue: 0,2:07:23.80,2:07:25.60,CHS,,0,0,0,,等下！等下！德斯蒙德\N{\rENG}Hold up! Hold up! Desmond.
+Dialogue: 0,2:07:28.24,2:07:29.24,CHS,,0,0,0,,德斯蒙德\N{\rENG}Desmond.
+Dialogue: 0,2:08:43.53,2:08:48.88,ZHU,,0,0,0,,{\fad(500,500)\fs45}德斯蒙德·多斯把 75 名伤员于钢锯岭战役中带至安全地带
+Dialogue: 0,2:08:49.83,2:09:00.58,ZHU,,0,0,0,,{\fad(500,500)\fs45}他是第一个拒服兵役但获得美国“战火中的勇气”荣誉勋章者
+Dialogue: 0,2:09:03.54,2:09:10.77,ZHU,,0,0,0,,{\fad(500,500)\fs45}德斯蒙德和多萝西结婚，直至她在1991去世
+Dialogue: 0,2:09:11.93,2:09:16.02,ZHU,,0,0,0,,{\fad(500,500)\fs45}他是自己的英雄，保有特有的谦虚，将所有的功劳归于他的上帝
+Dialogue: 0,2:09:16.29,2:09:18.44,CHS,,0,0,0,,我一直在祈祷\N{\rENG}I was praying the whole time.
+Dialogue: 0,2:09:19.53,2:09:23.73,CHS,,0,0,0,,我只是开始祈祷上帝请让我再救一个\N{\rENG}I just start praying to the Lord please let me get one more.
+Dialogue: 0,2:09:24.77,2:09:28.94,CHS,,0,0,0,,当我救多一个，我说“好吧，上帝请让我再救一个”\N{\rENG}When I got this I said "Alright Lord please help me get one more".
+Dialogue: 0,2:09:29.60,2:09:34.88,CHS,,0,0,0,,{\fad(500,500)\fs45}他平淡地说“真正的英雄们都埋葬在那里”
+Dialogue: 0,2:09:35.92,2:09:40.25,CHS,,0,0,0,,我认为任何人都是错的若要去妥协他人的信念\N{\rENG}I would say anyone is wrong to try to compromise somebody's conviction.
+Dialogue: 0,2:09:40.28,2:09:43.21,CHS,,0,0,0,,我不在乎是军队或者是什么\N{\rENG}I don't care it's the army or what it is.
+Dialogue: 0,2:09:43.67,2:09:45.49,CHS,,0,0,0,,当你持有信念\N{\rENG}When you're on a conviction
+Dialogue: 0,2:09:46.06,2:09:47.33,CHS,,0,0,0,,那不是笑话\N{\rENG}That is not a joke.
+Dialogue: 0,2:09:49.50,2:09:50.83,CHS,,0,0,0,,那就是你\N{\rENG}That's what you are.
+Dialogue: 0,2:09:51.52,2:09:52.56,ZHU,,0,0,0,,{\fad(500,0)\fs45}上尉杰克·格洛弗
+Dialogue: 0,2:09:52.56,2:09:56.45,CHS,,0,0,0,,即使我对他说那些关于携带步枪的事\N{\rENG}Even though I said those things to him in regard to carrying a rifle.
+Dialogue: 0,2:09:56.60,2:10:02.44,CHS,,0,0,0,,然而他永远不会站在我这边，除非他拿了枪\N{\rENG}Then he would never be on my damn side at all unless he had a rifle.
+Dialogue: 0,2:10:03.05,2:10:05.41,CHS,,0,0,0,,但是从长远来看\N{\rENG}But then in the long run.
+Dialogue: 0,2:10:05.80,2:10:09.90,CHS,,0,0,0,,发现他是一个活着的最勇敢的人\N{\rENG}Finding out that he was one of the bravest person alive.
+Dialogue: 0,2:10:10.77,2:10:15.91,CHS,,0,0,0,,而让他停止挽救我的生命则会是对整件事的讽刺\N{\rENG}And then to have him ended up saving my life was the irony of the whole thing.
+Dialogue: 0,2:10:16.72,2:10:20.98,CHS,,0,0,0,,血顺着这家伙的脸跟眼流下\N{\rENG}Blood it ran down through this fellow's face and eyes.
+Dialogue: 0,2:10:22.18,2:10:25.51,CHS,,0,0,0,,那是当他开始呼喊军医的时候\N{\rENG}It was when that he go in and called for medic.
+Dialogue: 0,2:10:27.49,2:10:31.29,CHS,,0,0,0,,我从水壶取水，拿出绷带\N{\rENG}I took the water from my canteen and got some bandages.
+Dialogue: 0,2:10:31.58,2:10:33.44,CHS,,0,0,0,,我冲洗他的脸\N{\rENG}And I wash his face.
+Dialogue: 0,2:10:34.69,2:10:36.22,CHS,,0,0,0,,当我擦拭\N{\rENG}And when I wipe
+Dialogue: 0,2:10:36.91,2:10:39.18,CHS,,0,0,0,,冲洗他的双眼，眼睛睁开了\N{\rENG}Washed up his eyes. Eyes came out
+Dialogue: 0,2:10:39.26,2:10:42.17,CHS,,0,0,0,,伙计，他顿时亮了\N{\rENG}Man, he just lit up.
+Dialogue: 0,2:10:44.10,2:10:46.57,CHS,,0,0,0,,他说，我以为我瞎了\N{\rENG}He says I thought I was blind.
+Dialogue: 0,2:10:48.34,2:10:52.96,CHS,,0,0,0,,如我没有任何东西多于他给我的微笑\N{\rENG}And if I hadn't got anything more to what that smile he gave me.
+Dialogue: 0,2:10:53.42,2:10:55.88,CHS,,0,0,0,,我不会得到很好的回报\N{\rENG}I wouldn't have been well repaid.
+Dialogue: 0,2:10:57.60,2:11:05.10,ZHU,,0,0,0,,{\fad(300,500)\fs45\pos(960,500)}德斯蒙德·多斯于二〇〇六年三月去世，享年八十七岁
+Dialogue: 0,2:11:06.60,2:11:10.00,ZHU,,0,0,0,,{\fad(500,500)\fs30\pos(970,580)}导演\N{\b1\fs65\fscx80}梅尔•吉布森\N{\rzhu}代表作《勇敢的心》
+Dialogue: 0,2:11:11.88,2:11:14.88,ZHU,,0,0,0,,{\fad(300,300)\shad2\c&H00FFFF&}中文字幕｜{\b1\c&HFFFFFF&}dottob\N{\rENG}- Subtitled by {\c&H00ffff&}CrazyIvan -

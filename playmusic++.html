@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>music play</title>
+	<style id="jsbin-css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.musicbox{
+  		font-family:microsoft Yahei;
+ 		-webkit-font-smoothing: antialiased;
+		width: 400px;
+		height: 150px;
+		border-radius: 5px;
+		position: relative;
+		background-color: #223;
+	}
+	@font-face {
+  		font-family: 'iconfont';  /* project id 256161 */
+  		src: url('http://at.alicdn.com/t/font_a8lm9d9mskinewmi.eot');
+  		src: url('http://at.alicdn.com/t/font_a8lm9d9mskinewmi.eot?#iefix') format('embedded-opentype'),
+  		url('http://at.alicdn.com/t/font_a8lm9d9mskinewmi.woff') format('woff'),
+  		url('http://at.alicdn.com/t/font_a8lm9d9mskinewmi.ttf') format('truetype'),
+  		url('http://at.alicdn.com/t/font_a8lm9d9mskinewmi.svg#iconfont') format('svg');
+	}
+	.iconfont {
+  		font-family:"iconfont" !important;/*这样设定的话就会使得所有有class=iconfont的标签的样式改变，所以如果还有些地方需要图标样式发生更改的话，记得要在.iconfont之前加具体的路径*/
+  		font-style: normal
+	}
+	.musicbox .control .fa {
+ 		margin-right: 12px;
+		cursor: pointer;
+	}
+
+	.musicbox:after{
+		content: "";
+		position: absolute;
+		width: 360px;
+		height:30px;
+		box-shadow: 10px 10px 20px #ccc;
+		top: 120px;
+		left: 20px;
+		z-index: -1;
+	}
+	.info{
+		color: #fff;
+		display: block;
+		cursor: pointer;
+		margin-top: 60%;
+		margin: 0 auto;
+		width: 200px;
+	}
+	.title ,.auther{
+		text-align: center;
+		margin-top: 5px;
+	}
+	.musicbox .progress{
+  		width: 300px;
+	}
+	.musicbox .progress .bar {
+  		height: 3px;
+  		margin-top: 15px;
+  		margin-left: 10px;
+  		background-color: rgba(0,0,0,0.2);
+  		cursor: pointer;
+	}
+	.musicbox .progress .progress-now{
+  		background-color: #ccc;
+  		height: 3px;
+  		width: 0;
+  		position: relative;
+	}
+	.musicbox .time{
+  		text-align: right;
+  		color: #ccc;
+  		position: absolute;
+  		bottom: 15px;
+  		right: 10px;
+	}
+
+	.musicbox .control .back,.musicbox .control .forward{
+		color: #fff;
+		font-size: 20px;
+		position: absolute;
+		top:60%;
+	}
+	.musicbox .control .back{
+		left: 70px;
+	}
+	.musicbox .control .forward{
+		right: 70px;
+	}
+	.infobar{
+		height: 30px;
+		background-color: rgb(131,175,155);
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+
+	}
+	.infobar .vidio{
+		float: right;
+		margin-right: 10px;
+		line-height: 30px;
+		color: #fff;
+		font-size: 20px;
+	}
+	.infobar .like{
+		line-height: 30px;
+		margin-left: 10px;
+		float: left;
+		color:white;
+		font-size: 20px;
+	}
+	.style{
+		height: 40px;
+		background-color: #ccc;
+	}
+	.choose{
+		height: 40px;
+		width: 300px;
+		margin: 0 auto;
+		position: relative;
+		background-color: #ccc;	
+		overflow: hidden;
+	}
+	.music-style{
+		position: absolute;
+		width: 1200px;
+	}
+	.choose .music-style li{
+		float: left;
+		width: 100px;
+		text-align: center;
+		list-style: none;
+		line-height: 40px;
+	}
+	.choose .music-style li a{
+		text-decoration: none;
+		color: #000;
+	}
+	.choose .music-style li a:hover{
+		font-size: 30px;
+	}
+	.style .pre-style,.style .next-style{
+		position: absolute;
+		font-size: 30px;
+		color: #fff;
+		top: 35px;
+		cursor: pointer;
+	}
+	.style .pre-style{
+		left: 10px;
+	}
+	.style .next-style{
+		right: 10px;
+	}
+	.musicbox:after,
+	.musicbox .music:after{
+  		content:'';
+  		display: block;
+  		clear: both;
+	}
+	.musicbox .music-style .active{
+		font-size: 30px;
+		color: #fff;
+	}
+	</style>
+</head>
+<body>
+<div class=box>
+	<div class="musicbox">
+	<div class="infobar">
+		<p class="vidio iconfont">&#xe6be;</p>
+		<p class="like iconfont">&#xe699;</p>
+	</div>
+	<div class="style">
+		<div class="choose">
+		<ul class="music-style">
+			<li><a href=javascript:>R&B</a></li>
+			<li><a href=javascript:>Pop</a></li>
+			<li><a href=javascript:>80后</a></li>
+			<li><a href=javascript:>R&B</a></li>
+			<li ><a href=javascript:>Pop</a></li>
+			<li><a href=javascript:>80后</a></li>
+			<li><a href=javascript:>R&B</a></li>
+			<li ><a href=javascript:>Pop</a></li>
+			<li><a href=javascript:>80后</a></li>
+		</ul>
+		</div>
+		<p class="pre-style"><</p>
+		<p class="next-style">></p>
+	</div>
+	
+		<div class="music">
+			<div class="control">
+				<span class="back">
+					<i class="fa fa-step-backward iconfont">&#xe647;</i>
+				</span>
+				<span class="forward">
+					<i class="fa fa-step-forward iconfont">&#xe646;</i>
+				</span>
+			</div>
+			<div class="info fa-pause">
+				<div class="title">My songs</div>
+				<div class="auther">Aleen</div>
+			</div>
+		</div>
+		<div class="progress">
+			<div class="bar">
+				<div class="progress-total"></div>
+				<div class="progress-now"></div>
+			</div>
+
+			<div class="time">0:00</div>
+		</div>
+	</div>
+</div>
+<script src='http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js'></script>
+<script>
+	var Carousel = (function(){
+			function _Carousel($ct){
+			this.$ct = $ct;
+			this.init();
+			this.bind();
+			this.SetAct()
+		}
+		_Carousel.prototype.init = function(){
+			var $imgCt = this.$imgCt = this.$ct.find(".music-style"),
+				$preBtn = this.$preBtn = this.$ct.parent().find(".pre-style"),
+				$nextBtn = this.$nextBtn = this.$ct.parent().find(".next-style");
+
+			var $firstImg = this.$firstImg = $imgCt.find("li").first(),
+				$lastImg = this.lastImg = $imgCt.find("li").last();
+
+			this.curPageIndex = 0;
+			this.imgLength = $imgCt.children().length;
+			this.isAnimate = false;
+
+			$imgCt.prepend(this.lastImg.clone());
+			$imgCt.append(this.$firstImg.clone());
+
+			$imgCt.width(this.$firstImg.width() * $imgCt.children().length);
+			/*$imgCt.css({
+				"left" : "-100px"
+			})*/
+		};
+		_Carousel.prototype.bind = function(){
+			var _this = this ;
+			this.$preBtn.on("click",function(e){
+				e.preventDefault();
+				_this.playPre();
+			})
+
+			this.$nextBtn.on("click",function(e){
+				e.preventDefault();
+				_this.playNext();
+			})
+		};
+		_Carousel.prototype.playPre = function(){
+			var _this = this;
+			this.curPageIndex=this.curPageIndex||0;
+			if(this.isAnimate) return;
+			this.isAnimate = true;
+			this.$imgCt.animate({
+				left:"+="+this.$firstImg.width()
+			},function(){
+				_this.curPageIndex--;
+				if (_this.curPageIndex < 0){
+					if(_this.imgLenth<=7){_this.$imgCt.css("left", -(_this.imgLength * _this.$firstImg.width()));
+					_this.curPageIndex = _this.imgLength - 1;}else{
+						_this.$imgCt.css("left", -((_this.imgLength-1)* _this.$firstImg.width()));
+						_this.curPageIndex = _this.imgLength - 1;
+					}
+					
+				}
+			})
+			this.isAnimate = false;
+		};
+		_Carousel.prototype.playNext = function(){
+			this.curPageIndex=this.curPageIndex||0;
+			var _this = this;
+			if(this.isAnimate) return;
+			this.isAnimate = true;
+			this.$imgCt.animate({
+				left:"-="+this.$firstImg.width()
+			},function(){
+				_this.curPageIndex++;
+				if(_this.curPageIndex ===_this.imgLength){
+					_this.$imgCt.css({
+						"left":"0px"
+					})
+					_this.curPageIndex = 0;
+				}
+			})
+			_this.isAnimate = false;
+			
+		};
+		_Carousel.prototype.SetAct = function(){
+
+			this.$imgCt.on("click",'li',function(){
+				$(this).addClass('active');
+				$(this).siblings().removeClass("active");
+			})
+
+			}
+		return{
+			init: function($ct){
+				$ct.each(function(index,node){
+					new _Carousel($(node));
+				})
+			}
+		}
+	})();
+
+	Carousel.init($(".choose"));
+</script>
+</body>
+</html>

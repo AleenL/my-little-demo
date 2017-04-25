@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body,ul,li,div{
+			padding: 0px;
+			margin: 0px;
+		}
+		.news{
+			width:700px;
+			margin:0 auto;
+		}
+		.items li{
+			list-style: none;
+			height:200px;
+			width:700px;
+			border:1px solid #ccc;
+			margin-top: 10px;
+		}
+		.items li img{
+			width:150px;
+			height:150px;
+			float: left;
+			margin-top: 25px;
+			margin-left: 20px;
+		}
+		.text{
+			width:500px;
+			float:left;
+			margin-left: 30px;
+			margin-top:25px;
+			font-family: "黑体";
+		}
+		a{
+			text-decoration: none;
+			color:black;
+		}
+		.text p{
+			color:#aaa;
+		}
+		.getMore{
+			width:100px;
+			height:30px;
+			text-align: center;
+			line-height: 30px;
+			margin:0 auto;
+			font-family: "微软雅黑";
+			border:1px solid #ccc;
+			background: #aaa;
+			margin-top:30px;
+			opacity: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="news">
+		<ul class="items">
+			<li><a href="">
+				<img src="http://upload-images.jianshu.io/upload_images/3257837-c1bbf36b18d98111.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="">
+				<div class="text">
+					<h3>谁才是你的那个唯一，原谅我怀疑自己</h3>
+					<p>你要的爱，不只是依赖，像个大男孩，风吹又日晒...</p>
+				</div>
+			</a></li>
+			<li><a href="">
+				<img src="http://upload-images.jianshu.io/upload_images/3257837-c1bbf36b18d98111.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="">
+				<div class="text">
+					<h3>谁才是你的那个唯一，原谅我怀疑自己</h3>
+					<p>你要的爱，不只是依赖，像个大男孩，风吹又日晒...</p>
+				</div>
+			</a></li>
+			<li><a href="">
+				<img src="http://upload-images.jianshu.io/upload_images/3257837-c1bbf36b18d98111.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="">
+				<div class="text">
+					<h3>谁才是你的那个唯一，原谅我怀疑自己</h3>
+					<p>你要的爱，不只是依赖，像个大男孩，风吹又日晒...</p>
+				</div>
+			</a></li>
+		</ul>
+	</div>
+	<div>
+		<a class="getMore" href="javascript:">加载更多</a>
+	</div>
+<script src='http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js'></script>
+<script>
+	var pageIndex = 0;
+	getNews();
+	$(window).on("scroll",function(){
+		getNews();
+	})
+
+	function getNews(){
+		$.get('/getNews', {page: pageIndex}).done(function(ret){
+		if(ret.status===0){
+		pageIndex++;
+		appendHtml(ret.data)
+			if(isShow(".getMore")){
+				getNews();
+			}
+		}else{
+			alert("获取失败");
+		}
+		}).fail(function(){
+			alert("系统异常")
+		})
+	}
+		function isShow($node){
+		var windowHeight=$(window).height(),
+			scrollTop=$(window).scrollTop(),
+			offsetTop=$node.offset().top,
+			nodeHeight=$node.height();
+
+		if(windowHeight+scrollTop>offsetTop && scrollTop<offsetTop+nodeHeight){
+			return true
+		}else{
+			return false
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+ function appendHtml(news){
+		var htmls="";
+		if (news.length===0){
+		$(".More").remove();
+		htmls="<li>没有更多的数据了</li>";
+		$(".items").append(htmls)
+		return;
+	}
+		$.each(news ,function(){
+		htmls+="<li><a href='";
+		htmls+=this.link;
+		htmls+="'><img src='";
+		htmls+=this.img;
+		htmls+="' alt=''><div class='text'><h3>";
+		htmls+=this.title;
+		htmls+="</h3><p>";
+		htmls+=this.contents;
+		htmls+="</p></div></a></li>"
+		})
+		$(".items").append(htmls)
+	}
+
+</script>
+</body>
+</html>

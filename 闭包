@@ -1,0 +1,119 @@
+闭包
+闭包：要了解闭包就必须了解变量的作用域，JS有两种作用域：全局作用域和函数作用域。函数内部可以直接读取全局变量。
+var n=999;
+
+function f1(){
+	console.log(n)
+}
+
+f1()// return 999
+
+上述代码中，函数f1可以读取全局变量n
+但是，在函数外部无法读取函数内部声明的变量
+
+function(){
+	var n=999
+}
+console.log(n)//return :Uncaught ReferenceError : n is not defined
+
+上述代码中，函数f1内部声明的变量n是无法被函数外读取的。
+
+那么如何去获得函数内部的局部变量呢，只用在函数的内部，再定义一个函数。
+
+function f1(){
+	var n=999;
+	function f2(){
+		console.log(n); // return 999
+	}
+}
+上述代码中，函数f2就在函数f1内部，这是f1内部的所有局部变量对于f2都是可见的，但是反过来，f2内的所有局部变量，对于f1就是不可见的，这就是JavaScript语言中所特有的“链式作用域”结构（chain scope），子对象会一级一级的向上寻找所有父对象的变量，所以，父对象的所有变量，对子对象都是可见的，反之则不成立。
+
+既然f2可以读取f1中的局部变量，那么只要把f2作为返回值，我们不就可以在f1外部读取他内部的变量了吗？
+
+function f1(){
+	var n=999;
+	function f2(){
+	console.log(n);
+	}
+	return f2;
+	}
+
+	var result = f1();
+	result();return 999
+
+	上面代码中，函数f1的返回值就是函数f2，由于f2可以读取f1的内部变量，所以就可以在外部获得f1的内部变量了。
+
+闭包就是函数f2,能够读取其他函数内部变量的函数。由于在JavaScript语言中，只有函数内部的子函数才能够读取内部变量，因此可以吧闭包简单的理解成“定义在一个函数内部的函数”闭包最大的特点，就是他可以“记住”诞生的环境，比如f2记住了它诞生的环境f1，所以从f2可以得到f1的内部变量，在本质上，闭包就是将函数内部和函数外部连接起来的一座桥梁。
+闭包最大的用处有两个，一个是可以读取函数内部的变量，另一个就是让这些变量始终保持在内存中，就是闭包可以使得他诞生环境一直存在。
+
+function add(num){
+	return function(){
+	return num++
+	};
+}
+var inc=add(5)
+
+inc()//5
+inc()//6
+inc()//7
+
+上面代码中，num是函数add中的内部变量，通过闭包，num的状态被保留了，每一次调用都是在上一次调用的基础上进行计算，从中可以看到，闭包inc使得函数add的内部环境一直存在，所以闭包可以看作函数内部作用域的一个接口。
+
+由于inc始终在内存中，e而inc的存在依赖于add函数，因此也始终存在内存中，不会在结束后，被垃圾回收机制回收。
+
+闭包的另一个用处，就是封装对象的私有属性和私有方法。
+
+function Car(name){
+	var speed;
+	function setSpeed(n){
+	speed = n;
+	}
+	function getSpeed(){
+	return speed;
+	}
+
+	return{
+		name:name,
+		getSpeed:getSpeed,
+		setSpeed,setSpeed
+	};
+}
+
+var CarSpeed=Car("福特");
+p1.setSpeed(50);
+p1.getSpeed()//50
+
+上面代码中，函数Car的内部变量speed，通过闭包getSpeed和setSpeed，变成了返回对象CarSpeed的私有变量。
+
+注意，外层函数每次运行，都会生成一个新的闭包，而这个闭包优惠保留外层函数的内部变量，所以内存消耗很大。因此不能滥用闭包，否则会造成网页的性能问题。
+
+setTimeout(f,0)
+含义、
+setTimeout的作用是将代码推迟到指定时间执行，如果指定时间为0，setTimeout(f,0)，那么会立刻执行吗？
+
+答案是不会，因为setTimeout的机制是等到当前脚本的同步任务和“任务队列”中已有的事件，全部处理完以后，才会执行setTimeout指定的任务，也就是说，setTimeout的真正作用是，在“消息队列”的现有消息的后面再添加一个消息，规定在指定的时间执行某段代码，setTimeout添加的事件，会在下一次等待和发送消息和事件时执行。
+
+setTimeout(f,0)将第二个参数设为0，作用是让f在现有的任务（当前脚本的同步任务和“任务队列”中已有的事件）一结束就立刻执行，也就是说，setTimeout(f,0)的作用是，尽可能早的执行指定的任务，而并不是立刻就执行指定的任务。
+
+```
+setTimeout(function(){
+	console.log("执行setTimeout")
+},0);
+
+function a(x){
+	console.log("a函数开始执行");
+	b(x);
+	console.log("a函数执行完毕");
+	}
+
+function b(y){
+	console.log("b函数开始执行");
+	console.log("传送参数："+y);
+	console.log("b函数执行完毕")
+}
+
+console.log("当前任务开始");
+a(25);
+console.log("当前任务结束")
+```
+值得注意的是，浏览器内部使用32位带符号的整数，来储存推迟执行的时间，这意味着setTimeout最多只能推迟2147483647毫秒，超过这个时间会发生溢出，导致效果等同于setTimeout(f,0)。

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<div>
+	<a href="www.baidu.com" id="href">阻止事件默认行为</a>
+</div>
+<script>
+	var link=document.getElementById("href");
+	var handler=function(e){
+		e.preventDefault();
+		alert("成功阻止");
+	}
+	link.addEventListener("click",handler)
+</script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <meta name="referrer" content="never">
+    <style type="text/css">
+    *{
+    	padding: 0;
+    	margin: 0;
+    }
+    #string{
+    width: 400px;
+    height: 100px;
+
+    }
+    #string ul{
+    	text-align: center;
+    }
+    #string ul li{
+    	list-style: none;
+    	;
+    }
+    </style>
+    
+</head>
+<body>
+<div id="string">
+<ul class="lrc">
+
+</ul>
+</div>
+<script src='http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js'></script>
+	<script type="text/javascript">
+	var musicText=
+"[00:19.83]just how I like it you turnin' me on[00:22.42]You turnin' me on, you turnin' me on[00:25.37]I wait a minute little buster[00:26.94]you got one more time to feel on my booty[00:29.84]Better recognize a lady that ain't the way you do me[00:32.95]You turnin'me off,[00:34.45]you turnin'me off,[00:35.92]you turnin'me off[00:37.51]Better recognize a real woman[00:39.69][00:40.14]Aaaaaah[00:43.89]You ever try to get that close to me[00:46.94]You better come correct how you proachin me[00:50.26]Dime divas give it to me[00:52.06]Aaaaaaah[00:55.53]I gotta be feelin' your energy[00:59.21]I gotta be for sure that you're into me[01:02.27]Recognize a real woman[01:03.94][01:04.20]Goin up on it, you actin like you want it[01:06.32]And you stuntin like your daddy checkin for this little mama[01:09.43]You turnin me on (aaaah)[01:11.32]you turnin me on (aaaah)[01:12.58]you turnin me on (aaaah)[01:14.18][01:14.46]Now wait a minute little buster[01:15.67]Now you don't even know me but you wanna take me shopping[01:18.46]You a lame, I can tell it ain't big sh!t poppin[01:21.65]You turnin me off (aaaah),[01:22.90]you turnin me off (aaaah),[01:24.65]you turnin me off (aaaah)[01:26.18]Better recognize a real woman[01:28.22][01:28.48]All you wanna do is holla at the cutest[01:30.92]Broad to get up in them draws some money[01:33.84]Don't try to buy me[01:35.54]Bottles, got my own dollars I could buy up the bar if I want it[01:41.33][01:41.80]Aaaaaaah[01:44.49]You ever try to get that close to me[01:47.77]You better come correct how you proachin me[01:51.01]Dime divas give it to me[01:52.61]Aaaaaaah[01:56.56]I gotta be feelin your energy[02:00.09]I gotta be for sure that you're into me[02:03.06]Recognize a real woman[02:04.64][02:04.94]I'm fly as hell swaqqa riqht, brown skin poppin' like dynamite[02:08.04]Raw like china white, mama i dig your persona right[02:12.07]You look baby mama type, I know that qot you kinda hype[02:15.08]My ice is so albino white, I hope your v@qina tight,[02:18.09]I qo underwater, & I hope you pirana bite (hahaha)[02:22.05][02:23.02]Hot carter, I'ma kiss the spot for you and[02:25.14]I'ma kiss you to you scream wait a minute motherf@#ker (ha)[02:28.89]Yeah, I turn you on like an handel,[02:31.78]Like a television on the weather channel[02:35.10]Cause I make it rain girl, now call me Wayne girl[02:38.13]You just an earthling you ain't never been to wayne's world[02:41.28]I play to win, I bait 'em in,[02:44.36]I do my thing now you're in love with an alien,[02:47.27]Polow on the beat, weezy f, i'm at the plate aqain[02:49.95]Keri if you pitch it at me, I'ma swinq away at it,[02:53.06]Someone better play the fence, someone better tell 'em bout me,[02:56.09]Baby, I'm the sh!t and that's the only thing you smell about me,[02:59.37]Weezy F baby & don't forqet the F around me[03:02.43]And if you do, then qet the F around me[03:04.78][03:05.11]You're turnin me off[03:07.97]Yeah yeaaah[03:11.12]Polow, I told you I got you[03:14.06]Ms. Keri Baby (Ms. Keri Baby)[03:17.54][03:18.42]Aaaaaaah[03:21.86]You ever try to get that close to me[03:25.34]You better come correct how you 'proachin me[03:28.23]Dime divas give it to me[03:30.24]Aaaaaaah[03:33.82]I gotta be feelin your energy[03:37.19]I gotta be for sure that you're into me[03:40.37]Recognize a real woman[03:41.90][03:46.29]Ms. Keri Baby[03:48.10]"
+
+
+var reg2=/\[\d{2}:\d{2}\.\d{2}\]/g
+var musicLrc=musicText.split(reg2);
+var musicTime = musicText.match(reg2)
+var arr=[];
+for(var i=0;i<musicTime.length;i++){
+	musicTimeMin = musicTime[i].slice(1,3)
+	musicTimeSec = musicTime[i].slice(4,9)
+	arr.push(parseInt(musicTimeMin*60)+parseInt(musicTimeSec))
+}
+var arr1=[];
+for(var j=0;j<arr.length;j++){
+		if(arr[j] !== arr1[arr1.length - 1]){
+			arr1.push(arr[j])
+		}
+	}
+console.log(arr1)
+console.log(musicTime.length,musicLrc)
+
+
+
+	</script>
+</body>

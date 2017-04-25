@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>waterBull</title>
+    <style>
+        .img-item{
+            margin:0 auto;
+            width:80%;
+        }
+        .img-row{
+            margin-bottom: 8px;
+        }
+        .img-row:after{
+            content:"";
+            display: block;
+            clear: both;
+        }
+        .img-box{
+            float:left;
+        }
+        .img-line .img-box:first-child{
+            padding-left: 0;
+        }
+        img{
+        display: block;
+            margin-right:8px 
+        }
+    </style>
+</head>
+<body>
+    <div class="img-item">
+        
+    </div>
+<script src='http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js'></script>
+<script type="text/javascript">
+
+        function Barrels($ct) {
+            this.$ct=$ct;
+            this.imgNum=20;
+            this.baseHeight=200;
+            this.rowList=[];
+            this.imgIndex=0;
+            this.marginRight=10;
+            this.loadImg();
+        }
+        Barrels.prototype={
+            loadImg:function () {
+                var _this=this;
+                var imgs=this.getImgUrls(_this.imgNum);
+                $.each(imgs,function (idx,url) {
+                    var img=new Image();
+                    img.src=url;
+                    img.onload=function () {
+                        _this.imgIndex++;
+                        var originWidth = img.width,
+                            originHeight = img.height,
+                            ratio = originWidth/originHeight;
+                        var imgInfo={
+                            target:img,
+                            width: _this.baseHeight*ratio,
+                            height: _this.baseHeight
+                        };
+                        _this.render(imgInfo);
+                    }
+                })
+               /* for(var i=0;i<imgs.length;i++){
+                    var img=new Image();
+                    img.src=imgs[i];
+                    console.log(imgs[i]);
+                    img.onload=function () {
+                        var originWidth = img.width,
+                            originHeight = img.height,
+                            ratio = originWidth/originHeight;
+                        var imgInfo={
+                          target:img,
+                          width: _this.baseHeight*ratio,
+                          height: _this.baseHeight
+                        };
+                        _this.render(imgInfo);
+                    }
+                }*/
+            },
+            getImgUrls:function (num) {
+                var width,height,urls=[];
+                for(var i=0;i<num;i++){
+                    width=Math.floor(Math.random()*500+800);
+                    height=Math.floor(Math.random()*400+600);
+                    urls.push("https://unsplash.it/"+width+"/"+height);
+                }
+                return urls;
+            },
+            render:function (imgInfo) {
+                var clientWidth=this.$ct.width();
+                var rowWidth=0;
+                var lastImgInfo=imgInfo;
+                var newRowHeight=0;
+                this.rowList.push(imgInfo);
+                for(var i=0;i<this.rowList.length;i++){
+                    rowWidth+=this.rowList[i].width+this.marginRight;
+                }
+                if(rowWidth>clientWidth){
+                    this.rowList.pop();
+                    rowWidth=rowWidth-lastImgInfo.width-this.marginRight;
+                    newRowHeight=(clientWidth* this.baseHeight)/rowWidth;
+                    this.layout(newRowHeight);
+                    this.rowList=[];
+                    this.rowList.push(lastImgInfo);
+                }
+                if((this.imgIndex==this.imgNum)&&(rowWidth<clientWidth)){
+//                    newRowHeight=(clientWidth* this.baseHeight)/rowWidth;
+                    newRowHeight= this.baseHeight;
+                    this.layout(newRowHeight);
+                }
+            },
+            layout:function (newRowHeight) {
+                var _this=this;
+                var $rowCt=$("<div class='img-row'></div>");
+
+                $.each(this.rowList,function (idx,imgInfo) {
+                    var $imgCt=$("<div class='img-box'></div>"),
+                        $img=$(imgInfo.target);
+                    var newImgWidth=(imgInfo.width+_this.marginRight)*(newRowHeight/_this.baseHeight)-_this.marginRight;
+                    $img.height(newRowHeight);
+                        $img.width(newImgWidth);
+                        $imgCt.append($img);
+                        $rowCt.append($imgCt);
+                })
+                this.$ct.append($rowCt);
+            },
+        }
+        new Barrels($(".img-preview"));
+    
+        new Barrels($(".img-item"));
+
+</script>
+</body>
+</html>

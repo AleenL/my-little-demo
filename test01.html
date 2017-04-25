@@ -1,0 +1,18 @@
+<script>
+	function Car(name,color,status){
+		this.name=name;
+		this.color=color;
+		this.status=status;
+	}
+	Car.prototype.run = function(){
+		console.log(this.status)
+		};
+	Car.prototype.stop=function(){
+		console.log(this.status)
+		};
+	Car.prototype.getStatus=function(){
+		console.log(this.status)
+		}
+
+	var p1 = new Car("hunger","red",30);
+</script>

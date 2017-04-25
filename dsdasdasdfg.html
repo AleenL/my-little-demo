@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>无限加载的瀑布流布局</title>
+    <style>
+        html,body,ul,li,p{
+            margin: 0;
+            padding: 0;
+        }
+        ul,li{
+            list-style: none;
+        }
+        .clearfix:after{
+            content: "";
+            display: block;
+            clear:both;
+        }
+        .ct{
+            position: relative;
+            padding: 10px;
+            margin: 0 auto;
+        }
+        .ct .item{
+            width:200px;
+            position: absolute;
+            padding: 0 0 10px 0;
+            box-shadow: 2px 2px 2px #e8e8e8;
+            border: 1px solid #dfdfdf;
+            background: #fff;
+            margin: 10px;
+            transition: all 0.8s;
+        }
+        .ct .item img{
+            margin: 12px;
+            width: 176px;
+        }
+        .ct .item header{
+            height:25px;
+            margin: 0 12px;
+            border-bottom: 1px solid #dbdbdb;
+        }
+        .ct .desp{
+            font-size: 12px;
+            line-height: 1.8;
+            margin: 10px 15px 0;
+            color:#777371;
+        }
+        #load{
+           
+        }
+    </style>
+
+</head>
+<body>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="expourse.js"></script>
+    <script src="waterfall.js"></script>
+    <script src="dataOpt.js"></script>
+    <div class="ct-waterfall">
+        <ul id="pic-ct" class="ct clearfix">
+            <!--<li class="item">
+    			<a href="#" class="link">
+    				<img src="http://s.img.mix.sina.com.cn/auto/resize?img=http%3A%2F%2Fwww.sinaimg.cn%2Fdy%2Fslidenews%2F5_img%2F2016_09%2F453_75615_657883.jpg&size=250_0" alt="">
+    			</a>
+    			<h4 class="header">标题</h4>
+    			<p class="desp" class="desp">
+    				当地时间2016年3月1日，在东部与亲俄武装作战中受伤的乌克兰士兵接受海豚治疗。
+    			</p>
+    		</li>-->
+            <li class="item"><a href="">
+                <img src="http://upload-images.jianshu.io/upload_images/3257837-c1bbf36b18d98111.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="">
+                <div class="text">
+                    <h3 class="header">谁才是你的那个唯一，原谅我怀疑自己</h3>
+                    <p class="desp">你要的爱，不只是依赖，像个大男孩，风吹又日晒...</p>
+                </div>
+            </a></li>
+            <li class="item"><a href="">
+                <img src="http://upload-images.jianshu.io/upload_images/3257837-c1bbf36b18d98111.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="">
+                <div class="text">
+                    <h3 class="header">谁才是你的那个唯一，原谅我怀疑自己</h3>
+                    <p class="desp">你要的爱，不只是依赖，像个大男孩，风吹又日晒...</p>
+                </div>
+            </a></li>
+            <li class="item"><a href="">
+                <img src="http://upload-images.jianshu.io/upload_images/3257837-c1bbf36b18d98111.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="">
+                <div class="text">
+                    <h3 class="header">谁才是你的那个唯一，原谅我怀疑自己</h3>
+                    <p class="desp">你要的爱，不只是依赖，像个大男孩，风吹又日晒...</p>
+                </div>
+            </a></li>
+        </ul>
+        <div id="load">我是看不见的</div>
+    </div>
+    <script src='http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js'></script>
+    <script type="text/javascript">
+        Waterfall.init($("#pic-ct"));
+        // 判断load标签是否出现
+        Expourse.init($("#load"));
+        var Expourse={
+    init:function ($target) {
+        this.$target=$target;
+        this.bind();
+        this.checkShow();
+    },
+    bind:function () {
+        var me=this,
+            timer=null,
+            interval=100;
+        $(window).on("scroll",function (e) {
+            timer&&clearTimeout(timer);
+            timer=setTimeout(function () {
+                me.checkShow();
+            },interval);
+        });
+    },
+    checkShow:function () {
+        var me=this;
+        this.$target.each(function () {
+            var $cur=$(this);
+            if(me.isShow($cur)){
+                Dataopt.init();
+            }
+        })
+    },
+    isShow:function ($elem) {
+        var srollHeight=$(window).scrollTop(),
+            windowHeight=$(window).height(),
+            elemTop=$elem.offset().top;
+        if(srollHeight+windowHeight>elemTop){
+            return true;
+        }else{
+            return false;
+        }
+    }
+}
+Dataopt={
+    curPage:1,
+    perPageCount:20,
+    init:function(){
+        this.getData(function (obj,data) {
+             var $nodes=obj.renderData(data);
+             Waterfall.render($nodes);
+        });
+    },
+    getData:function (callback){
+        var me=this;
+        $.ajax({
+            url: 'http://platform.sina.com.cn/slide/album_tech',
+            type: 'get',
+            dataType: 'jsonp',
+            jsonp:"jsoncallback",
+            data: {
+                app_key: '1271687855',
+                format:'json',
+                size:'img',
+                num: me.perPageCount,
+                page: me.curPage
+            },
+            success: function(ret){
+                if(ret.status.code == 0){
+                    callback(me,ret.data);
+                    me.curPage++;
+                }
+            }
+        });
+
+    },
+    renderData:function (items) {
+        var tpl = '';
+        var $nodes;
+        for(var i = 0;i<items.length;i++){
+            tpl += '<li class="item">';
+            tpl += ' <a href="#" class="link"><img src="' + items[i].img_url + '" alt=""></a>';
+            tpl += ' <h4 class="header">'+ items[i].short_name +'</h4>';
+            tpl += '<p class="desp">'+items[i].short_intro+'</p>';
+            tpl += '</li>';
+        }
+        $nodes = $(tpl);
+        $('#pic-ct').append($nodes);
+        return $nodes;
+    }
+}
+var Waterfall={
+    colHeightArr:[],
+    init:function ($ct) {
+        this.$ct=$ct;
+        this.render();
+        this.resize();
+    },
+    resize:function () {
+        var me=this;
+        $(window).on("resize",function () {
+            me.render();
+        })
+    },
+    render:function ($nodes) {
+        var me=this;    //指向water这个对象
+        this.$items=this.$ct.find(".item");
+        if(this.$items.length==0) return;
+        this.itemWidth=this.$items.outerWidth(true);
+        this.$ct.width("auto");
+        this.colNum = parseInt(this.$ct.width()/this.itemWidth);
+        this.$ct.width(this.itemWidth*this.colNum);
+        if(this.colHeightArr.length==0 || !$nodes){
+            for(var i=0;i<this.colNum;i++){
+                this.colHeightArr[i]=0;
+            }
+        }
+        if($nodes){
+            $nodes.each(function () {
+                var $item=$(this);
+                $item.find("img").on("load",function () {
+                    me.placeItem($item);
+                    me.$ct.height(Math.max.apply(null,me.colHeightArr));
+                })
+            })
+        }
+    },
+    placeItem:function ($elem) {
+        var $me=$elem,
+            minHeightInfo=this.getMin(),
+            idx=minHeightInfo.idx,
+            minSumHeight=minHeightInfo.minSumHeight;
+        $me.css({
+            left:idx*this.itemWidth,
+            top:minSumHeight
+        })
+        this.colHeightArr[idx]+=$me.outerHeight(true);
+    },
+    getMin:function () {
+        var idx=0,
+            minSumHeight=this.colHeightArr[0];
+        for(var i=1;i<this.colHeightArr.length;i++){
+            if(this.colHeightArr[i]<minSumHeight){
+                idx=i;
+                minSumHeight=this.colHeightArr[i];
+            }
+        }
+        return{
+            idx:idx,
+            minSumHeight:minSumHeight
+        }
+    }
+}
+    </script>
+</body>
+</html>

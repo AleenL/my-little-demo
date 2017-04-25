@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+<script>
+
+//d
+
+String.prototype.getMostOften = function(){
+	var json = {};
+	var n = 0;
+	var s = '';
+for(var i = 0; i < this.length; i++){
+    if(json[this[i]]){
+        json[this.charAt(i)]++;    
+    }else{
+        json[this.charAt(i)] = 1;
+    }
+}
+for(var name in json){
+ 
+    if(n < json[name]){
+        n = json[name];    
+        s = name;
+    }
+}
+ return s
+}
+
+var str = 'ahbbccdeddddfg';
+var ch = str.getMostOften();
+console.log(ch); 
+</script>
+</html>

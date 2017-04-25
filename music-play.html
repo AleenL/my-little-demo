@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .music-box{
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        margin-left: -200px;
+        z-index: 100;
+    }
+    .musicbox{
+        font-family:microsoft Yahei;
+        -webkit-font-smoothing: antialiased;
+        width: 400px;
+        height:400px;
+        border-radius: 5px;
+        position: relative;
+        background-color: #234;
+    }
+    @font-face {
+        font-family: 'iconfont';  /* project id 256161 */
+        src: url('http://at.alicdn.com/t/font_a8lm9d9mskinewmi.eot');
+        src: url('http://at.alicdn.com/t/font_a8lm9d9mskinewmi.eot?#iefix') format('embedded-opentype'),
+        url('http://at.alicdn.com/t/font_a8lm9d9mskinewmi.woff') format('woff'),
+        url('http://at.alicdn.com/t/font_a8lm9d9mskinewmi.ttf') format('truetype'),
+        url('http://at.alicdn.com/t/font_a8lm9d9mskinewmi.svg#iconfont') format('svg');
+    }
+    .iconfont {
+        font-family:"iconfont" !important;/*这样设定的话就会使得所有有class=iconfont的标签的样式改变，所以如果还有些地方需要图标样式发生更改的话，记得要在.iconfont之前加具体的路径*/
+        font-style: normal
+    }
+    .musicbox .control .fa {
+        margin-right: 12px;
+        cursor: pointer;
+    }
+
+    .musicbox .info{
+        color: #fff;
+        display: block;
+        cursor: pointer;
+        margin-top: 60%;
+        margin: 0 auto;
+        width: 200px;
+    }
+    .musicbox .title ,.musicbox .auther{
+        text-align: center;
+        margin-top: 5px;
+    }
+    .musicbox .progress{
+        width: 300px;
+    }
+    .musicbox .progress .bar {
+        height: 3px;
+        margin-top: 15px;
+        margin-left: 10px;
+        background-color: rgba(0,0,0,0.2);
+        cursor: pointer;
+    }
+    .musicbox .progress .progress-now{
+        background-color: #ccc;
+        height: 3px;
+        width: 0;
+        position: relative;
+    }
+    .musicbox .time{
+        text-align: right;
+        color: #ccc;
+        position: absolute;
+        bottom: 10px;
+        right: 15px;
+    }
+
+    .musicbox .control .goback,.musicbox .control .forward{
+        color: #fff;
+        font-size: 20px;
+        position: absolute;
+        top:88%;
+    }
+    .musicbox .control .goback{
+        left: 70px;
+    }
+    .musicbox .control .forward{
+        right: 70px;
+    }
+    .musicbox .infobar{
+        height: 30px;
+        background-color: rgb(131,175,155);
+        opacity: 0.8;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+
+    }
+    .musicbox .infobar .vidio,.musicbox .infobar .volume,.musicbox .infobar .like{
+        line-height: 30px;
+        float: left;
+        color:white;
+        font-size: 20px;
+    }
+    .musicbox .infobar .like{
+        margin-left: 10px
+    }
+    .musicbox .infobar .vidio{
+        margin-right: 10px;
+    }
+    .style{
+        height: 300px;
+        margin: 0 auto;
+        position: relative;
+        background-color:rgba(204,204,204,0.6); 
+        
+    }
+    .style .pre-style,.style .next-style{
+        position: absolute;
+        font-size: 40px;
+        color: #fff;
+        top: 50%;
+    }
+    .style .pre-style{
+        left: 10px;
+    }
+    .style .next-style{
+        right: 10px;
+    }
+    .musicbox:after,
+    .musicbox .music:after{
+        content:'';
+        display: block;
+        clear: both;
+    }
+    .style .covers{
+        width: 250px;
+        height: 250px;
+        border-radius: 350px;
+        position: absolute;
+        top: 25px;
+        left: 50%;
+        margin-left: -125px;
+    }
+    .style .covers{
+        background: url("https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2033981058,3643397326&fm=23&gp=0.jpg") 0 0 no-repeat;
+        background-size: auto 100%;
+        transform: translate3d(0,0,0);
+        -webkit-transform: translate3d(0,0,0);
+        animation: play 3s linear infinite;
+        -webkit-animation: play 3s linear infinite;
+    }
+        @-webkit-keyframes play{
+            0%{
+                -webkit-transform: rotate(0deg);
+            }
+            100%{
+                -webkit-transform: rotate(360deg);
+            }
+        }
+    .covers{
+        z-index:5;
+        opacity: 1;
+        position: absolute;
+        top:150px;
+        left:50%;
+        margin-left: -10px;
+    }
+    .covers:hover{
+        animation-play-state:paused;
+        -webkit-animation-play-state:paused;
+    }
+    .fa-play,.fa-pause{
+        font-family:'iconfont' !important;
+        position: absolute;
+        top:120px;
+        left: 50%;
+        margin-left: -25px;
+        z-index: 99;
+        font-size: 50px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .volume{
+        float: right;
+        margin-right: 10px;
+        width: 100px;
+        height: 20px;
+        opacity: 0;
+    }
+    .musicbox .volume .volume-bar {
+        height: 5px;
+        margin-top: 15px;
+        margin-left: 10px;
+        background-color: #223;
+        cursor: pointer;
+    }
+    .musicbox .volume .volume-now{
+        background-color: #ccc;
+        height: 5px;
+        width: 0;
+        position: relative;
+    }
+</style>
+</head>
+<body>
+<div class="music-box">
+    <div class="musicbox">
+    <div class="infobar">
+        <div class="volume">
+            <div class="volume-bar">
+                <div class="volume-total"></div>
+                <div class="volume-now"></div>
+            </div>
+        </div>
+        <p class="vidio iconfont" id="getthem">&#xe6be;</p>
+        <p class="like iconfont">&#xe699;</p>
+    </div>
+    
+    <div class="style">
+        <div class="Pic">
+            <div class="covers">
+            </div>
+            <div class="play-music">
+            <i class="fa fa-play iconfont">&#xe600;</i>
+            </div>
+        </div>
+        <p class="pre-style"><</p>
+        <p class="next-style">></p>
+    </div>
+        <div class="music">
+            <div class="control">
+                <span class="goback">
+                    <i class="fa fa-step-backward iconfont">&#xe647;</i>
+                </span>
+                <span class="forward">
+                    <i class="fa fa-step-forward iconfont">&#xe646;</i>
+                </span>
+            </div>
+            <div class="info ">
+                <div class="title">My songs</div>
+                <div class="auther">Aleen</div>
+            </div>
+        </div>
+        <div class="progress">
+            <div class="bar">
+                <div class="progress-total"></div>
+                <div class="progress-now"></div>
+            </div>
+
+            <div class="time">0:00</div>
+        </div>
+    </div>
+</body>
+<script src='http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js'></script>
+<script src="musicplay.js"></script>
+</html>
+
+
+
