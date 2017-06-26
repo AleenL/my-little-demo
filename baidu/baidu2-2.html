@@ -81,10 +81,10 @@ var userIn    = document.getElementById('user_message'),
 	passIn    = document.getElementById('pass_message'),
 	emialIn   = document.getElementById('email_message'),
 	submitBtn = document.getElementById('submit'),
-	flag  = false
+	errorArr  = []
 
 
-function provUser(element,border,value){
+function provUser(element,border,value,number){
 	let reg = null
 	if(border.id == 'user_message'){
 		reg = /^[0-9a-zA-Z\u4e00-\u9fa5_]{3,16}$/
@@ -98,42 +98,47 @@ function provUser(element,border,value){
 		element.innerText = '请输入符合的值'
 		element.style.color = 'red'
 		border.style.borderColor = 'red'
-		flag  = false
+		errorArr[number] = '请输入符合的值'
 	}else if(value.length == 0){
 		element.innerText = '请不要输入空值'
 		element.style.color = 'red'
 		border.style.borderColor = 'red'
-		flag  = false
+		errorArr[number] = '请不要输入空值'
 	}else{
 		element.innerText = '正确的输入值'
 		element.style.color = '#1abc9d'
 		border.style.borderColor = '#1abc9d'
-		flag  = true
+		errorArr[number] = '正确的输入值'
 	}
 }
 
 submit.addEventListener('click', function(){
-	console.log(flag)
+	console.log(errorArr[0]+errorArr[1]+errorArr[2])
+	if((errorArr[0]+errorArr[1]+errorArr[2])=='正确的输入值正确的输入值正确的输入值'){
+		alert('提交成功')
+	}else{
+		alert('输入有误')
+	}
 })
 userIn.onblur = function(){
 	let userMes = userIn.value,
 		mesTitle = this.nextSibling
 		mesTitle.style.opacity=1
-	provUser(mesTitle,userIn,userMes)
+	provUser(mesTitle,userIn,userMes,0)
 }
 
 passIn.onblur = function(){
 	let userMes = passIn.value,
 		mesTitle = this.nextSibling
 		mesTitle.style.opacity=1
-	provUser(mesTitle,passIn,userMes)
+	provUser(mesTitle,passIn,userMes,1)
 }
 
 emialIn.onblur = function(){
 	let userMes = emialIn.value,
 		mesTitle = this.nextSibling
 		mesTitle.style.opacity=1
-	provUser(mesTitle,emialIn,userMes)
+	provUser(mesTitle,emialIn,userMes,2)
 }
 </script>
 </body>
