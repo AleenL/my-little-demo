@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>baidu4</title>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+		#input{
+			float: left;
+			margin-left: 20px;
+			width: 200px;
+			height: 20px;
+			border: 1px solid #ccc; 
+		}
+		#btn li{
+			display: inline-block;
+			cursor: pointer;
+			text-align: center;
+			line-height: 20px;
+			margin-left: 20px;
+			width: 70px;
+			height: 20px;
+			border: 1px solid #233;
+		}
+		#number_list{
+			display: block;
+			margin-top: 10px;
+		}
+		#number_list li{
+			width: 10px;
+			display: inline-block;
+			padding: 1px 10px;
+			text-align: center;
+			background: red;
+			margin-left: 20px
+		}
+	</style>
+</head>
+<body>
+<div id='change_number'>
+	<input id='input' type="text">
+	<ul id='btn'>
+		<li>左侧入</li>
+		<li>右侧入</li>
+		<li>左侧出</li>
+		<li>右侧出</li>
+		<li>排序</li> 
+	</ul>
+	<ul id='number_list'> 
+	</ul>
+</div>	
+<script>
+var numberArr = document.getElementById('number_list')
+var btndone = false
+let numberNewArr = []
+function getBtn(){
+	var buttons = document.getElementById('btn')
+	buttons.addEventListener('click',function(e){
+		if(e.target.nodeName == 'LI'){
+			let text = e.target.innerText
+			getEvent(text)
+		}
+	})
+}
+
+function getEvent(text){
+	
+	let numberList = document.getElementById('input'),
+		childValue = document.createElement('LI'),
+		value = numberList.value;
+		childValue.style.height = value*1.5+'px' 
+	if(parseInt(value) <= 10 || parseInt(value)>=100){
+		alert('请输入10-100的值')
+		return
+	}else if(value.length == 0 && (text=='左侧入'||text == '右侧入')){
+		alert('请输入有效的值')
+		return
+	}else if(numberArr.childNodes.length >11 && (text=='左侧入'||text == '右侧入')){
+		return
+	}
+
+	if(text == '左侧入'){
+		numberArr.insertBefore(childValue,numberArr.childNodes[0])
+	}else if(text == '右侧入'){
+		numberArr.insertBefore(childValue,numberArr[numberArr.length])
+	}else if(text == '左侧出'){
+		numberArr.removeChild(numberArr.firstChild)
+	}else if(text == '右侧出'){
+		numberArr.removeChild(numberArr.lastChild)
+	}else{
+		if(!btndone){
+			sortAdd()
+	}}
+	numberList.value = null
+	numberNewArr.push(value)
+}
+
+function sortAdd(){
+	btndone = true
+	numberNewArr.sort((a,b)=>a-b)
+	numberArr.innerHTML = null
+	for(var i=0;i<numberNewArr.length;i++){
+		let li = '<li></li>'
+		numberArr.innerHTML += li
+		numberArr.childNodes[i].style.height = numberNewArr[i]*1.5+'px'
+	}
+
+}
+getBtn()
+</script>
+</body>
+</html>

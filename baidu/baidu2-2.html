@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>baidu2-1</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.box{
+			width: 600px;
+			height: 400px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin: -200px 0 0 -300px;
+			font-size: 24px;
+		}
+		.submit{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			position: relative;
+			margin-top: 40px;
+		}
+		.submit input{
+			width: 340px;
+			height: 50px;
+			border: 2px solid #233;
+			border-radius: 5px;
+			font-size: 30px;
+			padding-left: 20px;
+			outline: none;
+		}
+		.submit input:focus{
+			border: 2px solid #1abc9f;
+		}
+		.submit input:focus + p:nth-child(3){
+			opacity: 1
+		}
+		.submit p:nth-child(3){
+			position: absolute;
+			top: 60px;
+			font-size: 16px;
+			color: #ccc;
+			left: 190px;
+			opacity: 0;
+		}
+		#submit{
+			width: 160px;
+			height: 50px;
+			color: #fff;
+			text-align: center;
+			line-height: 50px;
+			background: #233;
+			margin: 50px auto;
+			border-radius: 5px;
+		}
+	</style>
+</head>
+<body>
+	<div class='box'>
+		<div class='submit'>
+			<p>名称:</p>
+			<input id='user_message' type="text"><p>请输入4-16位字符</p>
+		</div>
+		<div class='submit'>
+			<p>密码:</p>
+			<input id='pass_message' type="password"><p>请输入首字母大写的4～16位字符</p>
+		</div>
+		<div class='submit'>
+			<p>邮箱:</p>
+			<input id='email_message' type="text"><p>请输入格式正确的邮箱</p>
+		</div>
+		<div id='submit'>提交</div>
+	</div>
+	
+<script>
+var userIn    = document.getElementById('user_message'),
+	passIn    = document.getElementById('pass_message'),
+	emialIn   = document.getElementById('email_message'),
+	submitBtn = document.getElementById('submit'),
+	flag  = false
+
+
+function provUser(element,border,value){
+	let reg = null
+	if(border.id == 'user_message'){
+		reg = /^[0-9a-zA-Z\u4e00-\u9fa5_]{3,16}$/
+	}else if(border.id == 'pass_message'){
+		reg = /^[a-zA-Z\d_]{8,}$/
+	}else{
+		reg = /^(\w-*\.*)+@(\w-?)+(\.\w{2,})+$/
+	}
+	 
+	if(!value.match(reg) && value.length >0){
+		element.innerText = '请输入符合的值'
+		element.style.color = 'red'
+		border.style.borderColor = 'red'
+		flag  = false
+	}else if(value.length == 0){
+		element.innerText = '请不要输入空值'
+		element.style.color = 'red'
+		border.style.borderColor = 'red'
+		flag  = false
+	}else{
+		element.innerText = '正确的输入值'
+		element.style.color = '#1abc9d'
+		border.style.borderColor = '#1abc9d'
+		flag  = true
+	}
+}
+
+submit.addEventListener('click', function(){
+	console.log(flag)
+})
+userIn.onblur = function(){
+	let userMes = userIn.value,
+		mesTitle = this.nextSibling
+		mesTitle.style.opacity=1
+	provUser(mesTitle,userIn,userMes)
+}
+
+passIn.onblur = function(){
+	let userMes = passIn.value,
+		mesTitle = this.nextSibling
+		mesTitle.style.opacity=1
+	provUser(mesTitle,passIn,userMes)
+}
+
+emialIn.onblur = function(){
+	let userMes = emialIn.value,
+		mesTitle = this.nextSibling
+		mesTitle.style.opacity=1
+	provUser(mesTitle,emialIn,userMes)
+}
+</script>
+</body>
+</html>

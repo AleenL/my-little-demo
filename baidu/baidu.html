@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IFE JavaScript Task 01</title>
+  </head>
+<body>
+  <h3 id='buttons'>污染城市列表</h3>
+<script src="underscore.js"></script>
+<script src="Backbone.js"></script>
+<script type="text/javascript">
+_.each({one:1,two:2,three:3},console.log)
+console.log(_.map([1,2,3],num=>num*3))
+_.map([1,2,3],function(num){num*3})
+console.log(_.map({一:1,二:2,三:3},(num,key)=>num*3+"是"+key+'的三倍'))
+console.log(_.map([[1,2,7],[2,3,8],[3,4,0]],_.last))
+var button = document.getElementById('buttons')
+var buttons = {}
+_.extend(buttons,Backbone.Events);
+ var that = this
+buttons.on('click',function(msg){
+  console.log(msg+' is click')//on的意思是绑定一个函数，第一个参数是函数名，第二个是函数本身，然后需要使用trigger进行调用
+})
+buttons.on('alert',function(msg){
+  console.log(msg+' is alert')
+})
+buttons.trigger('alert click','this')
+</script>
+</body>
+</html>

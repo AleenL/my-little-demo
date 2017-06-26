@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+
+		#first_lev{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-left: -45%;
+			margin-top: -150px; 
+			width: 90%;
+			height: 300px;
+
+		}
+		div{
+			border: 2px solid #000;
+			border-radius: 5px;
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			width: 45%;
+			height: 70%;
+			transition: background-color .5s ease	
+		}	
+		#sort_btn{
+			width: 100%;
+			clear: both;
+			border: none;
+			margin-top: 20px;
+
+		}
+		a{
+			border-radius: 5px;
+			border: 2px solid #233;
+			width: 150px;
+			height: 60px;
+			background: #233;
+			line-height: 60px;
+			text-align: center;
+			color: #fff;
+			text-decoration: none;
+		}
+		a:hover{
+			color: #233;
+			background: transparent;
+			transition: all .3s ease
+		}
+	</style>
+</head>
+<body>
+	<div id='first_lev'>
+		<div>
+			<div>
+				<div></div>
+				<div></div>
+			</div>
+			<div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+		<div>
+			<div>
+				<div></div>
+				<div></div>
+			</div>
+			<div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+	</div>
+	<div id='sort_btn'>
+		<a id='preOrder' href="#">前序遍历</a>
+		<a id='inOrder' href="#">中序遍历</a>
+		<a id='postOrder' href="#">后序遍历</a>
+	</div>
+<script>
+var roots        = document.getElementById('first_lev'),
+	preOrderBtn  = document.getElementById('preOrder'),
+	inOrderBtn   = document.getElementById('inOrder'),
+	postOrderBtn = document.getElementById('postOrder'),
+	timer        = 0
+
+function showNode(node){
+	//显示节点的颜色
+	node.style.backgroundColor = '#fff'
+	setTimeout( function(){
+		node.style.backgroundColor = '#577'
+	},timer+=500)
+	setTimeout( function(){
+		node.style.backgroundColor = '#fff'
+	},timer+=500)
+}
+
+//定义前序遍历
+function preOrder(root){
+	if(root){
+		showNode(root)
+		preOrder(root.children[0])
+		preOrder(root.children[1])
+	}
+}
+//定义中序遍历
+function inOrder(root){
+	if(root){
+		inOrder(root.children[0])
+		showNode(root)
+		inOrder(root.children[1])
+	}
+}
+//定义后序遍历
+function postOrder(root){
+	if(root){
+		preOrder(root.children[0])
+		preOrder(root.children[1])
+		showNode(root)
+	}
+}
+preOrderBtn.addEventListener('click', function(){
+	preOrder(roots)
+	timer = 0
+})
+inOrderBtn.addEventListener('click', function(){
+	inOrder(roots)
+	timer = 0
+})
+postOrderBtn.addEventListener('click', function(){
+	postOrder(roots)
+	timer = 0
+})
+</script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+
+		#first_lev{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-left: -45%;
+			margin-top: -150px; 
+			width: 90%;
+			height: 300px;
+			display: flex;
+			border: 2px solid #000;
+			align-items: center;
+		}
+		#first_lev div,#sort_btn{
+			background: #fff;
+			border: 2px solid #000;
+			border-radius: 5px;
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			flex-grow: 1;
+			margin: 5px;
+			height: 70%;
+			transition: background-color .5s ease;
+		}	
+		#sort_btn{
+			width: 100%;
+			clear: both;
+			border: none;
+			margin-top: 20px;
+
+		}
+		a,#searchValue,.searchBtn{
+			display: inline-block;
+			border-radius: 2px;
+			border: 2px solid #233;
+			width: 150px;
+			height: 60px;
+			background: #233;
+			line-height: 60px;
+			text-align: center;
+			color: #fff;
+			text-decoration: none;
+		}
+		a:hover{
+			color: #233;
+			background: transparent;
+			transition: all .3s ease
+		}
+		#searchValue{
+			width: 300px;
+			height: 58px;
+			color: black;
+			text-align: left;
+			font-size: 20px;
+			background: #fff;
+		}
+	</style>
+</head>
+<body>
+	<div id='first_lev'>room
+	
+		<div>apple</div>
+		<div>banana
+			<div>cat
+				<div>1</div>
+				<div>2</div>
+				<div>3</div>
+				<div>4</div>
+			</div>
+			<div>dog</div>
+			<div>fly
+				<div>lie</div>
+				<div>left</div>
+			</div>
+		</div>
+		<div>orgin
+			<div>tiger
+				<div>1</div>
+				<div>b</div>
+				<div>c</div>
+			</div>
+			<div>solo
+				<div>h
+					<div>J</div>
+				</div>
+				<div>I</div>
+			</div>
+		</div>
+	</div>
+	<div id='sort_btn'>
+		<a id='preOrder' href="#">遍历</a>
+		<p>
+			<input id='searchValue' value='请输入需要搜索的值' placeholder="请输入需要搜索的值" type="text">
+			<a id='searchBtn' href="#">搜索</a>
+			<a id='popBtn' href='#'>删除</a>
+		</p>
+		<a id='addBtn' href="#">添加</a>
+	</div>
+<script>
+var roots        = document.getElementById('first_lev'),
+	oDiv		 = document.getElementsByTagName('div'),
+	preOrderBtn  = document.getElementById('preOrder'),
+	searchBtn    = document.getElementById('searchBtn'),
+	popBtn       = document.getElementById('popBtn'),
+	addBtn       = document.getElementById('addBtn'),
+	timer        = 0,
+	flag         = null
+
+
+//显示节点的颜色
+function showNode(root){
+	root.style.backgroundColor = '#fff'
+	setTimeout( function(){
+		root.style.backgroundColor = '#577'
+	},timer+=500)
+	setTimeout( function(){
+		root.style.backgroundColor = '#fff'
+	},timer+=500)
+}
+
+//定义前序遍历
+function preOrder(root){
+	let newValue = (root.innerText).split("\n")
+	if(root){
+		showNode(root)
+		for(let i=0;i<root.children.length;i++){
+			preOrder(root.children[i],arguments[1])
+		}
+	}
+	if(newValue[0] == arguments[1]){
+		setTimeout(function(){root.style.backgroundColor = 'red'},timer)
+	}
+}
+//定义删除元素
+function popNode(element){
+	var parentElement = element.parentNode;
+    if(parentElement){
+        parentElement.removeChild(element);  
+    }
+}
+
+//定义添加元素
+function addNode(element){
+	let searchValue = document.getElementById('searchValue').value,
+		newDiv = document.createElement('div')
+		newDiv.innerText = searchValue
+	element.appendChild(newDiv)
+}
+
+//定义选取元素
+roots.addEventListener('click',function(e){
+	flag = true
+	for(let i=0;i<oDiv.length;i++){
+		oDiv[i].style.backgroundColor = 'white'
+	}
+	e.target.style.backgroundColor = 'red'
+	flag = e.target
+})
+
+preOrderBtn.addEventListener('click', function(){
+	preOrder(roots)
+	timer = 0
+})
+searchBtn.addEventListener('click', function(){
+	let searchValue = document.getElementById('searchValue').value
+	preOrder(roots,searchValue)
+	timer = 0
+})
+addBtn.addEventListener('click', function(){
+	if(flag == null){
+		alert('请选择你要插入的位置') 
+	}else{
+		addNode(flag)
+	}
+})
+popBtn.addEventListener('click', function(){
+	if(flag == null){
+		alert('请选择你要插入的位置') 
+	}else{
+		popNode(flag)
+	}
+})
+</script>
+</body>
+</html>

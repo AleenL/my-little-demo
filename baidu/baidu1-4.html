@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>baidu4</title>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+		#input{
+			float: left;
+			width: 200px;
+		}
+		#btn li{
+			display: inline-block;
+			cursor: pointer;
+			margin-left: 20px;
+			width: 70px;
+			height: 20px;
+			border: 1px solid #233;
+		}
+		#number_list{
+			display: block;
+			margin-top: 10px;
+		}
+		#number_list li{
+			display: inline-block;
+			padding: 1px 10px;
+			text-align: center;
+			background: red;
+			margin-left: 20px
+		}
+	</style>
+</head>
+<body>
+<div id='change_number'>
+	<input id='input' type="text">
+	<ul id='btn'>
+		<li>左侧入</li>
+		<li>右侧入</li>
+		<li>左侧出</li>
+		<li>右测出</li>
+	</ul>
+	<ul id='number_list'> 
+	</ul>
+</div>	
+<script>
+var numberArr = document.getElementById('number_list')
+function getBtn(){
+	var buttons = document.getElementById('btn')
+	buttons.addEventListener('click',function(e){
+		if(e.target.nodeName == 'LI'){
+			let text = e.target.innerText
+			console.log(text)
+			getEvent(text)
+		}
+	})
+}
+
+function getEvent(text){
+	let numberList = document.getElementById('input'),
+		childValue = document.createElement('LI'),
+		value = numberList.value;
+		childValue.innerText = value
+
+	if(parseInt(value) <= 10 || parseInt(value)>=100){
+		alert('请输入10-100的值')
+		return
+	}
+
+	if(text == '左侧入'){
+		numberArr.insertBefore(childValue,numberArr.childNodes[0])
+	}else if(text == '右侧入'){
+		numberArr.insertBefore(childValue,numberArr[numberArr.length])
+	}else if(text == '左侧出'){
+		numberArr.removeChild(numberArr.childNodes[0])
+	}else{
+		let lastli = numberArr.childNodes.length
+		numberArr.removeChild(numberArr.childNodes[lastli-1])
+	}
+
+	numberList.value = " "
+}
+getBtn()
+</script>
+</body>
+</html>

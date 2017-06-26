@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>baidu4</title>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#input{
+		margin-left: 20px;
+		width: 200px;
+		height: 100px;
+	}
+	#search_text{
+		margin-left: 20px;
+		height: 30px;
+	}
+	a{
+		margin-left: -1px;
+		display: inline-block;
+		text-decoration: none;
+		text-align: center;
+		line-height: 30px;
+		color: white;
+		background: #abc9c1;
+		width: 74px;
+		height: 34px;
+	}
+	#number_list{
+		margin: 20px 20px;
+		width: 800px;
+		height: 800px;
+	}
+	#number_list li{
+		display: inline-block;
+		padding: 2px 15px;
+		background: #1abc9c;
+		margin: 10px 10px;
+	}
+	#number_list span{
+		color: white;
+	}
+	</style>
+</head>
+<body>
+<div id='change_number'>
+	<textarea id='input' type="textarea"></textarea>
+</div>
+<div>
+	<input id='search_text'  type="text" placeholder="请输入你要查询的值"><a id='add_btn' href="#">匹配</a>
+	<a id='search_btn' href="#">查询</a>
+	<ul id='number_list'>
+	</ul>
+</div>
+<script>
+	
+let btn = document.getElementById('search_btn'),
+	addArr = document.getElementById('add_btn'),
+	numberArr = document.getElementById('number_list'),
+	searchBtn = document.getElementById('search_btn'),
+	cutArr=[]
+
+addArr.onclick = function(){
+	let aqiData = document.getElementById('input').value
+	words = aqiData.replace(/[^0-9a-zA-Z]/g,' ');
+	let arr = words.split(' ')
+	for(let i=0;i<arr.length;i++){
+		let oLi = document.createElement('li')
+			oLi.innerHTML = arr[i]
+			numberArr.appendChild(oLi)
+			cutArr.push(arr[i])
+	}
+}
+searchBtn.onclick = function(){
+	let input = document.getElementById('search_text').value;
+	numberArr.innerHTML = cutArr.map(function(d){
+		if(input != null && input.length > 0){
+			d = d.replace(new RegExp(input, 'g'), '<span>' + input + '</span>');
+		}
+		return "<li>" + d + "</li>"
+	}).join('')
+}
+
+
+</script>
+</body>
+</html>
