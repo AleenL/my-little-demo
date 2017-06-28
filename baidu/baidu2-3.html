@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		#showchoose,#workchoose{
+			width: 600px;
+			height: 600px;
+			margin: 50px auto;
+			position: relative;
+		}
+		#checkbox{
+			width: 100%;
+			text-align: center;
+		}
+		select{
+			width: 160px;
+			height: 40px;
+		}
+		#workchoose{
+			display: none;
+		}
+		.school,#workchoose input{
+			display: none;
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+		#workchoose input{
+			display: block;
+			width: 400px;
+			border: 2px solid #233;
+			border-radius: 5px;
+		}
+
+	</style>
+</head>
+<body>
+<div id='checkbox'>
+	<input type="radio" name='user' value='student' checked />在校生
+	<input type="radio" name='user' value='worker' />已毕业
+</div>
+<div id='showchoose'>
+	<select id='city'>
+		<option value="西安">西安</option>
+		<option value="北京" selected>北京</option>
+		<option value="重庆">重庆</option>
+	</select>
+	<select class='school'>
+		<option value="西安师大">西安师大</option>
+		<option value="西安美院">西安美院</option>
+		<option value="西安电大">西安电大</option>
+	</select>
+	<select class='school'>
+		<option value="北京师大">北京师大</option>
+		<option value="北京美院">北京美院</option>
+		<option value="北京电大">北京电大</option>
+	</select>
+	<select class='school'>
+		<option value="重庆师大">重庆师大</option>
+		<option value="重庆美院">重庆美院</option>
+		<option value="重庆电大">重庆电大</option>
+	</select>
+</div>
+<div id='workchoose'>
+	<p>就业单位:</p>
+	<input type="text">
+</div>
+<script>
+	var  cityChose   = document.getElementById('city'),
+		 schoolChose = document.getElementsByClassName('school'),
+		 workChoose  = document.getElementById('workchoose'),
+		 checkbox    = document.getElementById('checkbox'),
+		 schoolShow  = document.getElementById('showchoose')
+
+
+	schoolChose[cityChose.selectedIndex].style.display = 'block'
+	cityChose.onchange = function(){
+		for(let i=0;i<schoolChose.length;i++){
+			schoolChose[i].style.display = 'none'
+		}
+		schoolChose[cityChose.selectedIndex].style.display = 'block'
+	}
+
+	checkbox.addEventListener('click', function(e){
+		if(e.target.nodeName == 'INPUT'){
+			if(e.target.value == 'worker'){
+				schoolShow.style.display = 'none'
+				workChoose.style.display  = 'block'
+			}else{
+				schoolShow.style.display = 'block'
+				workChoose.style.display  = 'none'
+			}
+		}
+	})
+
+</script>
+</body>
+</html>
