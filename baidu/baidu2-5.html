@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box
+	}
+	table{
+		border-collapse: collapse;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%); 
+	}
+	table tr td:first-child{
+		border: none;
+	}
+	table tr:first-child td{
+		border: none;
+	}
+	td{
+		width: 40px;
+		height: 40px;
+		text-align: center;
+		border: 1px solid #ccc;
+	}
+	#active{
+		background: blue;
+		position: absolute;
+		transition: all .35s ease;
+	}
+	#active::before{
+		content: '';
+		display: block;
+		clear: both;
+		background: red;
+		height: 20%;
+	}
+	</style>
+</head>
+<body>
+<table id='bigBox'>
+	<tr>
+		<td></td>
+		<td>1</td>
+		<td>2</td>
+		<td>3</td>
+		<td>4</td>
+		<td>5</td>
+		<td>6</td>
+		<td>7</td>
+		<td>8</td>
+		<td>9</td>
+		<td>10</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>6</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td id='active'></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>7</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>8</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>9</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>10</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+</table>
+<div>
+	<input id='govalue' type="text">
+	<a  id='goBtn' href="#">操作</a>
+</div>
+<script>
+let tran     = document.getElementById('active'),
+	box      = document.getElementById('bigBox'),
+	goValue  = document.getElementById('govalue'),
+	goBtn    = document.getElementById('goBtn'),
+	tranLeft = 0,
+	tranTop  = 0
+
+function goStep(deg){
+	if(deg%360 == 0 || deg == 0){
+		if(-200 == tranTop){tranTop += 40}
+		tranTop -= 40
+		tran.style.marginTop = tranTop +'px'
+	}else if(Math.sin(2*Math.PI/360*deg)== -1){
+		if(-200 == tranLeft){tranLeft += 40}
+			tranLeft -= 40
+			tran.style.marginLeft = tranLeft +'px'
+	}else if(deg%180 == 0 && deg%360 != 0){
+		if(tranTop == 160){tranTop -= 40}
+			tranTop += 40
+			tran.style.marginTop = tranTop  +'px'
+	}else{
+		if(tranLeft == 160){tranLeft -= 40}
+			tranLeft += 40
+			tran.style.marginLeft = tranLeft +'px'
+	}
+}
+let i = 0;
+goBtn.addEventListener('click', function(){
+	var goName = goValue.value
+	if(goName.toUpperCase() == 'LEFT'){
+		 i += 90
+		tran.style.transform = 'rotateZ('+i+'deg)'
+	}else if(goName.toUpperCase() == 'RIGHT'){
+		 i -= 90
+		tran.style.transform = 'rotateZ('+i+'deg)'
+	}else if(goName.toUpperCase() == 'GO'){
+		console.log(1)
+		goStep(i)
+	}else{
+		i += 180
+		tran.style.transform = 'rotateZ('+i+'deg)'
+	}
+})
+/*setInterval(function(){
+	i += 90
+	tran.style.transform = 'rotateZ('+i+'deg)'
+},1000)*/
+</script>
+</body>
+</html>
