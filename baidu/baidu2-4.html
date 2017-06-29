@@ -30,8 +30,8 @@
 	}
 	#active{
 		background: blue;
-		transition: transform 1s ease;
 		position: absolute;
+		transition: all .35s ease;
 	}
 	#active::before{
 		content: '';
@@ -202,25 +202,21 @@ let tran     = document.getElementById('active'),
 
 function goStep(deg){
 	if(deg%360 == 0 || deg == 0){
-		if(-200<tranTop && tranTop <=160){
-			tranTop -= 40
-			tran.style.marginTop = tranTop +'px'
-		}
+		if(-200 == tranTop){tranTop += 40}
+		tranTop -= 40
+		tran.style.marginTop = tranTop +'px'
 	}else if(Math.sin(2*Math.PI/360*deg)== -1){
-		if(-200<tranLeft && tranLeft<160){
+		if(-200 == tranLeft){tranLeft += 40}
 			tranLeft -= 40
 			tran.style.marginLeft = tranLeft +'px'
-		}
 	}else if(deg%180 == 0 && deg%360 != 0){
-		if(-200<tranTop && tranTop<160){
+		if(tranTop == 160){tranTop -= 40}
 			tranTop += 40
 			tran.style.marginTop = tranTop  +'px'
-		}
 	}else{
-		if(-200<tranLeft && tranLeft<160){
+		if(tranLeft == 160){tranLeft -= 40}
 			tranLeft += 40
 			tran.style.marginLeft = tranLeft +'px'
-		}
 	}
 }
 let i = 0;
@@ -235,6 +231,9 @@ goBtn.addEventListener('click', function(){
 	}else if(goName.toUpperCase() == 'GO'){
 		console.log(1)
 		goStep(i)
+	}else{
+		i += 180
+		tran.style.transform = 'rotateZ('+i+'deg)'
 	}
 })
 /*setInterval(function(){
