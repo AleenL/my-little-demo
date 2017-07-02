@@ -246,10 +246,50 @@ function goDown(){
 	tranTop += 40
 	tran.style.marginTop = tranTop  +'px'
 }
-
+let i = null
 goBtn.addEventListener('click', function(e){
+	
 	if(e.target.nodeName == 'LI'){
-		if(e.target.innerText == 'TRA LEF'){
+		switch(e.target.innerText)
+		{
+			case 'TRA LEF':
+			goLeft()
+			if(i == 270) return;
+			i = 270
+			tran.style.transform = 'rotateZ('+i+'deg)'
+			break;
+			case 'TRA TOP':
+			goTop()
+			if(i == 0) return;
+			i = 0
+			tran.style.transform = 'rotateZ('+i+'deg)'
+			break;
+			case 'TRA RIG':
+			goRight()
+			if(i == 90) return;
+			i = 90
+			tran.style.transform = 'rotateZ('+i+'deg)'
+			break;
+			case 'TRA BOT':
+			goDown()
+			if(i == 180) return;
+			i = 180
+			tran.style.transform = 'rotateZ('+i+'deg)'
+			break;
+			case 'MOV LEF':
+			goLeft()
+			break;
+			case 'MOV TOP':
+			goTop()
+			break;
+			case 'MOV RIG':
+			goRight()
+			break;
+			case 'MOV BOT':
+			goDown()
+			break;
+		}
+		/*if(e.target.innerText == 'TRA LEF'){
 			goLeft()
 			i = 270
 			tran.style.transform = 'rotateZ('+i+'deg)'
@@ -273,16 +313,9 @@ goBtn.addEventListener('click', function(e){
 			goRight()
 		}else{
 			goDown()
-		}
+		}*/
 	}
 })
-
-	setInterval(function(){
-		goTop()
-	},1000)
-	setInterval(function(){
-		goLeft()
-	},1000)
 </script>
 </body>
 </html>
